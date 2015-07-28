@@ -14,6 +14,10 @@
 
 }
 
+#repo .button .dropdown.icon {
+  vertical-align: top;
+}
+
 /*--------------
    Top Ribbon
 ---------------*/
@@ -36,11 +40,16 @@
   Latest Commits
 -----------------*/
 
-#repo .latest {
+#repo .recent.message {
+  padding: 0.75em 1em;
+}
+
+#repo .latest.segment {
+  border-top: 1px solid #DDD;
   padding: 0.5em;
   color: #999999;
 }
-#repo .latest b {
+#repo .latest.segment b {
   color: rgba(0, 0, 0, 0.8);
 }
 
@@ -48,10 +57,6 @@
 /*----------------
   Branch Dropdown
 -----------------*/
-
-#repo .branch.button .dropdown.icon {
-  vertical-align: top;
-}
 
 /* Branch label */
 #repo .branch.button .text {
