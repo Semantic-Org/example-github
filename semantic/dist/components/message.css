@@ -296,7 +296,7 @@
 
 /* Info */
 .ui.info.message {
-  background-color: #f8ffff;
+  background-color: #e6f1f6;
   color: #276f86;
 }
 .ui.info.message,
@@ -396,10 +396,10 @@
 }
 .ui.blue.message {
   background-color: #dff0ff;
-  color: #2185d0;
+  color: #80a6cd;
 }
 .ui.blue.message .header {
-  color: #1e77ba;
+  color: #6e99c6;
 }
 .ui.violet.message {
   background-color: #eae7ff;

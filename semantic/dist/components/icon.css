@@ -29,7 +29,7 @@ i.icon {
   opacity: 1;
   margin: 0em 0.25rem 0em 0em;
   width: 1.18em;
-  height: 1em;
+  height: 1.14em;
   font-family: 'Icons';
   font-style: normal;
   font-weight: normal;
@@ -181,7 +181,7 @@ i.bordered.icon {
   vertical-align: baseline;
   width: 2em;
   height: 2em;
-  padding: 0.5em 0.41em !important;
+  padding: 0.43em 0.41em !important;
   box-shadow: 0em 0em 0em 0.1em rgba(0, 0, 0, 0.1) inset;
 }
 i.bordered.inverted.icon {
@@ -263,14 +263,14 @@ i.inverted.circular.olive.icon {
 
 /* Green */
 i.green.icon {
-  color: #21ba45 !important;
+  color: #60b044 !important;
 }
 i.inverted.green.icon {
   color: #2ecc40 !important;
 }
 i.inverted.bordered.green.icon,
 i.inverted.circular.green.icon {
-  background-color: #21ba45 !important;
+  background-color: #60b044 !important;
   color: #ffffff !important;
 }
 
@@ -289,14 +289,14 @@ i.inverted.circular.teal.icon {
 
 /* Blue */
 i.blue.icon {
-  color: #2185d0 !important;
+  color: #80a6cd !important;
 }
 i.inverted.blue.icon {
   color: #54c8ff !important;
 }
 i.inverted.bordered.blue.icon,
 i.inverted.circular.blue.icon {
-  background-color: #2185d0 !important;
+  background-color: #80a6cd !important;
   color: #ffffff !important;
 }
 

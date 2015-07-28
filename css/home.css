@@ -14,6 +14,9 @@
 
 }
 
+/*--------------
+   Top Ribbon
+---------------*/
 
 #repo .repo.ribbon {
   border-bottom: 1px solid #EEEEEE;
@@ -27,4 +30,36 @@
   margin: 1em 0em;
   font-size: 16px;
   line-height: 22px;
+}
+
+/*----------------
+  Latest Commits
+-----------------*/
+
+#repo .latest {
+  padding: 0.5em;
+  color: #999999;
+}
+#repo .latest b {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+
+/*----------------
+  Branch Dropdown
+-----------------*/
+
+#repo .branch.button .dropdown.icon {
+  vertical-align: top;
+}
+
+/* Branch label */
+#repo .branch.button .text {
+  color: #888888;
+}
+/* Branch name */
+#repo .branch.button b {
+  display: inline-block;
+  margin-left: 2px;
+  color: rgba(0, 0, 0, 0.8);
 }

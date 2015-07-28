@@ -78,7 +78,7 @@
 .ui.dropdown > .dropdown.icon {
   position: relative;
   width: auto;
-  margin: 0em 0em 0em 1em;
+  margin: 0em 0em 0em 4px;
 }
 .ui.dropdown .menu > .item .dropdown.icon {
   width: auto;

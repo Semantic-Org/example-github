@@ -607,10 +607,10 @@
 
 /* Green */
 .ui.green.table {
-  border-top: 0.2em solid #21ba45;
+  border-top: 0.2em solid #60b044;
 }
 .ui.inverted.green.table {
-  background-color: #21ba45 !important;
+  background-color: #60b044 !important;
   color: #ffffff !important;
 }
 
@@ -625,10 +625,10 @@
 
 /* Blue */
 .ui.blue.table {
-  border-top: 0.2em solid #2185d0;
+  border-top: 0.2em solid #80a6cd;
 }
 .ui.inverted.blue.table {
-  background-color: #2185d0 !important;
+  background-color: #80a6cd !important;
   color: #ffffff !important;
 }
 

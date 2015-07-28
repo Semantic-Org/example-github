@@ -4,11 +4,13 @@
 
 /* Any Menu */
 @boxShadow: none;
-@hoverItemBackground: none transparent;
-
 @dropdownIconDistance: 2px;
-@hoverItemTextColor: @linkHoverColor;
 @inputVerticalPadding: 2px;
+
+/* States */
+@hoverItemBackground: none transparent;
+@hoverItemTextColor: @linkHoverColor;
+@pressedItemBackground: @hoverItemBackground;
 
 /* Text Menu */
 @textMenuItemColor: #333333;

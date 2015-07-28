@@ -15,3 +15,9 @@
 
 /* Breakpoints */
 @largeMonitorBreakpoint: 980px;
+
+/* Colors */
+@blue: #80A6CD;
+@green: #60B044;
+
+@infoBackgroundColor: #E6F1F6;

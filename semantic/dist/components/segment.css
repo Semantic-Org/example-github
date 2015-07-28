@@ -533,10 +533,10 @@
 
 /* Green */
 .ui.green.segment:not(.inverted) {
-  border-top: 2px solid #21ba45;
+  border-top: 2px solid #60b044;
 }
 .ui.inverted.green.segment {
-  background-color: #21ba45 !important;
+  background-color: #60b044 !important;
   color: #ffffff !important;
 }
 
@@ -551,10 +551,10 @@
 
 /* Blue */
 .ui.blue.segment:not(.inverted) {
-  border-top: 2px solid #2185d0;
+  border-top: 2px solid #80a6cd;
 }
 .ui.inverted.blue.segment {
-  background-color: #2185d0 !important;
+  background-color: #80a6cd !important;
   color: #ffffff !important;
 }
 

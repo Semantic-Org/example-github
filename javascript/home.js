@@ -13,6 +13,7 @@ $(document)
 
     var
       $userDropdown = $('.user.dropdown'),
+      $button       = $('.ui.button'),
       $watchButton  = $('.watch.button')
     ;
 

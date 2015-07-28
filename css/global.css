@@ -8,22 +8,29 @@
 */
 
 
-/* Top Bar */
+/*--------------
+   Page Header
+---------------*/
+
 body > .page.header {
   background-color: #f5f5f5;
   border-bottom: 1px solid #e5e5e5;
-  min-width: 1000px;
   padding-bottom: 10px;
   padding-top: 10px;
 }
 
+/* No padding on menu */
 body > .page.header .menu {
   margin-top: 0em;
   margin-bottom: 0em;
 }
+
+/* Space right of input */
 body > .page.header .menu .item .input {
   margin-right: 1em;
 }
+
+/* Resize images */
 body > .page.header .menu .item > .logo.image {
   width: auto;
   height: 28px;
@@ -38,17 +45,11 @@ body > .page.header .user.dropdown .menu {
   margin: 5px 9px 0px 0px !important;
 }
 
-/* Watch Button */
+/*--------------
+  Watch Button
+---------------*/
+
 .watch.dropdown.button > .menu h4 {
   margin-bottom: 5px;
 }
 
-
-/* Top Bar */
-
-
-/* This will be removed */
-
-.ui.menu .item {
-  flex: 0 0 auto !important;
-}

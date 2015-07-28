@@ -6,3 +6,5 @@
 
 @itemVerticalPadding: @relative8px;
 @itemHorizontalPadding: @relative10px;
+
+@dropdownIconMargin: 0em 0em 0em 4px;
