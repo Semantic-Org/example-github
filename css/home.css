@@ -23,9 +23,8 @@
   margin-left: 10px;
 }
 
-
-
-/* Should Remove */
-#repo .repo.ribbon .breadcrumb {
-  margin: 0em;
+#repo .repo.description {
+  margin: 1em 0em;
+  font-size: 16px;
+  line-height: 22px;
 }

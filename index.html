@@ -17,6 +17,7 @@
   <link rel="stylesheet" type="text/css" href="semantic/dist/components/menu.css">
   <link rel="stylesheet" type="text/css" href="semantic/dist/components/button.css">
   <link rel="stylesheet" type="text/css" href="semantic/dist/components/breadcrumb.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/grid.css">
   <link rel="stylesheet" type="text/css" href="semantic/dist/components/header.css">
   <link rel="stylesheet" type="text/css" href="semantic/dist/components/input.css">
   <link rel="stylesheet" type="text/css" href="semantic/dist/components/label.css">
@@ -34,6 +35,7 @@
 
 <body id="repo">
 
+  <!-- Global Header -->
   <div class="page header">
     <div class="ui container">
       <div class="ui right floated icon text menu">
@@ -86,15 +88,17 @@
     </div>
   </div>
   <div class="page content">
+
+    <!-- Repo Header -->
     <div class="repo ribbon">
       <div class="ui container">
-        <div class="ui right floated compact button">
+        <div class="ui right floated small compact button">
           <i class="fork icon"></i> Fork
         </div>
-        <div class="ui right floated compact button">
+        <div class="ui right floated small compact button">
           <i class="star icon"></i> Unstar
         </div>
-        <div class="ui right floated compact floating watch dropdown button">
+        <div class="ui right floated small compact floating watch dropdown button">
           <input type="hidden" value="watching">
           <i class="eye icon"></i> Unwatch
           <i class="dropdown icon"></i>
@@ -121,8 +125,74 @@
         <div class="ui huge breadcrumb">
           <a class="section">Semantic-Org</a>
           <div class="divider"> / </div>
-          <a class="section">Semantic UI</a>
+          <a class="active section">Semantic UI</a>
         </div>
+      </div>
+    </div>
+
+    <!-- Repo Content -->
+    <div class="ui container">
+      <div class="ui vertically padded grid">
+        <div class="twelve wide column">
+          <div class="repo description">
+            <div>Semantic is a UI component framework based around useful principles from natural language.</div>
+            <a href="http://www.semantic-ui.com">http://www.semantic-ui.com</a>
+          </div>
+          <div class="ui four item borderless menu">
+            <a class="item">
+              <i class="time icon"></i>
+              5,227 commits
+            </a>
+            <a class="item">
+              <i class="fork icon"></i>
+              10 branches
+            </a>
+            <a class="item">
+              <i class="tag icon"></i>
+              127 releases
+            </a>
+            <a class="item">
+              <i class="users icon"></i>
+              111 contributors
+            </a>
+          </div>
+        </div>
+        <!-- <div class="four wide column">
+          <div class="ui vertical tabular menu">
+            <a class="active item">
+              <i class="code icon"></i>
+              Code
+            </a>
+            <a class="item">
+              <i class="attention circle icon"></i>
+              <span class="ui label">246</span>
+              Issues
+            </a>
+            <a class="item">
+              <i class="fork icon"></i>
+              <span class="ui label">11</span>
+              Pull Requests
+            </a>
+            <a class="item">
+              <i class="book icon"></i>
+              Wiki
+            </a>
+            <div class="ui divider"></div>
+            <a class="item">
+              <i class="heartbeat icon"></i>
+              Pulse
+            </a>
+            <a class="item">
+              <i class="bar chart icon"></i>
+              Graphs
+            </a>
+            <div class="ui divider"></div>
+            <a class="item">
+              <i class="settings icon"></i>
+              Settings
+            </a>
+          </div>
+        </div> -->
       </div>
     </div>
   </div>
