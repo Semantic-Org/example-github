@@ -25,6 +25,7 @@
   <link rel="stylesheet" type="text/css" href="semantic/dist/components/image.css">
   <link rel="stylesheet" type="text/css" href="semantic/dist/components/input.css">
   <link rel="stylesheet" type="text/css" href="semantic/dist/components/label.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/list.css">
   <link rel="stylesheet" type="text/css" href="semantic/dist/components/menu.css">
   <link rel="stylesheet" type="text/css" href="semantic/dist/components/message.css">
   <link rel="stylesheet" type="text/css" href="semantic/dist/components/segment.css">
@@ -135,147 +136,325 @@
     </div>
 
     <!-- Repo Content -->
-    <div class="ui container">
-      <div class="ui vertically padded grid">
-        <div class="thirteen wide column">
+    <div class="ui grid container">
+      <div class="twelve wide column">
 
-          <div class="repo description">
-            <div>Semantic is a UI component framework based around useful principles from natural language.</div>
-            <a href="http://www.semantic-ui.com">http://www.semantic-ui.com</a>
-          </div>
-          <div class="ui four item borderless menu">
-            <a class="item">
-              <i class="time icon"></i>
-              5,227 commits
-            </a>
-            <a class="item">
-              <i class="fork icon"></i>
-              10 branches
-            </a>
-            <a class="item">
-              <i class="tag icon"></i>
-              127 releases
-            </a>
-            <a class="item">
-              <i class="users icon"></i>
-              111 contributors
-            </a>
-          </div>
-
-          <div class="repo title">
-            <div class="ui right floated compact icon button">
-              <i class="content icon"></i>
-            </div>
-            <div class="ui positive compact icon button">
-              <i class="fork icon"></i>
-            </div>
-            <div class="ui dropdown branch compact button">
-              <div class="text">
-                Branch:
-                <b>Master</b>
-              </div>
-              <i class="dropdown icon"></i>
-            </div>
-          </div>
-
-          <div class="ui top attached info recent message">
-            Merge pull request <a href="#">#2728</a> from sunseth/patch-1
-          </div>
-          <div class="ui attached latest segment">
-            <img class="ui mini right spaced rounded image" src="images/avatar.jpg">
-            <b>jlukic</b>
-            authored 2 days ago
-          </div>
-          <table class="ui bottom attached files table">
-            <tbody>
-              <tr>
-                <td class="collapsing">
-                  <i class="blue folder icon"></i>
-                  <a href="#">
-                    node_modules
-                  </a>
-                </td>
-                <td>Initial commit</td>
-                <td class="right aligned collapsing">10 hours ago</td>
-              </tr>
-              <tr>
-                <td>
-                  <i class="blue folder icon"></i>
-                  <a href="#">
-                    test
-                  </a>
-                </td>
-                <td>Initial commit</td>
-                <td class="right aligned">10 hours ago</td>
-              </tr>
-              <tr>
-                <td>
-                  <i class="blue folder icon"></i>
-                  <a href="#">
-                    build
-                  </a>
-                </td>
-                <td>Initial commit</td>
-                <td class="right aligned">10 hours ago</td>
-              </tr>
-              <tr>
-                <td>
-                  <i class="grey file outline icon"></i>
-                  <a href="#">
-                    package.json
-                  </a>
-                </td>
-                <td>Initial commit</td>
-                <td class="right aligned">10 hours ago</td>
-              </tr>
-              <tr>
-                <td>
-                  <i class="grey file outline icon"></i>
-                  <a href="#">
-                    Gruntfile.js
-                  </a>
-                </td>
-                <td>Initial commit</td>
-                <td class="right aligned">10 hours ago</td>
-              </tr>
-            </tbody>
-          </table>
+        <div class="repo description">
+          <div>Semantic is a UI component framework based around useful principles from natural language.</div>
+          <a href="http://www.semantic-ui.com">http://www.semantic-ui.com</a>
         </div>
-        <!-- <div class="three wide column">
-          <div class="ui vertical tabular menu">
-            <a class="active item">
-              <i class="code icon"></i>
-              Code
-            </a>
-            <a class="item">
-              <i class="attention circle icon"></i>
-              <span class="ui label">246</span>
-              Issues
-            </a>
-            <a class="item">
-              <i class="fork icon"></i>
-              <span class="ui label">11</span>
-              Pull Requests
-            </a>
-            <a class="item">
-              <i class="book icon"></i>
-              Wiki
-            </a>
-            <div class="ui divider"></div>
-            <a class="item">
-              <i class="heartbeat icon"></i>
-              Pulse
-            </a>
-            <a class="item">
-              <i class="bar chart icon"></i>
-              Graphs
-            </a>
-            <div class="ui divider"></div>
-            <a class="item">
-              <i class="settings icon"></i>
-              Settings
-            </a>
+        <div class="ui four item borderless top attached menu">
+          <a class="item">
+            <i class="time icon"></i>
+            5,227 commits
+          </a>
+          <a class="item">
+            <i class="fork icon"></i>
+            10 branches
+          </a>
+          <a class="item">
+            <i class="tag icon"></i>
+            127 releases
+          </a>
+          <a class="item">
+            <i class="users icon"></i>
+            111 contributors
+          </a>
+        </div>
+        <div class="ui bottom attached horizontal language segments">
+          <div class="ui inverted yellow segment"></div>
+          <div class="ui inverted purple segment"></div>
+          <div class="ui inverted red segment"></div>
+        </div>
+
+        <div class="repo title">
+          <div class="ui right floated compact icon button">
+            <i class="content icon"></i>
           </div>
+          <div class="ui positive compact icon button">
+            <i class="fork icon"></i>
+          </div>
+          <div class="ui dropdown branch compact button">
+            <div class="text">
+              Branch:
+              <b>master</b>
+            </div>
+            <i class="dropdown icon"></i>
+          </div>
+          <div class="ui huge breadcrumb">
+            <a class="active section">Semantic-UI</a>
+            <div class="divider"> / </div>
+            <a class="section">+</a>
+          </div>
+        </div>
+
+        <div class="ui top attached info recent message">
+          Merge pull request <a href="#">#2728</a> from sunseth/patch-1
+        </div>
+        <div class="ui attached latest segment">
+          <img class="ui mini right spaced rounded image" src="images/avatar.jpg">
+          <b>jlukic</b>
+          authored 2 days ago
+        </div>
+        <table class="ui bottom attached files single line table">
+          <tbody>
+            <tr>
+              <td class="single line four wide">
+                <i class="blue folder icon"></i>
+                <a href="#">
+                  dist
+                </a>
+              </td>
+              <td>Build 2.0.7</td>
+              <td class="right aligned collapsing">5 days ago</td>
+            </tr>
+            <tr>
+              <td>
+                <i class="blue folder icon"></i>
+                <a href="#">
+                  examples
+                </a>
+              </td>
+              <td>Update homepage.html</td>
+              <td class="right aligned">5 days ago</td>
+            </tr>
+            <tr>
+              <td>
+                <i class="blue folder icon"></i>
+                <a href="#">
+                  src
+                </a>
+              </td>
+              <td>Clean up logic in onComplete</td>
+              <td class="right aligned">5 days ago</td>
+            </tr>
+            <tr>
+              <td>
+                <i class="blue folder icon"></i>
+                <a href="#">
+                  docs
+                </a>
+              </td>
+              <td>Initial commit</td>
+              <td class="right aligned">5 days ago</td>
+            </tr>
+            <tr>
+              <td>
+                <i class="blue folder icon"></i>
+                <a href="#">
+                  tasks
+                </a>
+              </td>
+              <td>Updated browser prefix config</td>
+              <td class="right aligned">5 days ago</td>
+            </tr>
+            <tr>
+              <td>
+                <i class="blue folder icon"></i>
+                <a href="#">
+                  test
+                </a>
+              </td>
+              <td> Restructure test/ for meteor #1607 </td>
+              <td class="right aligned">10 months ago</td>
+            </tr>
+            <tr>
+              <td>
+                <i class="grey file outline icon"></i>
+                <a href="#">
+                  .csscomb.json
+                </a>
+              </td>
+              <td>Iteration on regex for comment replacement</td>
+              <td class="right aligned">10 months ago</td>
+            </tr>
+            <tr>
+              <td>
+                <i class="grey file outline icon"></i>
+                <a href="#">
+                  .csslintrc
+                </a>
+              </td>
+              <td>Add csslintrc</td>
+              <td class="right aligned">5 months ago</td>
+            </tr>
+            <tr>
+              <td>
+                <i class="grey file outline icon"></i>
+                <a href="#">
+                  CONTRIBUTING.md
+                </a>
+              </td>
+              <td>Update CONTRIBUTING.md</td>
+              <td class="right aligned">8 months ago</td>
+            </tr>
+            <tr>
+              <td>
+                <i class="grey file outline icon"></i>
+                <a href="#">
+                  LICENSE.md
+                </a>
+              </td>
+              <td>Remove execute permission</td>
+              <td class="right aligned">7 days ago</td>
+            </tr>
+            <tr>
+              <td>
+                <i class="grey file outline icon"></i>
+                <a href="#">
+                  README.md
+                </a>
+              </td>
+              <td>Update README.md</td>
+              <td class="right aligned">7 days ago</td>
+            </tr>
+            <tr>
+              <td>
+                <i class="grey file outline icon"></i>
+                <a href="#">
+                  RELEASE-NOTES.md
+                </a>
+              </td>
+              <td>Fix date</td>
+              <td class="right aligned">7 days ago</td>
+            </tr>
+            <tr>
+              <td>
+                <i class="grey file outline icon"></i>
+                <a href="#">
+                  bower.json
+                </a>
+              </td>
+              <td>main: semantic.css => semantic.less</td>
+              <td class="right aligned">3 months ago</td>
+            </tr>
+            <tr>
+              <td>
+                <i class="grey file outline icon"></i>
+                <a href="#">
+                  composer.json
+                </a>
+              </td>
+              <td>#1853 Fix some composer.json fields</td>
+              <td class="right aligned">5 months ago</td>
+            </tr>
+            <tr>
+              <td>
+                <i class="grey file outline icon"></i>
+                <a href="#">
+                  gulpfile.js
+                </a>
+              </td>
+              <td>Update gulpfile</td>
+              <td class="right aligned">4 months ago</td>
+            </tr>
+            <tr>
+              <td>
+                <i class="grey file outline icon"></i>
+                <a href="#">
+                  karma.conf.js
+                </a>
+              </td>
+              <td>Remove execute permission.</td>
+              <td class="right aligned">8 months ago</td>
+            </tr>
+            <tr>
+              <td>
+                <i class="grey file outline icon"></i>
+                <a href="#">
+                  logo.png
+                </a>
+              </td>
+              <td>Remove execute permission.</td>
+              <td class="right aligned">8 months ago</td>
+            </tr>
+            <tr>
+              <td>
+                <i class="grey file outline icon"></i>
+                <a href="#">
+                  package.json
+                </a>
+              </td>
+              <td>Build 2.0.7</td>
+              <td class="right aligned">5 days ago</td>
+            </tr>
+            <tr>
+              <td>
+                <i class="grey file outline icon"></i>
+                <a href="#">
+                  semantic.json.example
+                </a>
+              </td>
+              <td>Fix admin flag set in example json! #2453</td>
+              <td class="right aligned">28 days ago</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="ui segments">
+          <div class="ui secondary segment">
+            <h4>
+              <i class="book icon"></i>
+              Readme.md
+            </h4>
+          </div>
+          <div class="ui readme padded segment">
+
+            <img src="https://camo.githubusercontent.com/fd37a36efc5d224a678609ae94405139399e0fd3/687474703a2f2f7777772e73656d616e7469632d75692e636f6d2f696d616765732f6c6f676f2e706e67">
+
+            <h1>Semantic UI</h1>
+
+            <p><a href="https://gitter.im/Semantic-Org/Semantic-UI?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge&amp;utm_content=badge"><img style="max-width:100%;" data-canonical-src="https://badges.gitter.im/Join%20Chat.svg" alt="Join the chat at https://gitter.im/Semantic-Org/Semantic-UI" src="https://camo.githubusercontent.com/da2edb525cde1455a622c58c0effc3a90b9a181c/68747470733a2f2f6261646765732e6769747465722e696d2f4a6f696e253230436861742e737667"></a></p>
+
+            <p>Semantic is a UI framework designed for theming.</p>
+
+            <p>Key Features</p>
+
+            <ul class="ui bulleted list">
+              <li>50+ UI elements</li>
+              <li>3000 + CSS variables</li>
+              <li>3 Levels of variable inheritance (similar to SublimeText)</li>
+              <li>Built with EM values for responsive design</li>
+              <li>Flexbox friendly</li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+      <div class="four wide column">
+        <!-- <div class="ui fluid vertical menu">
+          <a class="active item">
+            <i class="code icon"></i>
+            Code
+          </a>
+          <a class="item">
+            <i class="attention circle icon"></i>
+            <span class="ui label">246</span>
+            Issues
+          </a>
+          <a class="item">
+            <i class="fork icon"></i>
+            <span class="ui label">11</span>
+            Pull Requests
+          </a>
+          <a class="item">
+            <i class="book icon"></i>
+            Wiki
+          </a>
+          <div class="ui divider"></div>
+          <a class="item">
+            <i class="heartbeat icon"></i>
+            Pulse
+          </a>
+          <a class="item">
+            <i class="bar chart icon"></i>
+            Graphs
+          </a>
+          <div class="ui divider"></div>
+          <a class="item">
+            <i class="settings icon"></i>
+            Settings
+          </a>
         </div> -->
       </div>
     </div>

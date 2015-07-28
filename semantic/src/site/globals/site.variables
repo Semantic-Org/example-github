@@ -7,6 +7,8 @@
 @fontName : 'Arial';
 @importGoogleFonts : false;
 
+@h1: 2.25em;
+
 @linkColor: #4078C0;
 @linkHoverColor: @linkColor;
 @linkHoverUnderline: underline;

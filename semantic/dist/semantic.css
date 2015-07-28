@@ -553,7 +553,7 @@ h5 {
 
 h1 {
   min-height: 1rem;
-  font-size: 2rem;
+  font-size: 2.25em;
 }
 
 h2 {
@@ -4426,6 +4426,14 @@ input::selection {
   .ui.grid.container {
     width: auto !important;
   }
+
+  .ui.relaxed.grid.container {
+    width: auto !important;
+  }
+
+  .ui.very.relaxed.grid.container {
+    width: auto !important;
+  }
 }
 
 /* Tablet */
@@ -4438,7 +4446,15 @@ input::selection {
   }
 
   .ui.grid.container {
-    width: calc( 725px  +  2em ) !important;
+    width: calc( 725px  +  2rem ) !important;
+  }
+
+  .ui.relaxed.grid.container {
+    width: calc( 725px  +  3rem ) !important;
+  }
+
+  .ui.very.relaxed.grid.container {
+    width: calc( 725px  +  5rem ) !important;
   }
 }
 
@@ -4452,7 +4468,15 @@ input::selection {
   }
 
   .ui.grid.container {
-    width: calc( 936px  +  2em ) !important;
+    width: calc( 936px  +  2rem ) !important;
+  }
+
+  .ui.relaxed.grid.container {
+    width: calc( 936px  +  3rem ) !important;
+  }
+
+  .ui.very.relaxed.grid.container {
+    width: calc( 936px  +  5rem ) !important;
   }
 }
 
@@ -4466,7 +4490,15 @@ input::selection {
   }
 
   .ui.grid.container {
-    width: calc( 980px  +  2em ) !important;
+    width: calc( 980px  +  2rem ) !important;
+  }
+
+  .ui.relaxed.grid.container {
+    width: calc( 980px  +  3rem ) !important;
+  }
+
+  .ui.very.relaxed.grid.container {
+    width: calc( 980px  +  5rem ) !important;
   }
 }
 
@@ -6190,7 +6222,7 @@ i.flag.zimbabwe:before {
 ---------------*/
 
 h1.ui.header {
-  font-size: 2rem;
+  font-size: 2.25em;
 }
 
 h2.ui.header {
@@ -6237,7 +6269,7 @@ h5.ui.header .sub.header {
 
 .ui.huge.header {
   min-height: 1em;
-  font-size: 2em;
+  font-size: 2.25em;
 }
 
 .ui.large.header {
@@ -15725,7 +15757,7 @@ ol.ui.horizontal.list li:before,
 }
 
 .ui.huge.breadcrumb {
-  font-size: 1.46153846rem;
+  font-size: 1.4615em;
 }
 
 .ui.massive.breadcrumb {
@@ -19097,7 +19129,7 @@ ol.ui.horizontal.list li:before,
 ---------------*/
 
 .ui.menu .item > i.icon {
-  opacity: 0.9;
+  opacity: 0.5;
   float: none;
   margin: 0em 0.38461538em 0em 0em;
 }
@@ -19310,22 +19342,22 @@ ol.ui.horizontal.list li:before,
 ---------------*/
 
 .ui.menu .item > .label {
-  background: #999999;
-  color: #ffffff;
+  background: #eeeeee;
+  color: #666666;
   margin-left: 1em;
   padding: 0.3em 0.69230769em;
 }
 
 .ui.vertical.menu .item > .label {
-  background: #999999;
-  color: #ffffff;
+  background: #eeeeee;
+  color: #666666;
   margin-top: -0.15em;
   margin-bottom: -0.15em;
   padding: 0.3em 0.69230769em;
 }
 
 .ui.menu .item > .label:before {
-  background-color: #999999;
+  background-color: #eeeeee;
 }
 
 .ui.menu .item > .floating.label {
@@ -19531,8 +19563,8 @@ Floated Menu / Item
 
 .ui.vertical.menu .item > i.icon {
   width: 1.18em;
-  float: right;
-  margin: 0em 0em 0em 0.5em;
+  float: none;
+  margin: 0em 4px 0em 0em;
 }
 
 .ui.vertical.menu .item > .label + i.icon {

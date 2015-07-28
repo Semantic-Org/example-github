@@ -137,7 +137,7 @@
 ---------------*/
 
 .ui.menu .item > i.icon {
-  opacity: 0.9;
+  opacity: 0.5;
   float: none;
   margin: 0em 0.38461538em 0em 0em;
 }
@@ -331,20 +331,20 @@
 ---------------*/
 
 .ui.menu .item > .label {
-  background: #999999;
-  color: #ffffff;
+  background: #eeeeee;
+  color: #666666;
   margin-left: 1em;
   padding: 0.3em 0.69230769em;
 }
 .ui.vertical.menu .item > .label {
-  background: #999999;
-  color: #ffffff;
+  background: #eeeeee;
+  color: #666666;
   margin-top: -0.15em;
   margin-bottom: -0.15em;
   padding: 0.3em 0.69230769em;
 }
 .ui.menu .item > .label:before {
-  background-color: #999999;
+  background-color: #eeeeee;
 }
 .ui.menu .item > .floating.label {
   padding: 0.3em 0.69230769em;
@@ -547,8 +547,8 @@ Floated Menu / Item
 
 .ui.vertical.menu .item > i.icon {
   width: 1.18em;
-  float: right;
-  margin: 0em 0em 0em 0.5em;
+  float: none;
+  margin: 0em 4px 0em 0em;
 }
 .ui.vertical.menu .item > .label + i.icon {
   float: none;

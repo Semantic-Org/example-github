@@ -37,6 +37,24 @@
 }
 
 /*----------------
+   Language Used
+-----------------*/
+
+.ui.top.attached.menu {
+  border-bottom: none;
+}
+.ui.language.segments {
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: none;
+  width: calc(100% + 2px);
+  margin: 0px 0px 10px -1px;
+  overflow: hidden;
+}
+.language.segments .segment {
+  padding: 0.25em;
+}
+
+/*----------------
   Latest Commits
 -----------------*/
 
@@ -69,6 +87,25 @@
   color: rgba(0, 0, 0, 0.8);
 }
 
+#repo .branch.button + .breadcrumb {
+  margin-left: 5px;
+}
+
+/*----------------
+      Files
+-----------------*/
+
+
 #repo .files.table {
   background-color: #F8F8F8;
+  color: #888888;
+}
+
+
+/*----------------
+      Readme
+-----------------*/
+
+#repo .readme {
+  font-size: 16px;
 }

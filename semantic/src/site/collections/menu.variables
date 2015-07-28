@@ -7,6 +7,13 @@
 @dropdownIconDistance: 12px;
 @inputVerticalPadding: 2px;
 
+@iconOpacity: 0.5;
+@verticalIconFloat: none;
+@verticalIconMargin: 0em 4px 0em 0em;
+
+@labelBackground: #EEEEEE;
+@labelTextColor: #666666;
+
 /* States */
 @hoverItemBackground: none transparent;
 @hoverItemTextColor: @linkHoverColor;
