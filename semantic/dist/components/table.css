@@ -22,7 +22,7 @@
   margin: 1em 0em;
   border: 1px solid rgba(34, 36, 38, 0.15);
   box-shadow: none;
-  border-radius: 0.28571429rem;
+  border-radius: 0.30769231rem;
   text-align: left;
   color: rgba(0, 0, 0, 0.87);
   border-collapse: separate;
@@ -57,7 +57,7 @@
   background: #f9fafb;
   text-align: inherit;
   color: rgba(0, 0, 0, 0.87);
-  padding: 0.92857143em 0.71428571em;
+  padding: 0.92307692em 0.69230769em;
   vertical-align: inherit;
   font-style: none;
   font-weight: bold;
@@ -69,13 +69,13 @@
   border-left: none;
 }
 .ui.table thead tr:first-child > th:first-child {
-  border-radius: 0.28571429rem 0em 0em 0em;
+  border-radius: 0.30769231rem 0em 0em 0em;
 }
 .ui.table thead tr:first-child > th:last-child {
-  border-radius: 0em 0.28571429rem 0em 0em;
+  border-radius: 0em 0.30769231rem 0em 0em;
 }
 .ui.table thead tr:first-child > th:only-child {
-  border-radius: 0.28571429rem 0.28571429rem 0em 0em;
+  border-radius: 0.30769231rem 0.30769231rem 0em 0em;
 }
 
 /* Footer */
@@ -88,7 +88,7 @@
   background: #f9fafb;
   text-align: inherit;
   color: rgba(0, 0, 0, 0.87);
-  padding: 0.71428571em 0.71428571em;
+  padding: 0.69230769em 0.69230769em;
   vertical-align: middle;
   font-style: normal;
   font-weight: normal;
@@ -98,13 +98,13 @@
   border-left: none;
 }
 .ui.table tfoot tr:first-child > th:first-child {
-  border-radius: 0em 0em 0em 0.28571429rem;
+  border-radius: 0em 0em 0em 0.30769231rem;
 }
 .ui.table tfoot tr:first-child > th:last-child {
-  border-radius: 0em 0em 0.28571429rem 0em;
+  border-radius: 0em 0em 0.30769231rem 0em;
 }
 .ui.table tfoot tr:first-child > th:only-child {
-  border-radius: 0em 0em 0.28571429rem 0.28571429rem;
+  border-radius: 0em 0em 0.30769231rem 0.30769231rem;
 }
 
 /* Table Row */
@@ -117,7 +117,7 @@
 
 /* Table Cells */
 .ui.table td {
-  padding: 0.71428571em 0.71428571em;
+  padding: 0.69230769em 0.69230769em;
   text-align: inherit;
 }
 
@@ -519,7 +519,7 @@
   margin-bottom: 0em;
   top: 0px;
   margin-top: 1em;
-  border-radius: 0.28571429rem 0.28571429rem 0em 0em;
+  border-radius: 0.30769231rem 0.30769231rem 0em 0em;
 }
 .ui.table[class*="top attached"]:first-child {
   margin-top: 0em;
@@ -532,7 +532,7 @@
   top: 0px;
   margin-bottom: 1em;
   box-shadow: none, none;
-  border-radius: 0em 0em 0.28571429rem 0.28571429rem;
+  border-radius: 0em 0em 0.30769231rem 0.30769231rem;
 }
 .ui[class*="bottom attached"].table:last-child {
   margin-bottom: 0em;

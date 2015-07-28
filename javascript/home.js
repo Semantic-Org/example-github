@@ -12,7 +12,14 @@ $(document)
   .ready(function() {
 
     var
-      $watchButton = $('.watch.button')
+      $userDropdown = $('.user.dropdown'),
+      $watchButton  = $('.watch.button')
+    ;
+
+    $userDropdown
+      .dropdown({
+        action: 'hide'
+      })
     ;
 
     $watchButton

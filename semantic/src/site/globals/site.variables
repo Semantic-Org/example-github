@@ -1,3 +1,17 @@
 /*******************************
      User Global Variables
 *******************************/
+
+@emSize: 13px;
+@fontSize : 13px;
+@fontName : 'Arial';
+@importGoogleFonts : false;
+
+@linkColor: #4078C0;
+@linkHoverColor: @linkColor;
+@linkHoverUnderline: underline;
+
+@selectedBorderColor: #51A7E8;
+
+/* Breakpoints */
+@largeMonitorBreakpoint: 980px;

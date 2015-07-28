@@ -1,3 +1,12 @@
 /*******************************
     User Variable Overrides
 *******************************/
+
+/* Any Menu */
+@dropdownIconDistance: 2px;
+@hoverItemTextColor: @linkHoverColor;
+@inputVerticalPadding: 2px;
+
+/* Text Menu */
+@textMenuItemColor: #333333;
+@textMenuItemFontWeight: bold;

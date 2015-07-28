@@ -11,7 +11,22 @@
   <title>GitHub Clone</title>
 
   <!-- CSS Includes -->
-  <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/reset.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/site.css">
+
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/menu.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/button.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/breadcrumb.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/header.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/input.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/label.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/image.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/container.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/icon.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/dropdown.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/image.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/transition.css">
+
   <link rel="stylesheet" type="text/css" href="css/global.css">
   <link rel="stylesheet" type="text/css" href="css/home.css">
 
@@ -23,23 +38,35 @@
     <div class="ui container">
       <div class="ui right floated icon text menu">
         <a class="item">
-          <i class="inbox icon"></i>
+          <i class="large inbox icon"></i>
         </a>
         <a class="item">
           <i class="add icon"></i>
-          <i class="dropdown icon"></i>
+          <i class="large dropdown icon"></i>
         </a>
-        <a class="item">
-          <img src="images/avatar.jpg">
+        <div class="user top right pointing ui dropdown item">
+          <img class="ui rounded user image" src="images/avatar.jpg">
           <i class="dropdown icon"></i>
-        </a>
+          <div class="menu">
+            <div class="disabled item">
+              Signed in as <b>jlukic</b>
+            </div>
+            <a class="item">Your Profile</a>
+            <a class="item">Your Stars</a>
+            <a class="item">Explore</a>
+            <a class="item">Help</a>
+            <div class="divider"></div>
+            <a class="item">Settings</a>
+            <a class="item">Sign Out</a>
+          </div>
+        </div>
       </div>
       <div class="ui text menu">
         <a class="item" href="http://www.github.com/semantic-org/semantic-ui/">
-          <img src="images/github-mark.png">
+          <img class="ui logo image" src="images/github-mark.png">
         </a>
         <div class="item">
-          <div class="ui labeled icon input">
+          <div class="ui small labeled icon input">
             <div class="ui label">
               This Repository
             </div>
@@ -59,8 +86,8 @@
     </div>
   </div>
   <div class="page content">
-    <div class="ui container">
-      <div class="repo ribbon">
+    <div class="repo ribbon">
+      <div class="ui container">
         <div class="ui right floated compact button">
           <i class="fork icon"></i> Fork
         </div>
@@ -91,7 +118,7 @@
           </div>
         </div>
         <i class="big disabled bookmark icon"></i>
-        <div class="ui large breadcrumb">
+        <div class="ui huge breadcrumb">
           <a class="section">Semantic-Org</a>
           <div class="divider"> / </div>
           <a class="section">Semantic UI</a>

@@ -18,19 +18,29 @@ body > .page.header {
 }
 
 body > .page.header .menu {
-  margin: 0em;
+  margin-top: 0em;
+  margin-bottom: 0em;
 }
 body > .page.header .menu .item .input {
   margin-right: 1em;
 }
-body > .page.header .menu .item > img {
+body > .page.header .menu .item > .logo.image {
   width: auto;
   height: 28px;
+}
+body > .page.header .menu .item > .user.image {
+  width: auto;
+  height: 20px;
+}
+
+/* Make menu point to avatar */
+body > .page.header .user.dropdown .menu {
+  margin: 5px 9px 0px 0px !important;
 }
 
 /* Watch Button */
 .watch.dropdown.button > .menu h4 {
-  margin-bottom: 0.5em;
+  margin-bottom: 5px;
 }
 
 

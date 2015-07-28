@@ -26,6 +26,6 @@
 
 
 /* Should Remove */
-#repo .repo.ribbon > .breadcrumb {
+#repo .repo.ribbon .breadcrumb {
   margin: 0em;
 }
