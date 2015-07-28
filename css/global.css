@@ -1,0 +1,44 @@
+
+/*******************************
+          Global CSS
+*******************************/
+
+/*
+  This CSS is used across pages
+*/
+
+
+/* Top Bar */
+body > .page.header {
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #e5e5e5;
+  min-width: 1000px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+body > .page.header .menu {
+  margin: 0em;
+}
+body > .page.header .menu .item .input {
+  margin-right: 1em;
+}
+body > .page.header .menu .item > img {
+  width: auto;
+  height: 28px;
+}
+
+/* Watch Button */
+.watch.dropdown.button > .menu h4 {
+  margin-bottom: 0.5em;
+}
+
+
+/* Top Bar */
+
+
+/* This will be removed */
+
+.ui.menu .item {
+  flex: 0 0 auto !important;
+}
