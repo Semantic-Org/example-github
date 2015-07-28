@@ -4,7 +4,7 @@
 
 /* Any Menu */
 @boxShadow: none;
-@dropdownIconDistance: 2px;
+@dropdownIconDistance: 12px;
 @inputVerticalPadding: 2px;
 
 /* States */

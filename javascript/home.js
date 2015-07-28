@@ -19,6 +19,7 @@ $(document)
 
     $userDropdown
       .dropdown({
+        transition: 'drop',
         action: 'hide'
       })
     ;

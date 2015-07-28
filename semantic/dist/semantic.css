@@ -4444,7 +4444,7 @@ input::selection {
 
 /* Small Monitor */
 
-@media only screen and (min-width: 992px) and (max-width: 979px) {
+@media only screen and (min-width: 992px) and (max-width: 1048px) {
   .ui.container {
     width: 936px;
     margin-left: auto !important;
@@ -4458,15 +4458,15 @@ input::selection {
 
 /* Large Monitor */
 
-@media only screen and (min-width: 980px) {
+@media only screen and (min-width: 1049px) {
   .ui.container {
-    width: 911px;
+    width: 980px;
     margin-left: auto !important;
     margin-right: auto !important;
   }
 
   .ui.grid.container {
-    width: calc( 911px  +  2em ) !important;
+    width: calc( 980px  +  2em ) !important;
   }
 }
 
@@ -7321,7 +7321,7 @@ i.large.icon,
 i.large.icons {
   line-height: 1;
   vertical-align: middle;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 i.big.icon,
@@ -10540,6 +10540,8 @@ img.ui.bordered.image {
 
 .ui.input {
   position: relative;
+  font-weight: normal;
+  font-style: normal;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -10851,7 +10853,7 @@ img.ui.bordered.image {
 /* Regular Label on Left */
 
 .ui.labeled.input:not([class*="corner labeled"]):not([class*="right labeled"]) > input {
-  border-left: none;
+  /*border-left: none;*/
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
 }
@@ -10864,7 +10866,7 @@ img.ui.bordered.image {
 /* Regular Label on Right */
 
 .ui[class*="right labeled"].input > input {
-  border-right: none;
+  /*border-right: none;*/
   border-top-right-radius: 0px !important;
   border-bottom-right-radius: 0px !important;
 }
@@ -17033,7 +17035,7 @@ ol.ui.horizontal.list li:before,
   }
 }
 
-@media only screen and (min-width: 992px) and (max-width: 979px) {
+@media only screen and (min-width: 992px) and (max-width: 1048px) {
   .ui.page.grid {
     width: auto;
     margin-left: 0em;
@@ -17043,7 +17045,7 @@ ol.ui.horizontal.list li:before,
   }
 }
 
-@media only screen and (min-width: 980px) and (max-width: 1919px) {
+@media only screen and (min-width: 1049px) and (max-width: 1919px) {
   .ui.page.grid {
     width: auto;
     margin-left: 0em;
@@ -17694,7 +17696,7 @@ ol.ui.horizontal.list li:before,
 
 /* Large Monitor Sizing Combinations */
 
-@media only screen and (min-width: 980px) and (max-width: 1919px) {
+@media only screen and (min-width: 1049px) and (max-width: 1919px) {
   .ui.grid > .row > [class*="one wide large screen"].column,
   .ui.grid > .column.row > [class*="one wide large screen"].column,
   .ui.grid > [class*="one wide large screen"].column,
@@ -18869,7 +18871,7 @@ ol.ui.horizontal.list li:before,
 
 /* Computer Only Hide */
 
-@media only screen and (min-width: 992px) and (max-width: 979px) {
+@media only screen and (min-width: 992px) and (max-width: 1048px) {
   .ui[class*="mobile only"].grid.grid.grid:not(.computer),
   .ui.grid.grid.grid > [class*="mobile only"].row:not(.computer),
   .ui.grid.grid.grid > [class*="mobile only"].column:not(.computer),
@@ -18901,7 +18903,7 @@ ol.ui.horizontal.list li:before,
 
 /* Large Screen Only Hide */
 
-@media only screen and (min-width: 980px) and (max-width: 1919px) {
+@media only screen and (min-width: 1049px) and (max-width: 1919px) {
   .ui[class*="mobile only"].grid.grid.grid:not(.computer),
   .ui.grid.grid.grid > [class*="mobile only"].row:not(.computer),
   .ui.grid.grid.grid > [class*="mobile only"].column:not(.computer),
@@ -19193,7 +19195,7 @@ ol.ui.horizontal.list li:before,
 .ui.menu .item > i.dropdown.icon {
   padding: 0em;
   float: right;
-  margin: 0em 0em 0em 2px;
+  margin: 0em 0em 0em 12px;
 }
 
 /* Menu */
@@ -19211,6 +19213,7 @@ ol.ui.horizontal.list li:before,
 
 .ui.menu .ui.dropdown .menu > .item {
   margin: 0;
+  text-align: left;
   font-size: 1em !important;
   padding: 0.69230769em 1.15384615em !important;
   background: transparent !important;
@@ -28972,7 +28975,7 @@ select.ui.dropdown {
   }
 }
 
-@media only screen and (min-width: 980px) {
+@media only screen and (min-width: 1049px) {
   .ui.modal {
     width: 900px;
     margin: 0em 0em 0em -450px;
@@ -29241,7 +29244,7 @@ select.ui.dropdown {
   }
 }
 
-@media only screen and (min-width: 980px) {
+@media only screen and (min-width: 1049px) {
   .ui.small.modal {
     width: 720px;
     margin: 0em 0em 0em -360px;
@@ -29282,7 +29285,7 @@ select.ui.dropdown {
   }
 }
 
-@media only screen and (min-width: 980px) {
+@media only screen and (min-width: 1049px) {
   .ui.large.modal {
     width: 1080px;
     margin: 0em 0em 0em -540px;

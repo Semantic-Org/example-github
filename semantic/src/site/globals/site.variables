@@ -14,7 +14,7 @@
 @selectedBorderColor: #51A7E8;
 
 /* Breakpoints */
-@largeMonitorBreakpoint: 980px;
+@largeMonitorBreakpoint: 1049px;
 
 /* Colors */
 @blue: #80A6CD;

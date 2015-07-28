@@ -68,3 +68,7 @@
   margin-left: 2px;
   color: rgba(0, 0, 0, 0.8);
 }
+
+#repo .files.table {
+  background-color: #F8F8F8;
+}

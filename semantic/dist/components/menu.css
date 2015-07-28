@@ -231,7 +231,7 @@
 .ui.menu .item > i.dropdown.icon {
   padding: 0em;
   float: right;
-  margin: 0em 0em 0em 2px;
+  margin: 0em 0em 0em 12px;
 }
 
 /* Menu */
@@ -247,6 +247,7 @@
 /* Menu Items */
 .ui.menu .ui.dropdown .menu > .item {
   margin: 0;
+  text-align: left;
   font-size: 1em !important;
   padding: 0.69230769em 1.15384615em !important;
   background: transparent !important;
