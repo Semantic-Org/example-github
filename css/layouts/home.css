@@ -1,0 +1,118 @@
+
+/*******************************
+          Page CSS
+*******************************/
+
+
+/* This CSS is used to make per-page adjustments
+  Each page is given a body #id tag to descend
+  from for page-specific rules
+
+*/
+
+#home {
+
+}
+
+#home .button .dropdown.icon {
+  vertical-align: top;
+}
+
+/*--------------
+   Top Ribbon
+---------------*/
+
+#home .repo.ribbon {
+  border-bottom: 1px solid #EEEEEE;
+  padding: 20px 0px;
+}
+#home .repo.ribbon .button {
+  margin-left: 10px;
+}
+
+#home .repo.description {
+  margin: 1em 0em;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+
+/*----------------
+   Language Used
+-----------------*/
+
+#home .ui.top.attached.menu {
+  border-bottom: none;
+}
+#home .ui.language.segments {
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: none;
+  width: calc(100% + 2px);
+  margin: 0px 0px 10px -1px;
+  overflow: hidden;
+}
+#home .language.segments .segment {
+  padding: 0.25em;
+}
+
+/*----------------
+  Latest Commits
+-----------------*/
+
+#home .recent.message {
+  padding: 0.75em 1em;
+}
+
+#home .latest.segment {
+  border-top: 1px solid #DDD;
+  padding: 0.5em;
+  color: #999999;
+}
+
+
+/*----------------
+      Stats
+-----------------*/
+
+#home .stats.menu b {
+  margin-right: 3px;
+}
+
+
+/*----------------
+  Branch Dropdown
+-----------------*/
+
+/* Branch label */
+#home .branch.button .text {
+  color: #888888;
+}
+/* Branch name */
+#home .branch.button b {
+  display: inline-block;
+  margin-left: 2px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+#home .branch.button + .breadcrumb {
+  margin-left: 5px;
+}
+
+/*----------------
+      Files
+-----------------*/
+
+
+#home .files.table {
+  background-color: #F8F8F8;
+  color: #888888;
+}
+
+
+/*----------------
+      Readme
+-----------------*/
+
+#home .readme {
+  font-size: 16px;
+}

@@ -2,6 +2,3 @@
     User Variable Overrides
 *******************************/
 
-@height: 1.14em;
-
-@large: 1.3em;

@@ -11,33 +11,33 @@
   <title>GitHub Clone</title>
 
   <!-- CSS Includes -->
-  <link rel="stylesheet" type="text/css" href="semantic/dist/components/reset.css">
-  <link rel="stylesheet" type="text/css" href="semantic/dist/components/site.css">
+  <link rel="stylesheet" type="text/css" href="css/ui/components/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/ui/components/site.css">
 
-  <link rel="stylesheet" type="text/css" href="semantic/dist/components/breadcrumb.css">
-  <link rel="stylesheet" type="text/css" href="semantic/dist/components/button.css">
-  <link rel="stylesheet" type="text/css" href="semantic/dist/components/container.css">
-  <link rel="stylesheet" type="text/css" href="semantic/dist/components/dropdown.css">
-  <link rel="stylesheet" type="text/css" href="semantic/dist/components/grid.css">
-  <link rel="stylesheet" type="text/css" href="semantic/dist/components/header.css">
-  <link rel="stylesheet" type="text/css" href="semantic/dist/components/icon.css">
-  <link rel="stylesheet" type="text/css" href="semantic/dist/components/image.css">
-  <link rel="stylesheet" type="text/css" href="semantic/dist/components/image.css">
-  <link rel="stylesheet" type="text/css" href="semantic/dist/components/input.css">
-  <link rel="stylesheet" type="text/css" href="semantic/dist/components/label.css">
-  <link rel="stylesheet" type="text/css" href="semantic/dist/components/list.css">
-  <link rel="stylesheet" type="text/css" href="semantic/dist/components/menu.css">
-  <link rel="stylesheet" type="text/css" href="semantic/dist/components/message.css">
-  <link rel="stylesheet" type="text/css" href="semantic/dist/components/segment.css">
-  <link rel="stylesheet" type="text/css" href="semantic/dist/components/table.css">
-  <link rel="stylesheet" type="text/css" href="semantic/dist/components/transition.css">
+  <link rel="stylesheet" type="text/css" href="css/ui/components/breadcrumb.css">
+  <link rel="stylesheet" type="text/css" href="css/ui/components/button.css">
+  <link rel="stylesheet" type="text/css" href="css/ui/components/container.css">
+  <link rel="stylesheet" type="text/css" href="css/ui/components/divider.css">
+  <link rel="stylesheet" type="text/css" href="css/ui/components/dropdown.css">
+  <link rel="stylesheet" type="text/css" href="css/ui/components/grid.css">
+  <link rel="stylesheet" type="text/css" href="css/ui/components/header.css">
+  <link rel="stylesheet" type="text/css" href="css/ui/components/icon.css">
+  <link rel="stylesheet" type="text/css" href="css/ui/components/image.css">
+  <link rel="stylesheet" type="text/css" href="css/ui/components/input.css">
+  <link rel="stylesheet" type="text/css" href="css/ui/components/label.css">
+  <link rel="stylesheet" type="text/css" href="css/ui/components/list.css">
+  <link rel="stylesheet" type="text/css" href="css/ui/components/menu.css">
+  <link rel="stylesheet" type="text/css" href="css/ui/components/message.css">
+  <link rel="stylesheet" type="text/css" href="css/ui/components/segment.css">
+  <link rel="stylesheet" type="text/css" href="css/ui/components/table.css">
+  <link rel="stylesheet" type="text/css" href="css/ui/components/transition.css">
 
   <link rel="stylesheet" type="text/css" href="css/global.css">
-  <link rel="stylesheet" type="text/css" href="css/home.css">
+  <link rel="stylesheet" type="text/css" href="css/layouts/home.css">
 
 </head>
 
-<body id="repo">
+<body id="home">
 
   <!-- Global Header -->
   <div class="page header">
@@ -45,10 +45,10 @@
       <div class="ui right floated icon text menu">
         <a class="item">
           <span class="ui empty mini floating circular blue notification label"></span>
-          <i class="large inbox icon"></i>
+          <i class="big inbox icon"></i>
         </a>
-        <a class="item">
-          <i class="add icon"></i>
+        <a class="ui dropdown item">
+          <i class="large plus icon"></i>
           <i class="dropdown icon"></i>
         </a>
         <div class="user top right pointing ui dropdown item">
@@ -69,8 +69,8 @@
         </div>
       </div>
       <div class="ui text menu">
-        <a class="item" href="http://www.github.com/semantic-org/semantic-ui/">
-          <img class="ui logo image" src="images/github-mark.png">
+        <a class="icon item" href="http://www.github.com/semantic-org/semantic-ui/">
+          <i class="huge emphasized github mark icon"></i>
         </a>
         <div class="item">
           <div class="ui small labeled input">
@@ -98,7 +98,7 @@
     <div class="repo ribbon">
       <div class="ui container">
         <div class="ui right floated compact button">
-          <i class="fork icon"></i> Fork
+          <i class="forked repo icon"></i> Fork
         </div>
         <div class="ui right floated compact button">
           <i class="star icon"></i> Unstar
@@ -126,7 +126,7 @@
             </div>
           </div>
         </div>
-        <i class="big disabled bookmark icon"></i>
+        <i class="massive disabled repo icon"></i>
         <div class="ui huge breadcrumb">
           <a class="section">Semantic-Org</a>
           <div class="divider"> / </div>
@@ -143,22 +143,22 @@
           <div>Semantic is a UI component framework based around useful principles from natural language.</div>
           <a href="http://www.semantic-ui.com">http://www.semantic-ui.com</a>
         </div>
-        <div class="ui four item borderless top attached menu">
+        <div class="ui four item borderless top attached stats menu">
           <a class="item">
-            <i class="time icon"></i>
-            5,227 commits
+            <i class="history icon"></i>
+            <b>5,227</b> commits
           </a>
           <a class="item">
-            <i class="fork icon"></i>
-            10 branches
+            <i class="git branch icon"></i>
+            <b>10</b> branches
           </a>
           <a class="item">
             <i class="tag icon"></i>
-            127 releases
+            <b>127</b> releases
           </a>
           <a class="item">
-            <i class="users icon"></i>
-            111 contributors
+            <i class="organization icon"></i>
+            <b>111</b> contributors
           </a>
         </div>
         <div class="ui bottom attached horizontal language segments">
@@ -169,10 +169,10 @@
 
         <div class="repo title">
           <div class="ui right floated compact icon button">
-            <i class="content icon"></i>
+            <i class="unordered list icon"></i>
           </div>
           <div class="ui positive compact icon button">
-            <i class="fork icon"></i>
+            <i class="git compare icon"></i>
           </div>
           <div class="ui dropdown branch compact button">
             <div class="text">
@@ -193,14 +193,14 @@
         </div>
         <div class="ui attached latest segment">
           <img class="ui mini right spaced rounded image" src="images/avatar.jpg">
-          <b>jlukic</b>
+          <a href="#"><b>jlukic</b></a>
           authored 2 days ago
         </div>
         <table class="ui bottom attached files single line table">
           <tbody>
             <tr>
-              <td class="single line four wide">
-                <i class="blue folder icon"></i>
+              <td class="single line five wide">
+                <i class="blue file directory icon"></i>
                 <a href="#">
                   dist
                 </a>
@@ -210,7 +210,7 @@
             </tr>
             <tr>
               <td>
-                <i class="blue folder icon"></i>
+                <i class="blue file directory icon"></i>
                 <a href="#">
                   examples
                 </a>
@@ -220,7 +220,7 @@
             </tr>
             <tr>
               <td>
-                <i class="blue folder icon"></i>
+                <i class="blue file directory icon"></i>
                 <a href="#">
                   src
                 </a>
@@ -230,7 +230,7 @@
             </tr>
             <tr>
               <td>
-                <i class="blue folder icon"></i>
+                <i class="blue file directory icon"></i>
                 <a href="#">
                   docs
                 </a>
@@ -240,7 +240,7 @@
             </tr>
             <tr>
               <td>
-                <i class="blue folder icon"></i>
+                <i class="blue file directory icon"></i>
                 <a href="#">
                   tasks
                 </a>
@@ -250,7 +250,7 @@
             </tr>
             <tr>
               <td>
-                <i class="blue folder icon"></i>
+                <i class="blue file directory icon"></i>
                 <a href="#">
                   test
                 </a>
@@ -260,7 +260,7 @@
             </tr>
             <tr>
               <td>
-                <i class="grey file outline icon"></i>
+                <i class="grey file text icon"></i>
                 <a href="#">
                   .csscomb.json
                 </a>
@@ -270,7 +270,7 @@
             </tr>
             <tr>
               <td>
-                <i class="grey file outline icon"></i>
+                <i class="grey file text icon"></i>
                 <a href="#">
                   .csslintrc
                 </a>
@@ -280,7 +280,7 @@
             </tr>
             <tr>
               <td>
-                <i class="grey file outline icon"></i>
+                <i class="grey file text icon"></i>
                 <a href="#">
                   CONTRIBUTING.md
                 </a>
@@ -290,7 +290,7 @@
             </tr>
             <tr>
               <td>
-                <i class="grey file outline icon"></i>
+                <i class="grey file text icon"></i>
                 <a href="#">
                   LICENSE.md
                 </a>
@@ -300,7 +300,7 @@
             </tr>
             <tr>
               <td>
-                <i class="grey file outline icon"></i>
+                <i class="grey file text icon"></i>
                 <a href="#">
                   README.md
                 </a>
@@ -310,7 +310,7 @@
             </tr>
             <tr>
               <td>
-                <i class="grey file outline icon"></i>
+                <i class="grey file text icon"></i>
                 <a href="#">
                   RELEASE-NOTES.md
                 </a>
@@ -320,7 +320,7 @@
             </tr>
             <tr>
               <td>
-                <i class="grey file outline icon"></i>
+                <i class="grey file text icon"></i>
                 <a href="#">
                   bower.json
                 </a>
@@ -330,7 +330,7 @@
             </tr>
             <tr>
               <td>
-                <i class="grey file outline icon"></i>
+                <i class="grey file text icon"></i>
                 <a href="#">
                   composer.json
                 </a>
@@ -340,7 +340,7 @@
             </tr>
             <tr>
               <td>
-                <i class="grey file outline icon"></i>
+                <i class="grey file text icon"></i>
                 <a href="#">
                   gulpfile.js
                 </a>
@@ -350,7 +350,7 @@
             </tr>
             <tr>
               <td>
-                <i class="grey file outline icon"></i>
+                <i class="grey file text icon"></i>
                 <a href="#">
                   karma.conf.js
                 </a>
@@ -360,7 +360,7 @@
             </tr>
             <tr>
               <td>
-                <i class="grey file outline icon"></i>
+                <i class="grey file text icon"></i>
                 <a href="#">
                   logo.png
                 </a>
@@ -370,7 +370,7 @@
             </tr>
             <tr>
               <td>
-                <i class="grey file outline icon"></i>
+                <i class="grey file text icon"></i>
                 <a href="#">
                   package.json
                 </a>
@@ -380,7 +380,7 @@
             </tr>
             <tr>
               <td>
-                <i class="grey file outline icon"></i>
+                <i class="grey file text icon"></i>
                 <a href="#">
                   semantic.json.example
                 </a>
@@ -422,18 +422,18 @@
         </div>
       </div>
       <div class="four wide column">
-        <!-- <div class="ui fluid vertical menu">
+        <!-- <div class="ui fluid vertical repo menu">
           <a class="active item">
             <i class="code icon"></i>
             Code
           </a>
           <a class="item">
-            <i class="attention circle icon"></i>
+            <i class="issue opened icon"></i>
             <span class="ui label">246</span>
             Issues
           </a>
           <a class="item">
-            <i class="fork icon"></i>
+            <i class="git pull request icon"></i>
             <span class="ui label">11</span>
             Pull Requests
           </a>
@@ -443,26 +443,44 @@
           </a>
           <div class="ui divider"></div>
           <a class="item">
-            <i class="heartbeat icon"></i>
+            <i class="pulse icon"></i>
             Pulse
           </a>
           <a class="item">
-            <i class="bar chart icon"></i>
+            <i class="graph icon"></i>
             Graphs
           </a>
           <div class="ui divider"></div>
           <a class="item">
-            <i class="settings icon"></i>
+            <i class="tools icon"></i>
             Settings
           </a>
         </div> -->
       </div>
     </div>
   </div>
-
+  <div class="ui footer container">
+    <div class="ui section divider"></div>
+    <div class="ui small horizontal list">
+      <div class="disabled item" href="#">&copy; GitHub, Inc.</div>
+      <a class="item" href="#">Terms</a>
+      <a class="item" href="#">Privacy</a>
+      <a class="item" href="#">Security</a>
+      <a class="item" href="#">Contact</a>
+    </div>
+    <div class="ui small horizontal list">
+      <a class="item" href="#">Status</a>
+      <a class="item" href="#">API</a>
+      <a class="item" href="#">Training</a>
+      <a class="item" href="#">Shop</a>
+      <a class="item" href="#">Blog</a>
+      <a class="item" href="#">About</a>
+      <a class="item" href="#">Help</a>
+    </div>
+  </div>
   <!-- JS Includes -->
   <script src="javascript/library/jquery.min.js"></script>
-  <script src="semantic/dist/semantic.min.js"></script>
+  <script src="css/ui/semantic.min.js"></script>
   <script src="javascript/home.js"></script>
 </body>
 

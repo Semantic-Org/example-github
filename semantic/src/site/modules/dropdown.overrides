@@ -1,3 +1,7 @@
 /*******************************
         User Overrides
 *******************************/
+
+.ui.dropdown > .dropdown.icon {
+  font-size: 12px;
+}

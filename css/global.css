@@ -3,9 +3,13 @@
           Global CSS
 *******************************/
 
-/*
-  This CSS is used across pages
-*/
+/*--------------
+  Global Styles
+---------------*/
+
+b {
+  color: #333
+}
 
 
 /*--------------
@@ -45,8 +49,8 @@
   margin: 5px 9px 0px 0px !important;
 }
 
-.page.header .add.icon + .dropdown.icon {
-  margin-left: 0px;
+.page.header .plus.icon + .dropdown.icon {
+  margin-left: 2px;
 }
 
 /* Notification Bubble */
@@ -55,6 +59,15 @@
   left: auto;
   right: 2px;
 }
+
+/*--------------
+    Repo Menu
+---------------*/
+
+.repo.menu:first-child {
+  margin-top: 1em;
+}
+
 
 /*--------------
   Watch Button

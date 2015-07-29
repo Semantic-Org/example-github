@@ -4,7 +4,11 @@
 
 @menuPadding: 0px;
 
-@itemVerticalPadding: @relative8px;
-@itemHorizontalPadding: @relative10px;
+@itemVerticalPadding: @relative10px;
+@itemHorizontalPadding: @relative14px;
 
-@dropdownIconMargin: 0em 0em 0em 4px;
+@dropdownIconMargin: 0em 0em 0em 2px;
+
+/* States */
+@hoveredItemBackground: #4078C0;
+@hoveredItemColor: @white;
