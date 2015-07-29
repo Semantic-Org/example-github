@@ -1,3 +1,29 @@
 /*******************************
          Site Overrides
 *******************************/
+
+.ui.vertical.tabular.menu {
+  padding: @medium 0em;
+}
+.ui.vertical.tabular.menu .item {
+  margin-top: @relative5px;
+  margin-bottom: @relative5px;
+  border-radius: 0px;
+}
+
+.ui.vertical.tabular.menu a.item:not(.active):hover {
+  box-shadow: 2px 0 0 #CCCCCC inset;
+}
+
+.ui.vertical.tabular.menu a.item:not(.active):hover .icon {
+  opacity: 1;
+}
+
+
+.ui.vertical.tabular.menu:not(.right) .active.item {
+  border-left: 3px solid @orange !important;
+}
+.ui.vertical.right.tabular.menu .active.item {
+  border-right: 3px solid @orange !important;
+}
+

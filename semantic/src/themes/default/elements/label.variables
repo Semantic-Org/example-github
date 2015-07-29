@@ -10,6 +10,7 @@
 @verticalMargin: 0em;
 @horizontalMargin: @relative2px;
 @backgroundColor: #E8E8E8;
+@borderColor: @backgroundColor;
 @backgroundImage: none;
 @labelTextColor: rgba(0, 0, 0, 0.6);
 @verticalPadding: 0.5833em;

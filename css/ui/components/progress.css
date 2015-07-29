@@ -23,7 +23,7 @@
   box-shadow: none;
   background: rgba(0, 0, 0, 0.1);
   padding: 0em;
-  border-radius: 0.30769231rem;
+  border-radius: 0.2307em;
 }
 .ui.progress:first-child {
   margin: 0em 0em 2.5em;
@@ -46,7 +46,7 @@
   width: 0%;
   min-width: 2em;
   background: #888888;
-  border-radius: 0.30769231rem;
+  border-radius: 0.2307em;
   -webkit-transition: width 0.1s ease, background-color 0.1s ease;
           transition: width 0.1s ease, background-color 0.1s ease;
 }
@@ -240,7 +240,7 @@
   right: 0px;
   bottom: 0px;
   background: #ffffff;
-  border-radius: 0.30769231rem;
+  border-radius: 0.2307em;
   -webkit-animation: progress-active 2s ease infinite;
           animation: progress-active 2s ease infinite;
 }
@@ -329,7 +329,7 @@
   height: 0.2rem;
   padding: 0px;
   overflow: hidden;
-  border-radius: 0em 0em 0.30769231rem 0.30769231rem;
+  border-radius: 0em 0em 0.2307em 0.2307em;
 }
 .ui.progress.attached .bar {
   border-radius: 0em;
@@ -339,7 +339,7 @@
 .ui.progress.top.attached,
 .ui.progress.top.attached .bar {
   top: 0px;
-  border-radius: 0.30769231rem 0.30769231rem 0em 0em;
+  border-radius: 0.2307em 0.2307em 0em 0em;
 }
 .ui.progress.top.attached .bar {
   border-radius: 0em;
@@ -375,7 +375,7 @@
 
 /* Orange */
 .ui.orange.progress .bar {
-  background-color: #f2711c;
+  background-color: #d26911;
 }
 .ui.orange.inverted.progress .bar {
   background-color: #ff851b;

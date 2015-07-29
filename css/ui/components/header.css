@@ -342,13 +342,13 @@ a.ui.inverted.red.header:hover {
 /*--- Orange ---*/
 
 .ui.orange.header {
-  color: #f2711c !important;
+  color: #d26911 !important;
 }
 a.ui.orange.header:hover {
-  color: #f26202 !important;
+  color: #c35c07 !important;
 }
 .ui.orange.dividing.header {
-  border-bottom: 2px solid #f2711c;
+  border-bottom: 2px solid #d26911;
 }
 
 /* Inverted */
@@ -633,7 +633,7 @@ a.ui.inverted.grey.header:hover {
   padding: 0.69230769rem 1rem;
   box-shadow: none;
   border: 1px solid #dddddd;
-  border-radius: 0.30769231rem;
+  border-radius: 0.2307em;
 }
 .ui.tiny.block.header {
   font-size: 0.84615385rem;
@@ -676,12 +676,12 @@ a.ui.inverted.grey.header:hover {
 .ui.top.attached.header {
   margin-bottom: 0em;
   border-bottom: none;
-  border-radius: 0.30769231rem 0.30769231rem 0em 0em;
+  border-radius: 0.2307em 0.2307em 0em 0em;
 }
 .ui.bottom.attached.header {
   margin-top: 0em;
   border-top: none;
-  border-radius: 0em 0em 0.30769231rem 0.30769231rem;
+  border-radius: 0em 0em 0.2307em 0.2307em;
 }
 
 /* Attached Sizes */

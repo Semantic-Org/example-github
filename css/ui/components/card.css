@@ -37,7 +37,7 @@
   background: #ffffff;
   padding: 0em;
   border: none;
-  border-radius: 0.30769231rem;
+  border-radius: 0.2307em;
   box-shadow: 0px 1px 3px 0px #dddddd, 0px 0px 0px 1px #dddddd;
   -webkit-transition: box-shadow 0.1s ease, -webkit-transform 0.1s ease;
           transition: box-shadow 0.1s ease, transform 0.1s ease;
@@ -102,16 +102,16 @@
 
 .ui.cards > .card > :first-child,
 .ui.card > :first-child {
-  border-radius: 0.30769231rem 0.30769231rem 0em 0em !important;
+  border-radius: 0.2307em 0.2307em 0em 0em !important;
   border-top: none !important;
 }
 .ui.cards > .card > :last-child,
 .ui.card > :last-child {
-  border-radius: 0em 0em 0.30769231rem 0.30769231rem !important;
+  border-radius: 0em 0em 0.2307em 0.2307em !important;
 }
 .ui.cards > .card > :only-child,
 .ui.card > :only-child {
-  border-radius: 0.30769231rem !important;
+  border-radius: 0.2307em !important;
 }
 
 /*--------------
@@ -504,12 +504,12 @@ a.ui.card:hover,
 .ui.orange.cards > .card,
 .ui.cards > .orange.card,
 .ui.orange.card {
-  box-shadow: 0px 0px 0px 1px #dddddd, 0px 2px 0px 0px #f2711c, 0px 1px 3px 0px #dddddd;
+  box-shadow: 0px 0px 0px 1px #dddddd, 0px 2px 0px 0px #d26911, 0px 1px 3px 0px #dddddd;
 }
 .ui.orange.cards > .card:hover,
 .ui.cards > .orange.card:hover,
 .ui.orange.card:hover {
-  box-shadow: 0px 0px 0px 1px #dddddd, 0px 2px 0px 0px #f26202, 0px 1px 3px 0px #bcbdbd;
+  box-shadow: 0px 0px 0px 1px #dddddd, 0px 2px 0px 0px #c35c07, 0px 1px 3px 0px #bcbdbd;
 }
 
 /* Yellow */

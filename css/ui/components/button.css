@@ -1871,7 +1871,7 @@
 
 .ui.orange.buttons .button,
 .ui.orange.button {
-  background-color: #f2711c;
+  background-color: #d26911;
   color: #ffffff;
   text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.25);
   background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.2));
@@ -1882,19 +1882,19 @@
 }
 .ui.orange.buttons .button:hover,
 .ui.orange.button:hover {
-  background-color: #f26202;
+  background-color: #c35c07;
   color: #ffffff;
   text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.25);
 }
 .ui.orange.buttons .button:focus,
 .ui.orange.button:focus {
-  background-color: #e55b00;
+  background-color: #ba5500;
   color: #ffffff;
   text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.25);
 }
 .ui.orange.buttons .button:active,
 .ui.orange.button:active {
-  background-color: #cf590c;
+  background-color: #a3510d;
   color: #ffffff;
   text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.25);
 }
@@ -1902,7 +1902,7 @@
 .ui.orange.buttons .active.button:active,
 .ui.orange.active.button,
 .ui.orange.button .active.button:active {
-  background-color: #f56100;
+  background-color: #c75c02;
   color: #ffffff;
   text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.25);
 }
@@ -1916,24 +1916,24 @@
 .ui.basic.orange.buttons .button:hover,
 .ui.basic.orange.button:hover {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 2px #f26202 inset !important;
-  color: #f26202 !important;
+  box-shadow: 0px 0px 0px 2px #c35c07 inset !important;
+  color: #c35c07 !important;
 }
 .ui.basic.orange.buttons .button:focus,
 .ui.basic.orange.button:focus {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 2px #e55b00 inset !important;
+  box-shadow: 0px 0px 0px 2px #ba5500 inset !important;
 }
 .ui.basic.orange.buttons .active.button,
 .ui.basic.orange.active.button {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 2px #f56100 inset !important;
-  color: #cf590c !important;
+  box-shadow: 0px 0px 0px 2px #c75c02 inset !important;
+  color: #a3510d !important;
 }
 .ui.basic.orange.buttons .button:active,
 .ui.basic.orange.button:active {
-  box-shadow: 0px 0px 0px 2px #cf590c inset !important;
-  color: #cf590c !important;
+  box-shadow: 0px 0px 0px 2px #a3510d inset !important;
+  color: #a3510d !important;
 }
 .ui.buttons:not(.vertical) > .basic.orange.button:not(:first-child) {
   margin-left: -2px;

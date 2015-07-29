@@ -4,8 +4,8 @@
 
 /* Any Menu */
 @boxShadow: none;
-@dropdownIconDistance: 12px;
-@inputVerticalPadding: 2px;
+@dropdownIconDistance: @relative12px;
+@inputVerticalPadding: @relative2px;
 
 @itemTextColor: #767676;
 
@@ -15,15 +15,30 @@
 @dropdownHoveredItemColor: @white;
 
 @verticalIconFloat: none;
-@verticalIconMargin: 0em 4px 0em 0em;
+@verticalIconMargin: 0em @relative1px 0em 0em;
 
 @labelBackground: #EEEEEE;
+
+/* Label */
+@labelOffset: 0px;
 @labelTextColor: #666666;
+@labelVerticalPadding: @relative2px;
+@labelHorizontalPadding: @relative5px;
 
 /* States */
 @hoverItemBackground: none transparent;
 @hoverItemTextColor: @linkHoverColor;
 @pressedItemBackground: @hoverItemBackground;
+
+/* Tabular */
+@tabularBorderColor: #EEEEEE;
+@tabularVerticalBackground: linear-gradient(to right, #f6f6f6 0%, #fff 8px) transparent;
+@tabularVerticalPadding: @relative8px;
+@tabularHorizontalPadding: @relative10px;
+@tabularTextColor: @linkColor;
+
+@tabularHoveredTextColor: @linkHoverColor;
+@tabularActiveBoxShadow: 1px 1px 3px rgba(0, 0, 0, 0.05);
 
 /* Text Menu */
 @textMenuItemColor: #333333;

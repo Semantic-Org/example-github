@@ -533,14 +533,14 @@ a.ui.red.label:hover:before {
 
 .ui.orange.labels .label,
 .ui.orange.label {
-  background-color: #f2711c !important;
-  border-color: #f2711c !important;
+  background-color: #d26911 !important;
+  border-color: #d26911 !important;
   color: #ffffff !important;
 }
 .ui.labels .orange.label:before,
 .ui.orange.labels .label:before,
 .ui.orange.label:before {
-  background-color: #f2711c !important;
+  background-color: #d26911 !important;
 }
 .ui.orange.corner.label,
 .ui.orange.corner.label:hover {
@@ -548,17 +548,17 @@ a.ui.red.label:hover:before {
 }
 a.ui.orange.labels .label:hover,
 a.ui.orange.label:hover {
-  background-color: #f26202 !important;
-  border-color: #f26202 !important;
+  background-color: #c35c07 !important;
+  border-color: #c35c07 !important;
   color: #ffffff !important;
 }
 .ui.labels a.orange.label:hover:before,
 .ui.orange.labels a.label:hover:before,
 a.ui.orange.label:hover:before {
-  background-color: #f26202 !important;
+  background-color: #c35c07 !important;
 }
 .ui.orange.ribbon.label {
-  border-color: #cf590c !important;
+  border-color: #a3510d !important;
 }
 
 /*--- Yellow ---*/

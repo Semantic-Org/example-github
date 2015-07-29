@@ -224,14 +224,14 @@ i.inverted.circular.red.icon {
 
 /* Orange */
 i.orange.icon {
-  color: #f2711c !important;
+  color: #d26911 !important;
 }
 i.inverted.orange.icon {
   color: #ff851b !important;
 }
 i.inverted.bordered.orange.icon,
 i.inverted.circular.orange.icon {
-  background-color: #f2711c !important;
+  background-color: #d26911 !important;
   color: #ffffff !important;
 }
 
