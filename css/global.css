@@ -11,6 +11,10 @@ b {
   color: #333
 }
 
+a:hover b {
+  color: inherit;
+}
+
 
 /*--------------
    Page Header
