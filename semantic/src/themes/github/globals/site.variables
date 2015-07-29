@@ -11,6 +11,8 @@
 
 @defaultBorderRadius: 0.2307em;
 
+@disabledOpacity: 0.3;
+
 @linkColor: #4078C0;
 @linkHoverColor: @linkColor;
 @linkHoverUnderline: underline;

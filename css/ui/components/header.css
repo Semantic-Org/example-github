@@ -280,7 +280,7 @@ h5.ui.header .sub.header {
 *******************************/
 
 .ui.disabled.header {
-  opacity: 0.45;
+  opacity: 0.3;
 }
 
 
@@ -712,11 +712,5 @@ a.ui.inverted.grey.header:hover {
 
 /*******************************
          Theme Overrides
-*******************************/
-
-
-
-/*******************************
-         Site Overrides
 *******************************/
 

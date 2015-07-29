@@ -55,7 +55,7 @@
 
 .ui.form .field > label {
   display: block;
-  margin: 0em 0em 0.30769231rem 0em;
+  margin: 0em 0em 6px 0em;
   color: rgba(0, 0, 0, 0.87);
   font-size: 0.92307692em;
   font-weight: bold;
@@ -101,11 +101,11 @@
   line-height: 1.2142em;
   padding: 0.73905385em 1.07692308em;
   font-size: 1em;
-  background: #ffffff;
-  border: 1px solid rgba(0, 0, 0, 0.133);
+  background: #fafafa;
+  border: 1px solid #cccccc;
   color: rgba(0, 0, 0, 0.87);
-  border-radius: 0.30769231rem;
-  box-shadow: 0em 0em 0em 0em transparent inset;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075) inset;
   -webkit-transition: color 0.1s ease, border-color 0.1s ease;
           transition: color 0.1s ease, border-color 0.1s ease;
 }
@@ -121,12 +121,12 @@
   -webkit-appearance: none;
   tap-highlight-color: rgba(255, 255, 255, 0);
   padding: 0.84615385em 1.07692308em;
-  background: #ffffff;
-  border: 1px solid rgba(0, 0, 0, 0.133);
+  background: #fafafa;
+  border: 1px solid #cccccc;
   outline: none;
   color: rgba(0, 0, 0, 0.87);
-  border-radius: 0.30769231rem;
-  box-shadow: 0em 0em 0em 0em transparent inset;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075) inset;
   -webkit-transition: color 0.1s ease, border-color 0.1s ease;
           transition: color 0.1s ease, border-color 0.1s ease;
   font-size: 1em;
@@ -160,9 +160,9 @@
   height: auto;
   width: 100%;
   background: #ffffff;
-  border: 1px solid rgba(0, 0, 0, 0.133);
-  border-radius: 0.30769231rem;
-  box-shadow: 0em 0em 0em 0em transparent inset;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075) inset;
   padding: 0.62em 1.07692308em;
   color: rgba(0, 0, 0, 0.87);
   -webkit-transition: color 0.1s ease, border-color 0.1s ease;
@@ -317,16 +317,16 @@
 .ui.form input[type="url"]:focus {
   color: rgba(0, 0, 0, 0.95);
   border-color: #51a7e8;
-  border-radius: 0.30769231rem;
+  border-radius: 3px;
   background: #ffffff;
-  box-shadow: 0px 0em 0em 0em #51a7e8 inset;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.075) inset, 0px 0px 5px rgba(81, 167, 232, 0.5);
 }
 .ui.form textarea:focus {
   color: rgba(0, 0, 0, 0.95);
   border-color: #51a7e8;
-  border-radius: 0.30769231rem;
+  border-radius: 3px;
   background: #ffffff;
-  box-shadow: 0px 0em 0em 0em #51a7e8 inset;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.075) inset, 0px 0px 5px rgba(81, 167, 232, 0.5);
   -webkit-appearance: none;
 }
 
@@ -526,10 +526,10 @@
 .ui.form .disabled.fields .field,
 .ui.form .disabled.field,
 .ui.form .field :disabled {
-  opacity: 0.45;
+  opacity: 0.3;
 }
 .ui.form .field.disabled label {
-  opacity: 0.45;
+  opacity: 0.3;
 }
 .ui.form .field.disabled :disabled {
   opacity: 1;
@@ -665,7 +665,7 @@
   margin-bottom: 0em;
 }
 .ui.form .grouped.fields > label {
-  margin: 0em 0em 0.30769231rem 0em;
+  margin: 0em 0em 6px 0em;
   color: rgba(0, 0, 0, 0.87);
   font-size: 0.92307692em;
   font-weight: bold;
@@ -984,12 +984,14 @@
 
 
 /*******************************
-         Theme Overrides
+           Overrides
 *******************************/
 
-
-
-/*******************************
-         Site Overrides
-*******************************/
-
+.ui.selection.dropdown {
+  background-color: #FAFAFA;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075) inset;
+  border-color: #CCCCCC;
+}
+.ui.selection.dropdown:focus {
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.075) inset, 0px 0px 5px rgba(81, 167, 232, 0.5);
+}

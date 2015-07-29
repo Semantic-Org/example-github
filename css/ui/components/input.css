@@ -41,14 +41,14 @@
   text-align: left;
   line-height: 1.2142em;
   font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  padding: 0.73905385em 1.07692308em;
+  padding: 0.43136154em 0.61538462em;
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.133);
   color: rgba(0, 0, 0, 0.87);
   border-radius: 0.2307em;
   -webkit-transition: background-color 0.1s ease, box-shadow 0.1s ease, border-color 0.1s ease;
           transition: background-color 0.1s ease, box-shadow 0.1s ease, border-color 0.1s ease;
-  box-shadow: none;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075) inset;
 }
 
 /*--------------------
@@ -236,7 +236,7 @@
   right: 0px;
   margin: 0em;
   height: 100%;
-  width: 2.79230769em;
+  width: 2.17692308em;
   opacity: 0.5;
   border-radius: 0em 0.2307em 0.2307em 0em;
   -webkit-transition: opacity 0.3s ease;
@@ -246,7 +246,7 @@
   pointer-events: none;
 }
 .ui.icon.input input {
-  padding-right: 2.79230769em !important;
+  padding-right: 2.17692308em !important;
 }
 .ui.icon.input > i.icon:before,
 .ui.icon.input > i.icon:after {
@@ -276,8 +276,8 @@
   left: 0.5em;
 }
 .ui[class*="left icon"].input > input {
-  padding-left: 2.79230769em !important;
-  padding-right: 1.07692308em !important;
+  padding-left: 2.17692308em !important;
+  padding-right: 0.61538462em !important;
 }
 
 /* Focus */
@@ -300,8 +300,8 @@
   font-size: 1em;
 }
 .ui.labeled.input > .label:not(.corner) {
-  padding-top: 0.84615385em;
-  padding-bottom: 0.84615385em;
+  padding-top: 0.53846154em;
+  padding-bottom: 0.53846154em;
 }
 
 /* Regular Label on Left */
@@ -387,8 +387,8 @@
 }
 .ui.action.input > .button,
 .ui.action.input > .buttons > .button {
-  padding-top: 0.84615385em;
-  padding-bottom: 0.84615385em;
+  padding-top: 0.53846154em;
+  padding-bottom: 0.53846154em;
   margin: 0;
 }
 
@@ -475,15 +475,3 @@
 .ui.massive.input {
   font-size: 1.69230769em;
 }
-
-
-/*******************************
-         Theme Overrides
-*******************************/
-
-
-
-/*******************************
-         Site Overrides
-*******************************/
-

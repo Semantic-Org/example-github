@@ -43,7 +43,7 @@ img.ui.image {
 .ui.disabled.images,
 .ui.disabled.image {
   cursor: default;
-  opacity: 0.45;
+  opacity: 0.3;
 }
 
 
@@ -288,15 +288,3 @@ img.ui.bordered.image {
   display: inline-block;
   margin: 0em 0.25rem 0.5rem;
 }
-
-
-/*******************************
-         Theme Overrides
-*******************************/
-
-
-
-/*******************************
-         Site Overrides
-*******************************/
-

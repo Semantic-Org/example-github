@@ -560,7 +560,7 @@ select.ui.dropdown {
 /* Filtered Text */
 .ui.active.search.dropdown input.search:focus + .text .icon,
 .ui.active.search.dropdown input.search:focus + .text .flag {
-  opacity: 0.45;
+  opacity: 0.3;
 }
 .ui.active.search.dropdown input.search:focus + .text {
   color: rgba(0, 0, 0, 0.4) !important;
@@ -905,7 +905,7 @@ select.ui.dropdown {
 .ui.dropdown .menu > .disabled.item {
   cursor: default;
   pointer-events: none;
-  opacity: 0.45;
+  opacity: 0.3;
 }
 
 
@@ -1325,9 +1325,14 @@ select.ui.dropdown {
 
 
 /*******************************
-         Theme Overrides
+        User Overrides
 *******************************/
 
+
+/* Smaller Icon */
+.ui.dropdown > .dropdown.icon {
+  font-size: 12px;
+}
 
 /* Dropdown Carets */
 @font-face {
@@ -1366,27 +1371,4 @@ select.ui.dropdown {
 /* Vertical Menu Dropdown */
 .ui.vertical.menu .dropdown.item > .dropdown.icon:before {
   content: "\f0da" /*rtl:"\f0d9"*/;
-}
-/* Icons for Reference
-.dropdown.down.icon {
-  content: "\f0d7";
-}
-.dropdown.up.icon {
-  content: "\f0d8";
-}
-.dropdown.left.icon {
-  content: "\f0d9";
-}
-.dropdown.icon.icon {
-  content: "\f0da";
-}
-*/
-
-
-/*******************************
-        User Overrides
-*******************************/
-
-.ui.dropdown > .dropdown.icon {
-  font-size: 12px;
 }

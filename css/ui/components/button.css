@@ -199,7 +199,7 @@
 .ui.disabled.button:hover,
 .ui.disabled.active.button {
   cursor: default;
-  opacity: 0.45 !important;
+  opacity: 0.3 !important;
   background-image: none !important;
   box-shadow: none !important;
   pointer-events: none;
@@ -3247,11 +3247,5 @@
 
 /*******************************
            Overrides
-*******************************/
-
-
-
-/*******************************
-         Site Overrides
 *******************************/
 

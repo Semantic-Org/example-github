@@ -65,7 +65,18 @@ b {
 ---------------*/
 
 .repo.menu:first-child {
-  margin-top: 1em;
+  margin-top: 18px;
+}
+.repo.menu ~ p {
+  font-size: 11px;
+  margin: 5px 0px;
+  color: #767676;
+}
+.repo.menu ~ p + .button {
+  margin-top: 10px;
+}
+.repo.menu ~ .button {
+  margin: 7px 0px;
 }
 
 
@@ -77,3 +88,18 @@ b {
   margin-bottom: 5px;
 }
 
+
+/*--------------
+     Footer
+---------------*/
+
+.footer.container {
+  position: relative;
+  padding-bottom: 2.5em;
+}
+.footer.container .github.mark {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
