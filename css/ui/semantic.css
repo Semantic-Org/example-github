@@ -17308,13 +17308,12 @@ ol.ui.horizontal.list li:before,
   display: flex;
   margin: 1rem 0em;
   font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  background: #ffffff -webkit-linear-gradient(rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.05));
-  background: #ffffff linear-gradient(rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.05));
+  background: #ffffff;
   font-weight: normal;
   border: 1px solid rgba(0, 0, 0, 0.133);
   box-shadow: none;
   border-radius: 0.2307em;
-  min-height: 3em;
+  min-height: 2.84615385em;
 }
 
 .ui.menu:after {
@@ -17378,7 +17377,7 @@ ol.ui.horizontal.list li:before,
   -ms-user-select: none;
   user-select: none;
   background: none;
-  padding: 1em 1.25em;
+  padding: 0.92307692em 1.15384615em;
   text-transform: none;
   color: #767676;
   font-weight: normal;
@@ -17399,7 +17398,7 @@ ol.ui.horizontal.list li:before,
   right: 0px;
   height: 100%;
   width: 1px;
-  background: #e8e8e8;
+  background: rgba(0, 0, 0, 0.06);
 }
 
 /*--------------
@@ -17495,7 +17494,7 @@ ol.ui.horizontal.list li:before,
 .ui.menu .header.item,
 .ui.vertical.menu .header.item {
   margin: 0em;
-  background: rgba(0, 0, 0, 0.08);
+  background: '';
   text-transform: normal;
   font-weight: bold;
 }
@@ -17714,7 +17713,7 @@ ol.ui.horizontal.list li:before,
 
 @media only screen and (min-width: 768px) {
   .ui.menu:not(.secondary):not(.text):not(.tabular):not(.borderless) > .container > .item:not(.right):not(.borderless):first-child {
-    border-left: 1px solid #e8e8e8;
+    border-left: 1px solid rgba(0, 0, 0, 0.06);
   }
 }
 
@@ -17881,7 +17880,7 @@ Floated Menu / Item
   top: 0%;
   left: 0px;
   width: 100%;
-  background: #e8e8e8;
+  background: rgba(0, 0, 0, 0.06);
   height: 1px;
 }
 
@@ -17892,12 +17891,12 @@ Floated Menu / Item
 /*--- Sub Menu ---*/
 
 .ui.vertical.menu .item > .menu {
-  margin: 0.5em -0.6em 0;
+  margin: 0.5em -1.15384615em 0em;
 }
 
 .ui.vertical.menu .menu .item {
   background: none;
-  padding: 0.5em 0.7em;
+  padding: 0.5em 1.34615385em;
   font-size: 0.84615385em;
   color: rgba(0, 0, 0, 0.5);
 }
@@ -18033,8 +18032,8 @@ Floated Menu / Item
 /* Vertical Tabular (Left) */
 
 .ui.vertical.tabular.menu {
-  background: -webkit-linear-gradient(left, #f6f6f6 0%, #ffffff 8px) transparent;
-  background: linear-gradient(to right, #f6f6f6 0%, #ffffff 8px) transparent;
+  background: -webkit-linear-gradient(right, #f6f6f6 0%, #ffffff 8px) transparent;
+  background: linear-gradient(to left, #f6f6f6 0%, #ffffff 8px) transparent;
   border-radius: 0em;
   box-shadow: none !important;
   border-bottom: none;
@@ -18060,8 +18059,8 @@ Floated Menu / Item
 /* Vertical Right Tabular */
 
 .ui.vertical.right.tabular.menu {
-  background: -webkit-linear-gradient(left, #f6f6f6 0%, #ffffff 8px) transparent;
-  background: linear-gradient(to right, #f6f6f6 0%, #ffffff 8px) transparent;
+  background: -webkit-linear-gradient(right, #f6f6f6 0%, #ffffff 8px) transparent;
+  background: linear-gradient(to left, #f6f6f6 0%, #ffffff 8px) transparent;
   border-radius: 0em;
   box-shadow: none !important;
   border-bottom: none;
@@ -18133,7 +18132,7 @@ Floated Menu / Item
 
 .ui.pagination.menu .active.item {
   border-top: none;
-  padding-top: 1em;
+  padding-top: 0.92307692em;
   background-color: rgba(0, 0, 0, 0.05);
   color: rgba(0, 0, 0, 0.95);
   box-shadow: none;
@@ -18667,7 +18666,7 @@ Floated Menu / Item
     bottom: 0px;
     left: 0px;
     width: 100%;
-    background: #e8e8e8;
+    background: rgba(0, 0, 0, 0.06);
     height: 1px;
   }
 }
@@ -18889,7 +18888,7 @@ Floated Menu / Item
 }
 
 .ui.inverted.red.menu .item:before {
-  background-color: #e8e8e8;
+  background-color: rgba(0, 0, 0, 0.06);
 }
 
 .ui.inverted.red.menu .active.item {
@@ -18903,7 +18902,7 @@ Floated Menu / Item
 }
 
 .ui.inverted.orange.menu .item:before {
-  background-color: #e8e8e8;
+  background-color: rgba(0, 0, 0, 0.06);
 }
 
 .ui.inverted.orange.menu .active.item {
@@ -18917,7 +18916,7 @@ Floated Menu / Item
 }
 
 .ui.inverted.yellow.menu .item:before {
-  background-color: #e8e8e8;
+  background-color: rgba(0, 0, 0, 0.06);
 }
 
 .ui.inverted.yellow.menu .active.item {
@@ -18931,7 +18930,7 @@ Floated Menu / Item
 }
 
 .ui.inverted.olive.menu .item:before {
-  background-color: #e8e8e8;
+  background-color: rgba(0, 0, 0, 0.06);
 }
 
 .ui.inverted.olive.menu .active.item {
@@ -18945,7 +18944,7 @@ Floated Menu / Item
 }
 
 .ui.inverted.green.menu .item:before {
-  background-color: #e8e8e8;
+  background-color: rgba(0, 0, 0, 0.06);
 }
 
 .ui.inverted.green.menu .active.item {
@@ -18959,7 +18958,7 @@ Floated Menu / Item
 }
 
 .ui.inverted.teal.menu .item:before {
-  background-color: #e8e8e8;
+  background-color: rgba(0, 0, 0, 0.06);
 }
 
 .ui.inverted.teal.menu .active.item {
@@ -18973,7 +18972,7 @@ Floated Menu / Item
 }
 
 .ui.inverted.blue.menu .item:before {
-  background-color: #e8e8e8;
+  background-color: rgba(0, 0, 0, 0.06);
 }
 
 .ui.inverted.blue.menu .active.item {
@@ -18987,7 +18986,7 @@ Floated Menu / Item
 }
 
 .ui.inverted.violet.menu .item:before {
-  background-color: #e8e8e8;
+  background-color: rgba(0, 0, 0, 0.06);
 }
 
 .ui.inverted.violet.menu .active.item {
@@ -19001,7 +19000,7 @@ Floated Menu / Item
 }
 
 .ui.inverted.purple.menu .item:before {
-  background-color: #e8e8e8;
+  background-color: rgba(0, 0, 0, 0.06);
 }
 
 .ui.inverted.purple.menu .active.item {
@@ -19015,7 +19014,7 @@ Floated Menu / Item
 }
 
 .ui.inverted.pink.menu .item:before {
-  background-color: #e8e8e8;
+  background-color: rgba(0, 0, 0, 0.06);
 }
 
 .ui.inverted.pink.menu .active.item {
@@ -19029,7 +19028,7 @@ Floated Menu / Item
 }
 
 .ui.inverted.brown.menu .item:before {
-  background-color: #e8e8e8;
+  background-color: rgba(0, 0, 0, 0.06);
 }
 
 .ui.inverted.brown.menu .active.item {
@@ -19043,7 +19042,7 @@ Floated Menu / Item
 }
 
 .ui.inverted.grey.menu .item:before {
-  background-color: #e8e8e8;
+  background-color: rgba(0, 0, 0, 0.06);
 }
 
 .ui.inverted.grey.menu .active.item {
@@ -19063,15 +19062,15 @@ Floated Menu / Item
 .ui.horizontally.fitted.menu .item,
 .ui.horizontally.fitted.menu .item .menu .item,
 .ui.menu .horizontally.fitted.item {
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding-top: 0.92307692em;
+  padding-bottom: 0.92307692em;
 }
 
 .ui.vertically.fitted.menu .item,
 .ui.vertically.fitted.menu .item .menu .item,
 .ui.menu .vertically.fitted.item {
-  padding-left: 1.25em;
-  padding-right: 1.25em;
+  padding-left: 1.15384615em;
+  padding-right: 1.15384615em;
 }
 
 /*--------------
@@ -19321,23 +19320,23 @@ Floated Menu / Item
 /* Colors */
 
 .ui.pointing.menu .active.item:hover:after {
-  background-color: #eeeeee;
+  background-color: #f2f2f2;
 }
 
 .ui.pointing.menu .active.item:after {
-  background-color: #eeeeee;
+  background-color: #f2f2f2;
 }
 
 .ui.pointing.menu .active.item:hover:after {
-  background-color: #eeeeee;
+  background-color: #f2f2f2;
 }
 
 .ui.vertical.pointing.menu .active.item:hover:after {
-  background-color: #f4f4f4;
+  background-color: #f2f2f2;
 }
 
 .ui.vertical.pointing.menu .active.item:after {
-  background-color: #f4f4f4;
+  background-color: #f2f2f2;
 }
 
 .ui.vertical.pointing.menu .menu .active.item:after {
@@ -19471,6 +19470,10 @@ Floated Menu / Item
          Site Overrides
 *******************************/
 
+/*--------------
+     Tabular
+---------------*/
+
 .ui.vertical.tabular.menu {
   padding: 1rem 0em;
 }
@@ -19481,16 +19484,28 @@ Floated Menu / Item
   border-radius: 0px;
 }
 
+/* Special Hover */
+
 .ui.vertical.tabular.menu a.item:not(.active):hover {
-  box-shadow: 2px 0 0 #CCCCCC inset;
+  box-shadow: 2px 0px 0px #CCCCCC inset;
 }
 
 .ui.vertical.tabular.menu a.item:not(.active):hover .icon {
   opacity: 1;
 }
 
+/* Special Active */
+
 .ui.vertical.tabular.menu:not(.right) .active.item {
   border-left: 3px solid #d26911 !important;
+  box-shadow: -1px -1px 3px rgba(0, 0, 0, 0.05);
+}
+
+/* Right Side */
+
+.ui.vertical.right.tabular.menu {
+  background: -webkit-linear-gradient(left, #f6f6f6 0%, #ffffff 8px) transparent;
+  background: linear-gradient(to right, #f6f6f6 0%, #ffffff 8px) transparent;
 }
 
 .ui.vertical.right.tabular.menu .active.item {

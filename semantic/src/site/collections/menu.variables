@@ -32,7 +32,7 @@
 
 /* Tabular */
 @tabularBorderColor: #EEEEEE;
-@tabularVerticalBackground: linear-gradient(to right, #f6f6f6 0%, #fff 8px) transparent;
+@tabularVerticalBackground: linear-gradient(to left, #f6f6f6 0%, #fff 8px) transparent;
 @tabularVerticalPadding: @relative8px;
 @tabularHorizontalPadding: @relative10px;
 @tabularTextColor: @linkColor;
