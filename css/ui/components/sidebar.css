@@ -91,7 +91,7 @@
 
 /* Whole Page */
 body.pushable {
-  background: #333333 !important;
+  background: #545454 !important;
 }
 
 /* Page Context */
@@ -134,7 +134,7 @@ body.pushable {
   z-index: 2;
 }
 body.pushable > .pusher {
-  background: #f9f9f9;
+  background: #ffffff;
 }
 
 /* Pusher should inherit background from context */
@@ -205,11 +205,11 @@ body.pushable > .pusher {
 /* Shadow Direction */
 .ui.left.visible.sidebar,
 .ui.right.visible.sidebar {
-  box-shadow: 0px 0px 20px rgba(34, 36, 38, 0.15);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.13);
 }
 .ui.top.visible.sidebar,
 .ui.bottom.visible.sidebar {
-  box-shadow: 0px 0px 20px rgba(34, 36, 38, 0.15);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.13);
 }
 
 /* Visible On Load */

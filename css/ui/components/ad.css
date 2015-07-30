@@ -223,7 +223,7 @@
 .ui.mobile.ad {
   display: none;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1048px) {
   .ui.mobile.ad {
     display: block;
   }
@@ -240,7 +240,7 @@
 }
 .ui.test.ad {
   position: relative;
-  background: #333333;
+  background: #545454;
 }
 .ui.test.ad:after {
   position: absolute;
@@ -257,7 +257,7 @@
   font-weight: bold;
 }
 .ui.mobile.test.ad:after {
-  font-size: 0.85714286em;
+  font-size: 0.84615385em;
 }
 .ui.test.ad[data-text]:after {
   content: attr(data-text);

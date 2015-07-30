@@ -98,7 +98,7 @@ i.emphasized.icon {
   opacity: 1 !important;
 }
 i.disabled.icon {
-  opacity: 0.45 !important;
+  opacity: 0.3 !important;
 }
 
 
@@ -197,7 +197,7 @@ i.bordered.inverted.icon {
 /* Inverted Shapes */
 i.inverted.bordered.icon,
 i.inverted.circular.icon {
-  background-color: #1b1c1d !important;
+  background-color: #333333 !important;
   color: #ffffff !important;
 }
 i.inverted.icon {
@@ -211,40 +211,40 @@ i.inverted.icon {
 
 /* Red */
 i.red.icon {
-  color: #f44336 !important;
+  color: #db2828 !important;
 }
 i.inverted.red.icon {
-  color: #ff1744 !important;
+  color: #ff695e !important;
 }
 i.inverted.bordered.red.icon,
 i.inverted.circular.red.icon {
-  background-color: #f44336 !important;
+  background-color: #db2828 !important;
   color: #ffffff !important;
 }
 
 /* Orange */
 i.orange.icon {
-  color: #ff9800 !important;
+  color: #d26911 !important;
 }
 i.inverted.orange.icon {
-  color: #ff9100 !important;
+  color: #ff851b !important;
 }
 i.inverted.bordered.orange.icon,
 i.inverted.circular.orange.icon {
-  background-color: #ff9800 !important;
+  background-color: #d26911 !important;
   color: #ffffff !important;
 }
 
 /* Yellow */
 i.yellow.icon {
-  color: #ffeb3b !important;
+  color: #fbbd08 !important;
 }
 i.inverted.yellow.icon {
-  color: #ffea00 !important;
+  color: #ffe21f !important;
 }
 i.inverted.bordered.yellow.icon,
 i.inverted.circular.yellow.icon {
-  background-color: #ffeb3b !important;
+  background-color: #fbbd08 !important;
   color: #ffffff !important;
 }
 
@@ -263,40 +263,40 @@ i.inverted.circular.olive.icon {
 
 /* Green */
 i.green.icon {
-  color: #4caf50 !important;
+  color: #60b044 !important;
 }
 i.inverted.green.icon {
-  color: #00e676 !important;
+  color: #2ecc40 !important;
 }
 i.inverted.bordered.green.icon,
 i.inverted.circular.green.icon {
-  background-color: #4caf50 !important;
+  background-color: #60b044 !important;
   color: #ffffff !important;
 }
 
 /* Teal */
 i.teal.icon {
-  color: #1de9b6 !important;
+  color: #00b5ad !important;
 }
 i.inverted.teal.icon {
-  color: #1de9b6 !important;
+  color: #6dffff !important;
 }
 i.inverted.bordered.teal.icon,
 i.inverted.circular.teal.icon {
-  background-color: #1de9b6 !important;
+  background-color: #00b5ad !important;
   color: #ffffff !important;
 }
 
 /* Blue */
 i.blue.icon {
-  color: #2196f3 !important;
+  color: #80a6cd !important;
 }
 i.inverted.blue.icon {
-  color: #2979ff !important;
+  color: #54c8ff !important;
 }
 i.inverted.bordered.blue.icon,
 i.inverted.circular.blue.icon {
-  background-color: #2196f3 !important;
+  background-color: #80a6cd !important;
   color: #ffffff !important;
 }
 
@@ -315,27 +315,27 @@ i.inverted.circular.violet.icon {
 
 /* Purple */
 i.purple.icon {
-  color: #9c27b0 !important;
+  color: #a333c8 !important;
 }
 i.inverted.purple.icon {
-  color: #d500f9 !important;
+  color: #dc73ff !important;
 }
 i.inverted.bordered.purple.icon,
 i.inverted.circular.purple.icon {
-  background-color: #9c27b0 !important;
+  background-color: #a333c8 !important;
   color: #ffffff !important;
 }
 
 /* Pink */
 i.pink.icon {
-  color: #e91e63 !important;
+  color: #e03997 !important;
 }
 i.inverted.pink.icon {
-  color: #f50057 !important;
+  color: #ff8edf !important;
 }
 i.inverted.bordered.pink.icon,
 i.inverted.circular.pink.icon {
-  background-color: #e91e63 !important;
+  background-color: #e03997 !important;
   color: #ffffff !important;
 }
 
@@ -354,27 +354,27 @@ i.inverted.circular.brown.icon {
 
 /* Grey */
 i.grey.icon {
-  color: #9e9e9e !important;
+  color: #767676 !important;
 }
 i.inverted.grey.icon {
   color: #dcddde !important;
 }
 i.inverted.bordered.grey.icon,
 i.inverted.circular.grey.icon {
-  background-color: #9e9e9e !important;
+  background-color: #767676 !important;
   color: #ffffff !important;
 }
 
 /* Black */
 i.black.icon {
-  color: #1b1c1d !important;
+  color: #333333 !important;
 }
 i.inverted.black.icon {
-  color: #333333 !important;
+  color: #545454 !important;
 }
 i.inverted.bordeblack.black.icon,
 i.inverted.circular.black.icon {
-  background-color: #1b1c1d !important;
+  background-color: #333333 !important;
   color: #ffffff !important;
 }
 
@@ -460,7 +460,7 @@ i.icons .corner.icon {
   text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
 }
 i.icons .inverted.corner.icon {
-  text-shadow: -1px -1px 0 #1b1c1d, 1px -1px 0 #1b1c1d, -1px 1px 0 #1b1c1d, 1px 1px 0 #1b1c1d;
+  text-shadow: -1px -1px 0 #333333, 1px -1px 0 #333333, -1px 1px 0 #333333, 1px 1px 0 #333333;
 }
 
 /* Octicons */
