@@ -46,6 +46,11 @@
       Elements
 --------------------*/
 
+@dropdownMenuPadding: @relative5px 0px;
+@dropdownMenuBoxShadow: 0px 3px 12px rgba(0, 0, 0, 0.15);
+
+@dropdownItemPadding: @relative6px @relative14px;
+
 /* Label */
 @labelBackground: #EEEEEE;
 @labelOffset: 0px;

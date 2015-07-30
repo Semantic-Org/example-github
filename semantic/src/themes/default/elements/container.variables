@@ -7,7 +7,6 @@
 --------------------*/
 
 /* Minimum Gutter is used to determine  the maximum container width for a given device */
-
 @maxWidth: 100%;
 
 /* Devices */

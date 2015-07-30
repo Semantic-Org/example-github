@@ -194,19 +194,19 @@
 
 
 /* Modal Width */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1048px) {
   .ui.modal {
     width: 95%;
     margin: 0em 0em 0em -47.5%;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1049px) {
   .ui.modal {
     width: 88%;
     margin: 0em 0em 0em -44%;
   }
 }
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1049px) {
   .ui.modal {
     width: 850px;
     margin: 0em 0em 0em -425px;
@@ -226,7 +226,7 @@
 }
 
 /* Tablet and Mobile */
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1049px) {
   .ui.modal > .header {
     padding-right: 2.25rem;
   }
@@ -238,7 +238,7 @@
 }
 
 /* Mobile */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1048px) {
   .ui.modal > .header {
     padding: 0.75rem 1rem !important;
     padding-right: 2.25rem !important;
@@ -329,7 +329,7 @@
 }
 
 /* Tablet and Mobile */
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1049px) {
   .ui.basic.modal > .close {
     color: #ffffff;
   }
@@ -389,7 +389,7 @@
 .undetached.dimmable.dimmed > .pusher {
   z-index: auto;
 }
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1049px) {
   .modals.dimmer .ui.scrolling.modal {
     margin-top: 1rem !important;
     margin-bottom: 1rem !important;
@@ -431,19 +431,19 @@
 }
 
 /* Small Modal Width */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1048px) {
   .ui.small.modal {
     width: 95%;
     margin: 0em 0em 0em -47.5%;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1049px) {
   .ui.small.modal {
     width: 70.4%;
     margin: 0em 0em 0em -35.2%;
   }
 }
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1049px) {
   .ui.small.modal {
     width: 680px;
     margin: 0em 0em 0em -340px;
@@ -466,19 +466,19 @@
 .ui.large.modal > .header {
   font-size: 1.6em;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1048px) {
   .ui.large.modal {
     width: 95%;
     margin: 0em 0em 0em -47.5%;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1049px) {
   .ui.large.modal {
     width: 88%;
     margin: 0em 0em 0em -44%;
   }
 }
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1049px) {
   .ui.large.modal {
     width: 1020px;
     margin: 0em 0em 0em -510px;

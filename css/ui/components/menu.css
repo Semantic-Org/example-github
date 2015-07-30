@@ -241,7 +241,8 @@
   border-radius: 0em 0em 0.2307em 0.2307em;
   background: #ffffff;
   margin: 0em 0px 0px;
-  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+  padding: 0.38461538em 0px;
+  box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.15);
 }
 
 /* Menu Items */
@@ -249,7 +250,7 @@
   margin: 0;
   text-align: left;
   font-size: 1em !important;
-  padding: 0.69230769em 1.15384615em !important;
+  padding: 0.46153846em 1.07692308em !important;
   background: transparent !important;
   color: rgba(0, 0, 0, 0.87) !important;
   text-transform: none !important;
@@ -390,14 +391,14 @@
     Container
 ---------------*/
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1048px) {
   .ui.menu > .ui.container {
     width: 100%;
     margin-left: 0em !important;
     margin-right: 0em !important;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1049px) {
   .ui.menu:not(.secondary):not(.text):not(.tabular):not(.borderless) > .container > .item:not(.right):not(.borderless):first-child {
     border-left: 1px solid rgba(0, 0, 0, 0.06);
   }
@@ -1242,7 +1243,7 @@ Floated Menu / Item
     Stackable
 ---------------*/
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1048px) {
   .ui.stackable.menu {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;

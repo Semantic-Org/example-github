@@ -38,6 +38,11 @@ a:hover b {
   margin-right: 1em;
 }
 
+/* Min Width on Dropdown */
+.page.header .ui.dropdown .menu {
+  min-width: 175px;
+}
+
 /* Resize images */
 .page.header .menu .item > .logo.image {
   width: auto;
@@ -48,21 +53,37 @@ a:hover b {
   height: 20px;
 }
 
-/* Make menu point to avatar */
-.page.header .user.dropdown .menu {
-  margin: 5px 9px 0px 0px !important;
-}
-
 .page.header .plus.icon + .dropdown.icon {
   margin-left: 2px;
 }
 
 /* Notification Bubble */
 .page.header .notification.label {
-  top: 0;
+  top: -1px;
+  right: 1px;
   left: auto;
-  right: 2px;
 }
+
+/*--------------
+ User Dropdown
+---------------*/
+
+/* Align dropdown with dropdown icon */
+.page.header .add.dropdown .menu {
+  margin: 0 -7px 0 0 !important;
+}
+
+.page.header .user.dropdown .menu {
+  margin: 0 -7px 0 0 !important;
+}
+.page.header .user.dropdown .user.header {
+  font-size: inherit;
+  padding-bottom: 0em;
+}
+.page.header .user.dropdown .user.header b {
+  color: inherit;
+}
+
 
 /*--------------
     Repo Menu

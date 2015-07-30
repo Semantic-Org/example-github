@@ -129,6 +129,7 @@
 
 @dropdownBackground: #FFFFFF;
 @dropdownMenuDistance: 0em;
+@dropdownMenuPadding: 0em;
 @dropdownMenuBorderRadius: @borderRadius;
 
 @dropdownItemFontSize: @relativeMedium;

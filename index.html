@@ -28,6 +28,7 @@
   <link rel="stylesheet" type="text/css" href="css/ui/components/list.css">
   <link rel="stylesheet" type="text/css" href="css/ui/components/menu.css">
   <link rel="stylesheet" type="text/css" href="css/ui/components/message.css">
+  <link rel="stylesheet" type="text/css" href="css/ui/components/popup.css">
   <link rel="stylesheet" type="text/css" href="css/ui/components/segment.css">
   <link rel="stylesheet" type="text/css" href="css/ui/components/table.css">
   <link rel="stylesheet" type="text/css" href="css/ui/components/transition.css">
@@ -43,21 +44,35 @@
   <div class="page header">
     <div class="ui container">
       <div class="ui right floated icon text menu">
-        <a class="item">
+        <a class="item" data-content="You have unread notification in this repository.">
           <span class="ui empty mini floating circular blue notification label"></span>
           <i class="big inbox icon"></i>
         </a>
-        <a class="ui dropdown item">
+        <div class="ui add top right pointing dropdown item">
           <i class="large plus icon"></i>
           <i class="dropdown icon"></i>
-        </a>
+          <div class="menu">
+            <a class="item">New repository</a>
+            <a class="item">New organization</a>
+            <div class="divider"></div>
+            <div class="header">This organization</div>
+            <a class="item">Invite someone</a>
+            <a class="item">New team</a>
+            <a class="item">New repository</a>
+            <div class="divider"></div>
+            <div class="header">This repository</div>
+            <a class="item">New issue</a>
+            <a class="item">New collaborator</a>
+          </div>
+        </div>
         <div class="user top right pointing ui dropdown item">
           <img class="ui mini rounded image" src="images/avatar.jpg">
           <i class="dropdown icon"></i>
           <div class="menu">
-            <div class="disabled item">
+            <div class="user header">
               Signed in as <b>jlukic</b>
             </div>
+            <div class="divider"></div>
             <a class="item">Your Profile</a>
             <a class="item">Your Stars</a>
             <a class="item">Explore</a>

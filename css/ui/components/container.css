@@ -22,7 +22,7 @@
 }
 
 /* Mobile */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1048px) {
   .ui.container {
     width: auto;
     margin-left: 1em !important;
@@ -40,38 +40,38 @@
 }
 
 /* Tablet */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 1049px) and (max-width: 1048px) {
   .ui.container {
-    width: 725px;
+    width: 1006px;
     margin-left: auto !important;
     margin-right: auto !important;
   }
   .ui.grid.container {
-    width: calc( 725px  +  2rem ) !important;
+    width: calc( 1006px  +  2rem ) !important;
   }
   .ui.relaxed.grid.container {
-    width: calc( 725px  +  3rem ) !important;
+    width: calc( 1006px  +  3rem ) !important;
   }
   .ui.very.relaxed.grid.container {
-    width: calc( 725px  +  5rem ) !important;
+    width: calc( 1006px  +  5rem ) !important;
   }
 }
 
 /* Small Monitor */
-@media only screen and (min-width: 992px) and (max-width: 1048px) {
+@media only screen and (min-width: 1049px) and (max-width: 1048px) {
   .ui.container {
-    width: 936px;
+    width: 993px;
     margin-left: auto !important;
     margin-right: auto !important;
   }
   .ui.grid.container {
-    width: calc( 936px  +  2rem ) !important;
+    width: calc( 993px  +  2rem ) !important;
   }
   .ui.relaxed.grid.container {
-    width: calc( 936px  +  3rem ) !important;
+    width: calc( 993px  +  3rem ) !important;
   }
   .ui.very.relaxed.grid.container {
-    width: calc( 936px  +  5rem ) !important;
+    width: calc( 993px  +  5rem ) !important;
   }
 }
 

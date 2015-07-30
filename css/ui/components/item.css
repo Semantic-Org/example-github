@@ -342,7 +342,7 @@
 }
 
 /* Tablet Only */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 1049px) and (max-width: 1048px) {
   .ui.items > .item {
     margin: 1em 0em;
   }
@@ -356,7 +356,7 @@
 }
 
 /* Mobily Only */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1048px) {
   .ui.items > .item {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;

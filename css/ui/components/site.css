@@ -24,8 +24,8 @@ html {
 body {
   margin: 0px;
   padding: 0px;
-  overflow-x: hidden;
-  min-width: 320px;
+  overflow-x: visible;
+  min-width: 980px;
   background: #ffffff;
   font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 13px;

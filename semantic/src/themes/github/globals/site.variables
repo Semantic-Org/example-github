@@ -2,6 +2,9 @@
      User Global Variables
 *******************************/
 
+@pageMinWidth  : 980px;
+@pageOverflowX : visible;
+
 @emSize: 13px;
 @fontSize : 13px;
 @fontName : 'Arial';
@@ -24,6 +27,8 @@
 
 /* Breakpoints */
 @largeMonitorBreakpoint: 1049px;
+@computerBreakpoint: @largeMonitorBreakpoint;
+@tabletBreakpoint: @largeMonitorBreakpoint;
 
 /* Colors */
 @blue: #80A6CD;

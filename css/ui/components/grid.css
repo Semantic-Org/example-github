@@ -41,8 +41,8 @@
 .ui.grid {
   margin-top: -1rem;
   margin-bottom: -1rem;
-  margin-left: -1rem;
-  margin-right: -1rem;
+  margin-left: -0.769rem;
+  margin-right: -0.769rem;
 }
 .ui.relaxed.grid {
   margin-left: -1.5rem;
@@ -69,13 +69,13 @@
   position: relative;
   display: inline-block;
   width: 6.25%;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 0.769rem;
+  padding-right: 0.769rem;
   vertical-align: top;
 }
 .ui.grid > * {
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 0.769rem;
+  padding-right: 0.769rem;
 }
 
 /*-------------------
@@ -159,7 +159,7 @@
   -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  margin: 1rem 1rem;
+  margin: 1rem 0.769rem;
 }
 .ui.grid .column + .ui.vertical.divider {
   height: calc(50% -  1rem );
@@ -181,7 +181,7 @@
        Page Grid
 -------------------------*/
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1048px) {
   .ui.page.grid {
     width: auto;
     padding-left: 0em;
@@ -190,7 +190,7 @@
     margin-right: 0em;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 1049px) and (max-width: 1048px) {
   .ui.page.grid {
     width: auto;
     margin-left: 0em;
@@ -199,7 +199,7 @@
     padding-right: 2em;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1048px) {
+@media only screen and (min-width: 1049px) and (max-width: 1048px) {
   .ui.page.grid {
     width: auto;
     margin-left: 0em;
@@ -463,7 +463,7 @@
 
 
 /* Mobile Sizing Combinations */
-@media only screen and (min-width: 320px) and (max-width: 767px) {
+@media only screen and (min-width: 320px) and (max-width: 1048px) {
   .ui.grid > .row > [class*="one wide mobile"].column,
   .ui.grid > .column.row > [class*="one wide mobile"].column,
   .ui.grid > [class*="one wide mobile"].column,
@@ -563,7 +563,7 @@
 }
 
 /* Tablet Sizing Combinations */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 1049px) and (max-width: 1048px) {
   .ui.grid > .row > [class*="one wide tablet"].column,
   .ui.grid > .column.row > [class*="one wide tablet"].column,
   .ui.grid > [class*="one wide tablet"].column,
@@ -663,7 +663,7 @@
 }
 
 /* Computer/Desktop Sizing Combinations */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1049px) {
   .ui.grid > .row > [class*="one wide computer"].column,
   .ui.grid > .column.row > [class*="one wide computer"].column,
   .ui.grid > [class*="one wide computer"].column,
@@ -1088,9 +1088,9 @@
   content: "";
   top: 0em;
   left: 0px;
-  width: calc(100% -  2rem );
+  width: calc(100% -  1.538rem );
   height: 1px;
-  margin: 0% 1rem;
+  margin: 0% 0.769rem;
   box-shadow: 0px -1px 0px 0px rgba(0, 0, 0, 0.133);
 }
 
@@ -1485,7 +1485,7 @@
 
 
 /* Tablet Only */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 1049px) and (max-width: 1048px) {
   .ui.doubling.grid {
     width: auto;
   }
@@ -1580,7 +1580,7 @@
 }
 
 /* Mobily Only */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1048px) {
   .ui.grid > .doubling.row,
   .ui.doubling.grid > .row {
     margin: 0em !important;
@@ -1674,7 +1674,7 @@
       Stackable
 --------------------*/
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1048px) {
   .ui.stackable.grid {
     width: auto;
   }
@@ -1688,7 +1688,7 @@
     width: 100% !important;
     margin: 0em 0em !important;
     box-shadow: none !important;
-    padding: 1rem 1rem !important;
+    padding: 1rem 0.769rem !important;
   }
   .ui.stackable.grid:not(.vertically) > .row {
     margin: 0em;
@@ -1705,8 +1705,8 @@
 /* Don't pad inside segment or nested grid */
   .ui.grid .ui.stackable.grid,
   .ui.segment:not(.vertical) .ui.stackable.page.grid {
-    margin-left: -1rem !important;
-    margin-right: -1rem !important;
+    margin-left: -0.769rem !important;
+    margin-right: -0.769rem !important;
   }
   
 /* Divided Stackable */
@@ -1746,7 +1746,7 @@
 /* These include arbitrary class repetitions for forced specificity */
 
 /* Mobile Only Hide */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1048px) {
   .ui.tablet:not(.mobile).only.grid.grid.grid,
   .ui.grid.grid.grid > [class*="tablet only"].row:not(.mobile),
   .ui.grid.grid.grid > [class*="tablet only"].column:not(.mobile),
@@ -1774,7 +1774,7 @@
 }
 
 /* Tablet Only Hide */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 1049px) and (max-width: 1048px) {
   .ui[class*="mobile only"].grid.grid.grid:not(.tablet),
   .ui.grid.grid.grid > [class*="mobile only"].row:not(.tablet),
   .ui.grid.grid.grid > [class*="mobile only"].column:not(.tablet),
@@ -1802,7 +1802,7 @@
 }
 
 /* Computer Only Hide */
-@media only screen and (min-width: 992px) and (max-width: 1048px) {
+@media only screen and (min-width: 1049px) and (max-width: 1048px) {
   .ui[class*="mobile only"].grid.grid.grid:not(.computer),
   .ui.grid.grid.grid > [class*="mobile only"].row:not(.computer),
   .ui.grid.grid.grid > [class*="mobile only"].column:not(.computer),
@@ -1866,9 +1866,3 @@
     display: none !important;
   }
 }
-
-
-/*******************************
-         Theme Overrides
-*******************************/
-

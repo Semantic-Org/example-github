@@ -521,8 +521,8 @@ html {
 body {
   margin: 0px;
   padding: 0px;
-  overflow-x: hidden;
-  min-width: 320px;
+  overflow-x: visible;
+  min-width: 980px;
   background: #ffffff;
   font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 13px;
@@ -4400,7 +4400,7 @@ input::selection {
 
 /* Mobile */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1048px) {
   .ui.container {
     width: auto;
     margin-left: 1em !important;
@@ -4422,45 +4422,45 @@ input::selection {
 
 /* Tablet */
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 1049px) and (max-width: 1048px) {
   .ui.container {
-    width: 725px;
+    width: 1006px;
     margin-left: auto !important;
     margin-right: auto !important;
   }
 
   .ui.grid.container {
-    width: calc( 725px  +  2rem ) !important;
+    width: calc( 1006px  +  2rem ) !important;
   }
 
   .ui.relaxed.grid.container {
-    width: calc( 725px  +  3rem ) !important;
+    width: calc( 1006px  +  3rem ) !important;
   }
 
   .ui.very.relaxed.grid.container {
-    width: calc( 725px  +  5rem ) !important;
+    width: calc( 1006px  +  5rem ) !important;
   }
 }
 
 /* Small Monitor */
 
-@media only screen and (min-width: 992px) and (max-width: 1048px) {
+@media only screen and (min-width: 1049px) and (max-width: 1048px) {
   .ui.container {
-    width: 936px;
+    width: 993px;
     margin-left: auto !important;
     margin-right: auto !important;
   }
 
   .ui.grid.container {
-    width: calc( 936px  +  2rem ) !important;
+    width: calc( 993px  +  2rem ) !important;
   }
 
   .ui.relaxed.grid.container {
-    width: calc( 936px  +  3rem ) !important;
+    width: calc( 993px  +  3rem ) !important;
   }
 
   .ui.very.relaxed.grid.container {
-    width: calc( 936px  +  5rem ) !important;
+    width: calc( 993px  +  5rem ) !important;
   }
 }
 
@@ -4657,7 +4657,7 @@ input::selection {
 
 /* Inside grid */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1048px) {
   .ui.stackable.grid .ui.vertical.divider,
   .ui.grid .stackable.row .ui.vertical.divider {
     display: table;
@@ -4791,7 +4791,7 @@ input::selection {
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABaAAAAACCAYAAACuTHuKAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo1OThBRDY4OUNDMTYxMUU0OUE3NUVGOEJDMzMzMjE2NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo1OThBRDY4QUNDMTYxMUU0OUE3NUVGOEJDMzMzMjE2NyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjU5OEFENjg3Q0MxNjExRTQ5QTc1RUY4QkMzMzMyMTY3IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU5OEFENjg4Q0MxNjExRTQ5QTc1RUY4QkMzMzMyMTY3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+VU513gAAADVJREFUeNrs0DENACAQBDBIWLGBJQby/mUcJn5sJXQmOQMAAAAAAJqt+2prAAAAAACg2xdgANk6BEVuJgyMAAAAAElFTkSuQmCC");
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1048px) {
   .ui.stackable.grid .ui.vertical.divider:before,
   .ui.grid .stackable.row .ui.vertical.divider:before,
   .ui.stackable.grid .ui.vertical.divider:after,
@@ -10555,9 +10555,12 @@ a.ui.black.label:hover:before {
          Site Overrides
 *******************************/
 
-.ui.floating.blue.notification.label {
-  background-image: -webkit-linear-gradient(#7aa1d3, #4078c0);
-  background-image: linear-gradient(#7aa1d3, #4078c0);
+/* Notification Label on GitHub */
+
+.ui.floating.blue.label {
+  border: 2px solid #f3f3f3 !important;
+  background-image: -webkit-linear-gradient(#7aa1d3, #4078c0) !important;
+  background-image: linear-gradient(#7aa1d3, #4078c0) !important;
 }
 /*!
  * # Semantic UI x.x - List
@@ -13505,7 +13508,7 @@ ol.ui.horizontal.list li:before,
 
 /* Mobile (Default) */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1048px) {
   .ui.steps {
     display: -webkit-inline-box;
     display: -webkit-inline-flex;
@@ -13667,7 +13670,7 @@ ol.ui.horizontal.list li:before,
 
 /* Tablet Or Below */
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1049px) {
   .ui[class*="tablet stackable"].steps {
     display: -webkit-inline-box;
     display: -webkit-inline-flex;
@@ -14800,7 +14803,7 @@ ol.ui.horizontal.list li:before,
 
 /* Swap to full width on mobile */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1048px) {
   .ui.form .fields {
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
@@ -14922,7 +14925,7 @@ ol.ui.horizontal.list li:before,
 
 /* Swap to full width on mobile */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1048px) {
   .ui.form .two.fields > .fields,
   .ui.form .two.fields > .field,
   .ui.form .three.fields > .fields,
@@ -15124,8 +15127,8 @@ ol.ui.horizontal.list li:before,
 .ui.grid {
   margin-top: -1rem;
   margin-bottom: -1rem;
-  margin-left: -1rem;
-  margin-right: -1rem;
+  margin-left: -0.769rem;
+  margin-right: -0.769rem;
 }
 
 .ui.relaxed.grid {
@@ -15155,14 +15158,14 @@ ol.ui.horizontal.list li:before,
   position: relative;
   display: inline-block;
   width: 6.25%;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 0.769rem;
+  padding-right: 0.769rem;
   vertical-align: top;
 }
 
 .ui.grid > * {
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 0.769rem;
+  padding-right: 0.769rem;
 }
 
 /*-------------------
@@ -15250,7 +15253,7 @@ ol.ui.horizontal.list li:before,
   -webkit-flex-grow: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
-  margin: 1rem 1rem;
+  margin: 1rem 0.769rem;
 }
 
 .ui.grid .column + .ui.vertical.divider {
@@ -15272,7 +15275,7 @@ ol.ui.horizontal.list li:before,
        Page Grid
 -------------------------*/
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1048px) {
   .ui.page.grid {
     width: auto;
     padding-left: 0em;
@@ -15282,7 +15285,7 @@ ol.ui.horizontal.list li:before,
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 1049px) and (max-width: 1048px) {
   .ui.page.grid {
     width: auto;
     margin-left: 0em;
@@ -15292,7 +15295,7 @@ ol.ui.horizontal.list li:before,
   }
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1048px) {
+@media only screen and (min-width: 1049px) and (max-width: 1048px) {
   .ui.page.grid {
     width: auto;
     margin-left: 0em;
@@ -15605,7 +15608,7 @@ ol.ui.horizontal.list li:before,
 
 /* Mobile Sizing Combinations */
 
-@media only screen and (min-width: 320px) and (max-width: 767px) {
+@media only screen and (min-width: 320px) and (max-width: 1048px) {
   .ui.grid > .row > [class*="one wide mobile"].column,
   .ui.grid > .column.row > [class*="one wide mobile"].column,
   .ui.grid > [class*="one wide mobile"].column,
@@ -15721,7 +15724,7 @@ ol.ui.horizontal.list li:before,
 
 /* Tablet Sizing Combinations */
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 1049px) and (max-width: 1048px) {
   .ui.grid > .row > [class*="one wide tablet"].column,
   .ui.grid > .column.row > [class*="one wide tablet"].column,
   .ui.grid > [class*="one wide tablet"].column,
@@ -15837,7 +15840,7 @@ ol.ui.horizontal.list li:before,
 
 /* Computer/Desktop Sizing Combinations */
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1049px) {
   .ui.grid > .row > [class*="one wide computer"].column,
   .ui.grid > .column.row > [class*="one wide computer"].column,
   .ui.grid > [class*="one wide computer"].column,
@@ -16324,9 +16327,9 @@ ol.ui.horizontal.list li:before,
   content: "";
   top: 0em;
   left: 0px;
-  width: calc(100% -  2rem );
+  width: calc(100% -  1.538rem );
   height: 1px;
-  margin: 0% 1rem;
+  margin: 0% 0.769rem;
   box-shadow: 0px -1px 0px 0px rgba(0, 0, 0, 0.133);
 }
 
@@ -16761,7 +16764,7 @@ ol.ui.horizontal.list li:before,
 
 /* Tablet Only */
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 1049px) and (max-width: 1048px) {
   .ui.doubling.grid {
     width: auto;
   }
@@ -16874,7 +16877,7 @@ ol.ui.horizontal.list li:before,
 
 /* Mobily Only */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1048px) {
   .ui.grid > .doubling.row,
   .ui.doubling.grid > .row {
     margin: 0em !important;
@@ -16984,7 +16987,7 @@ ol.ui.horizontal.list li:before,
       Stackable
 --------------------*/
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1048px) {
   .ui.stackable.grid {
     width: auto;
   }
@@ -16999,7 +17002,7 @@ ol.ui.horizontal.list li:before,
     width: 100% !important;
     margin: 0em 0em !important;
     box-shadow: none !important;
-    padding: 1rem 1rem !important;
+    padding: 1rem 0.769rem !important;
   }
 
   .ui.stackable.grid:not(.vertically) > .row {
@@ -17019,8 +17022,8 @@ ol.ui.horizontal.list li:before,
 
   .ui.grid .ui.stackable.grid,
   .ui.segment:not(.vertical) .ui.stackable.page.grid {
-    margin-left: -1rem !important;
-    margin-right: -1rem !important;
+    margin-left: -0.769rem !important;
+    margin-right: -0.769rem !important;
   }
 
   /* Divided Stackable */
@@ -17064,7 +17067,7 @@ ol.ui.horizontal.list li:before,
 
 /* Mobile Only Hide */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1048px) {
   .ui.tablet:not(.mobile).only.grid.grid.grid,
   .ui.grid.grid.grid > [class*="tablet only"].row:not(.mobile),
   .ui.grid.grid.grid > [class*="tablet only"].column:not(.mobile),
@@ -17096,7 +17099,7 @@ ol.ui.horizontal.list li:before,
 
 /* Tablet Only Hide */
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 1049px) and (max-width: 1048px) {
   .ui[class*="mobile only"].grid.grid.grid:not(.tablet),
   .ui.grid.grid.grid > [class*="mobile only"].row:not(.tablet),
   .ui.grid.grid.grid > [class*="mobile only"].column:not(.tablet),
@@ -17128,7 +17131,7 @@ ol.ui.horizontal.list li:before,
 
 /* Computer Only Hide */
 
-@media only screen and (min-width: 992px) and (max-width: 1048px) {
+@media only screen and (min-width: 1049px) and (max-width: 1048px) {
   .ui[class*="mobile only"].grid.grid.grid:not(.computer),
   .ui.grid.grid.grid > [class*="mobile only"].row:not(.computer),
   .ui.grid.grid.grid > [class*="mobile only"].column:not(.computer),
@@ -17200,10 +17203,6 @@ ol.ui.horizontal.list li:before,
     display: none !important;
   }
 }
-
-/*******************************
-         Theme Overrides
-*******************************/
 /*
  * # Semantic - Menu
  * http://github.com/semantic-org/semantic-ui/
@@ -17459,7 +17458,8 @@ ol.ui.horizontal.list li:before,
   border-radius: 0em 0em 0.2307em 0.2307em;
   background: #ffffff;
   margin: 0em 0px 0px;
-  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+  padding: 0.38461538em 0px;
+  box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.15);
 }
 
 /* Menu Items */
@@ -17468,7 +17468,7 @@ ol.ui.horizontal.list li:before,
   margin: 0;
   text-align: left;
   font-size: 1em !important;
-  padding: 0.69230769em 1.15384615em !important;
+  padding: 0.46153846em 1.07692308em !important;
   background: transparent !important;
   color: rgba(0, 0, 0, 0.87) !important;
   text-transform: none !important;
@@ -17625,7 +17625,7 @@ ol.ui.horizontal.list li:before,
     Container
 ---------------*/
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1048px) {
   .ui.menu > .ui.container {
     width: 100%;
     margin-left: 0em !important;
@@ -17633,7 +17633,7 @@ ol.ui.horizontal.list li:before,
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1049px) {
   .ui.menu:not(.secondary):not(.text):not(.tabular):not(.borderless) > .container > .item:not(.right):not(.borderless):first-child {
     border-left: 1px solid rgba(0, 0, 0, 0.06);
   }
@@ -18568,7 +18568,7 @@ Floated Menu / Item
     Stackable
 ---------------*/
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1048px) {
   .ui.stackable.menu {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -20113,7 +20113,7 @@ Floated Menu / Item
 
 /* Responsive */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1048px) {
   .ui.table:not(.unstackable) {
     width: 100%;
   }
@@ -20361,7 +20361,7 @@ Floated Menu / Item
     Stackable
 ---------------*/
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1048px) {
   .ui[class*="tablet stackable"].table,
   .ui[class*="tablet stackable"].table tbody,
   .ui[class*="tablet stackable"].table tr,
@@ -21398,7 +21398,7 @@ Floated Menu / Item
   display: none;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1048px) {
   .ui.mobile.ad {
     display: block;
   }
@@ -22266,7 +22266,7 @@ a.ui.card:hover,
 
 /* Mobily Only */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1048px) {
   .ui.two.doubling.cards {
     margin-left: 0em;
     margin-right: 0em;
@@ -22369,7 +22369,7 @@ a.ui.card:hover,
 
 /* Tablet Only */
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 1049px) and (max-width: 1048px) {
   .ui.two.doubling.cards {
     margin-left: 0em;
     margin-right: 0em;
@@ -22474,7 +22474,7 @@ a.ui.card:hover,
       Stackable
 --------------------*/
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1048px) {
   .ui.stackable.cards {
     display: block !important;
   }
@@ -23454,7 +23454,7 @@ a.ui.card:hover,
 
 /* Tablet Only */
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 1049px) and (max-width: 1048px) {
   .ui.items > .item {
     margin: 1em 0em;
   }
@@ -23471,7 +23471,7 @@ a.ui.card:hover,
 
 /* Mobily Only */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1048px) {
   .ui.items > .item {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -25486,7 +25486,7 @@ body.dimmable > .dimmer {
   border-top: none;
   line-height: 1em;
   color: rgba(0, 0, 0, 0.87);
-  padding: 0.76923077em 1.07692308em !important;
+  padding: 0.61538462em 1.07692308em !important;
   font-size: 1rem;
   text-transform: none;
   font-weight: normal;
@@ -25528,18 +25528,18 @@ body.dimmable > .dimmer {
 ---------------*/
 
 .ui.dropdown .menu > .header {
-  margin: 1rem 0rem 0.75rem;
-  padding: 0em 1.07692308em;
-  color: rgba(0, 0, 0, 0.85);
-  font-size: 0.84615385em;
-  font-weight: bold;
-  text-transform: uppercase;
+  margin: 0em;
+  padding: 0.30769231em 1.07692308em;
+  color: #767676;
+  font-size: 0.92307692em;
+  font-weight: normal;
+  text-transform: none;
 }
 
 .ui.dropdown .menu > .divider {
   border-top: 1px solid rgba(0, 0, 0, 0.06);
   height: 0em;
-  margin: 0.5em 0em;
+  margin: 0.61538462em 0em;
 }
 
 .ui.dropdown .menu > .input {
@@ -25583,7 +25583,7 @@ body.dimmable > .dimmer {
 -------------------*/
 
 .ui.dropdown .menu > .message {
-  padding: 0.76923077em 1.07692308em;
+  padding: 0.61538462em 1.07692308em;
   font-weight: normal;
 }
 
@@ -25810,30 +25810,30 @@ select.ui.dropdown {
 ---------------*/
 
 .ui.selection.dropdown .menu > .message {
-  padding: 0.76923077em 1.07692308em;
+  padding: 0.61538462em 1.07692308em;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1048px) {
   .ui.selection.dropdown .menu {
-    max-height: 7.91538462em;
+    max-height: 6.99230769em;
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1049px) {
   .ui.selection.dropdown .menu {
-    max-height: 10.55384615em;
+    max-height: 9.32307692em;
   }
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1049px) {
   .ui.selection.dropdown .menu {
-    max-height: 15.83076923em;
+    max-height: 13.98461538em;
   }
 }
 
 @media only screen and (min-width: 1920px) {
   .ui.selection.dropdown .menu {
-    max-height: 21.10769231em;
+    max-height: 18.64615385em;
   }
 }
 
@@ -25841,7 +25841,7 @@ select.ui.dropdown {
 
 .ui.selection.dropdown .menu > .item {
   border-top: 1px solid #fafafa;
-  padding: 0.76923077em 1.07692308em !important;
+  padding: 0.61538462em 1.07692308em !important;
   white-space: normal;
   word-wrap: normal;
 }
@@ -25972,7 +25972,7 @@ select.ui.dropdown {
 
 .ui.active.search.dropdown input.search:focus + .text .icon,
 .ui.active.search.dropdown input.search:focus + .text .flag {
-  opacity: 0.3;
+  opacity: 0.6;
 }
 
 .ui.active.search.dropdown input.search:focus + .text {
@@ -25989,27 +25989,27 @@ select.ui.dropdown {
   -webkit-overflow-scrolling: touch;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1048px) {
   .ui.search.dropdown .menu {
-    max-height: 7.91538462em;
+    max-height: 6.99230769em;
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1049px) {
   .ui.search.dropdown .menu {
-    max-height: 10.55384615em;
+    max-height: 9.32307692em;
   }
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1049px) {
   .ui.search.dropdown .menu {
-    max-height: 15.83076923em;
+    max-height: 13.98461538em;
   }
 }
 
 @media only screen and (min-width: 1920px) {
   .ui.search.dropdown .menu {
-    max-height: 21.10769231em;
+    max-height: 18.64615385em;
   }
 }
 
@@ -26351,7 +26351,7 @@ select.ui.dropdown {
 .ui.dropdown .menu > .disabled.item {
   cursor: default;
   pointer-events: none;
-  opacity: 0.3;
+  opacity: 0.6;
 }
 
 /*******************************
@@ -26530,31 +26530,31 @@ select.ui.dropdown {
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1048px) {
   .ui.scrolling.dropdown .menu,
   .ui.dropdown .scrolling.menu {
-    max-height: 10.15384615em;
+    max-height: 8.92307692em;
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1049px) {
   .ui.scrolling.dropdown .menu,
   .ui.dropdown .scrolling.menu {
-    max-height: 15.23076923em;
+    max-height: 13.38461538em;
   }
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1049px) {
   .ui.scrolling.dropdown .menu,
   .ui.dropdown .scrolling.menu {
-    max-height: 20.30769231em;
+    max-height: 17.84615385em;
   }
 }
 
 @media only screen and (min-width: 1920px) {
   .ui.scrolling.dropdown .menu,
   .ui.dropdown .scrolling.menu {
-    max-height: 20.30769231em;
+    max-height: 17.84615385em;
   }
 }
 
@@ -26668,17 +26668,17 @@ select.ui.dropdown {
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
-  width: 0.5em;
-  height: 0.5em;
+  width: 0.69230769em;
+  height: 0.69230769em;
   box-shadow: -1px -1px 0px 1px rgba(0, 0, 0, 0.1);
   background: #ffffff;
   z-index: 2;
 }
 
 .ui.pointing.dropdown > .menu:after {
-  top: -0.25em;
+  top: -0.34615385em;
   left: 50%;
-  margin: 0em 0em 0em -0.25em;
+  margin: 0em 0em 0em -0.34615385em;
 }
 
 /* Top Left Pointing */
@@ -26700,7 +26700,7 @@ select.ui.dropdown {
 }
 
 .ui.top.left.pointing.dropdown > .menu:after {
-  top: -0.25em;
+  top: -0.34615385em;
   left: 1em;
   right: auto;
   margin: 0em;
@@ -26720,7 +26720,7 @@ select.ui.dropdown {
 }
 
 .ui.top.right.pointing.dropdown > .menu:after {
-  top: -0.25em;
+  top: -0.34615385em;
   left: auto;
   right: 1em;
   margin: 0em;
@@ -26740,7 +26740,7 @@ select.ui.dropdown {
 
 .ui.left.pointing.dropdown > .menu:after {
   top: 1em;
-  left: -0.25em;
+  left: -0.34615385em;
   margin: 0em 0em 0em 0em;
   -webkit-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
@@ -26759,7 +26759,7 @@ select.ui.dropdown {
 .ui.right.pointing.dropdown > .menu:after {
   top: 1em;
   left: auto;
-  right: -0.25em;
+  right: -0.34615385em;
   margin: 0em 0em 0em 0em;
   -webkit-transform: rotate(135deg);
   -ms-transform: rotate(135deg);
@@ -26778,7 +26778,7 @@ select.ui.dropdown {
 
 .ui.bottom.pointing.dropdown > .menu:after {
   top: auto;
-  bottom: -0.25em;
+  bottom: -0.34615385em;
   right: auto;
   margin: 0em;
   -webkit-transform: rotate(-135deg);
@@ -27242,21 +27242,21 @@ select.ui.dropdown {
 
 /* Modal Width */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1048px) {
   .ui.modal {
     width: 95%;
     margin: 0em 0em 0em -47.5%;
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1049px) {
   .ui.modal {
     width: 88%;
     margin: 0em 0em 0em -44%;
   }
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1049px) {
   .ui.modal {
     width: 850px;
     margin: 0em 0em 0em -425px;
@@ -27279,7 +27279,7 @@ select.ui.dropdown {
 
 /* Tablet and Mobile */
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1049px) {
   .ui.modal > .header {
     padding-right: 2.25rem;
   }
@@ -27293,7 +27293,7 @@ select.ui.dropdown {
 
 /* Mobile */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1048px) {
   .ui.modal > .header {
     padding: 0.75rem 1rem !important;
     padding-right: 2.25rem !important;
@@ -27399,7 +27399,7 @@ select.ui.dropdown {
 
 /* Tablet and Mobile */
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1049px) {
   .ui.basic.modal > .close {
     color: #ffffff;
   }
@@ -27464,7 +27464,7 @@ select.ui.dropdown {
   z-index: auto;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1049px) {
   .modals.dimmer .ui.scrolling.modal {
     margin-top: 1rem !important;
     margin-bottom: 1rem !important;
@@ -27511,21 +27511,21 @@ select.ui.dropdown {
 
 /* Small Modal Width */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1048px) {
   .ui.small.modal {
     width: 95%;
     margin: 0em 0em 0em -47.5%;
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1049px) {
   .ui.small.modal {
     width: 70.4%;
     margin: 0em 0em 0em -35.2%;
   }
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1049px) {
   .ui.small.modal {
     width: 680px;
     margin: 0em 0em 0em -340px;
@@ -27552,21 +27552,21 @@ select.ui.dropdown {
   font-size: 1.6em;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1048px) {
   .ui.large.modal {
     width: 95%;
     margin: 0em 0em 0em -47.5%;
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1049px) {
   .ui.large.modal {
     width: 88%;
     margin: 0em 0em 0em -44%;
   }
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1049px) {
   .ui.large.modal {
     width: 1020px;
     margin: 0em 0em 0em -510px;
@@ -28024,7 +28024,7 @@ a.ui.nag {
   max-width: 550px;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1048px) {
   .ui.wide.popup,
   .ui[class*="very wide"].popup {
     max-width: 250px;
@@ -30506,7 +30506,7 @@ html.ios body {
 
 /* Responsive */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1048px) {
   .ui.table:not(.unstackable) {
     width: 100%;
   }
@@ -30754,7 +30754,7 @@ html.ios body {
     Stackable
 ---------------*/
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1048px) {
   .ui[class*="tablet stackable"].table,
   .ui[class*="tablet stackable"].table tbody,
   .ui[class*="tablet stackable"].table tr,

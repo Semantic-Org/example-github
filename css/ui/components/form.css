@@ -747,7 +747,7 @@
 }
 
 /* Swap to full width on mobile */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1048px) {
   .ui.form .fields {
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
@@ -846,7 +846,7 @@
 }
 
 /* Swap to full width on mobile */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1048px) {
   .ui.form .two.fields > .fields,
   .ui.form .two.fields > .field,
   .ui.form .three.fields > .fields,
