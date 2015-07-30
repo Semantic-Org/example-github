@@ -11,6 +11,7 @@
 $(document)
   .ready(function() {
 
+
     var
       $userDropdown = $('.user.dropdown'),
       $addDropdown  = $('.add.dropdown'),
@@ -19,13 +20,17 @@ $(document)
       $popup        = $('[data-content]')
     ;
 
+    // always hide popup when dropdown shows
+    $.fn.dropdown.settings.onShow = function() {
+      $('body').popup('hide all');
+    };
 
     $popup
       .popup({
         duration : 0,
         delay    : {
-          show: 0,
-          hide: 0
+          show : 50,
+          hide : 0
         },
         variation : 'inverted',
         position  : 'bottom center'
@@ -34,13 +39,14 @@ $(document)
 
     $addDropdown
       .dropdown({
-        transition : 'drop',
+        duration   : 0,
         action     : 'hide'
       })
     ;
 
     $userDropdown
       .dropdown({
+        duration   : 0,
         transition : 'drop',
         action     : 'hide'
       })
