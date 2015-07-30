@@ -43,7 +43,7 @@ img.ui.image {
 .ui.disabled.images,
 .ui.disabled.image {
   cursor: default;
-  opacity: 0.3;
+  opacity: 0.45;
 }
 
 
@@ -212,9 +212,9 @@ img.ui.bordered.image {
 .ui.mini.images img,
 .ui.mini.images svg,
 .ui.mini.image {
-  width: 20px;
+  width: 35px;
   height: auto;
-  font-size: 0.69230769rem;
+  font-size: 0.71428571rem;
 }
 .ui.tiny.images .image,
 .ui.tiny.images img,
@@ -222,7 +222,7 @@ img.ui.bordered.image {
 .ui.tiny.image {
   width: 80px;
   height: auto;
-  font-size: 0.84615385rem;
+  font-size: 0.85714286rem;
 }
 .ui.small.images .image,
 .ui.small.images img,
@@ -230,7 +230,7 @@ img.ui.bordered.image {
 .ui.small.image {
   width: 150px;
   height: auto;
-  font-size: 0.92307692rem;
+  font-size: 0.92857143rem;
 }
 .ui.medium.images .image,
 .ui.medium.images img,
@@ -246,7 +246,7 @@ img.ui.bordered.image {
 .ui.large.image {
   width: 450px;
   height: auto;
-  font-size: 1.15384615rem;
+  font-size: 1.14285714rem;
 }
 .ui.big.images .image,
 .ui.big.images img,
@@ -254,7 +254,7 @@ img.ui.bordered.image {
 .ui.big.image {
   width: 600px;
   height: auto;
-  font-size: 1.30769231rem;
+  font-size: 1.28571429rem;
 }
 .ui.huge.images .image,
 .ui.huge.images img,
@@ -262,7 +262,7 @@ img.ui.bordered.image {
 .ui.huge.image {
   width: 800px;
   height: auto;
-  font-size: 1.46153846rem;
+  font-size: 1.42857143rem;
 }
 .ui.massive.images .image,
 .ui.massive.images img,
@@ -270,7 +270,7 @@ img.ui.bordered.image {
 .ui.massive.image {
   width: 960px;
   height: auto;
-  font-size: 1.69230769rem;
+  font-size: 1.71428571rem;
 }
 
 
@@ -288,3 +288,9 @@ img.ui.bordered.image {
   display: inline-block;
   margin: 0em 0.25rem 0.5rem;
 }
+
+
+/*******************************
+         Theme Overrides
+*******************************/
+

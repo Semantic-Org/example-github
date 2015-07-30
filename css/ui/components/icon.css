@@ -98,7 +98,7 @@ i.emphasized.icon {
   opacity: 1 !important;
 }
 i.disabled.icon {
-  opacity: 0.3 !important;
+  opacity: 0.45 !important;
 }
 
 
@@ -197,7 +197,7 @@ i.bordered.inverted.icon {
 /* Inverted Shapes */
 i.inverted.bordered.icon,
 i.inverted.circular.icon {
-  background-color: #333333 !important;
+  background-color: #1b1c1d !important;
   color: #ffffff !important;
 }
 i.inverted.icon {
@@ -224,14 +224,14 @@ i.inverted.circular.red.icon {
 
 /* Orange */
 i.orange.icon {
-  color: #d26911 !important;
+  color: #f2711c !important;
 }
 i.inverted.orange.icon {
   color: #ff851b !important;
 }
 i.inverted.bordered.orange.icon,
 i.inverted.circular.orange.icon {
-  background-color: #d26911 !important;
+  background-color: #f2711c !important;
   color: #ffffff !important;
 }
 
@@ -263,14 +263,14 @@ i.inverted.circular.olive.icon {
 
 /* Green */
 i.green.icon {
-  color: #60b044 !important;
+  color: #21ba45 !important;
 }
 i.inverted.green.icon {
   color: #2ecc40 !important;
 }
 i.inverted.bordered.green.icon,
 i.inverted.circular.green.icon {
-  background-color: #60b044 !important;
+  background-color: #21ba45 !important;
   color: #ffffff !important;
 }
 
@@ -289,14 +289,14 @@ i.inverted.circular.teal.icon {
 
 /* Blue */
 i.blue.icon {
-  color: #80a6cd !important;
+  color: #2185d0 !important;
 }
 i.inverted.blue.icon {
   color: #54c8ff !important;
 }
 i.inverted.bordered.blue.icon,
 i.inverted.circular.blue.icon {
-  background-color: #80a6cd !important;
+  background-color: #2185d0 !important;
   color: #ffffff !important;
 }
 
@@ -367,14 +367,14 @@ i.inverted.circular.grey.icon {
 
 /* Black */
 i.black.icon {
-  color: #333333 !important;
+  color: #1b1c1d !important;
 }
 i.inverted.black.icon {
   color: #545454 !important;
 }
 i.inverted.bordeblack.black.icon,
 i.inverted.circular.black.icon {
-  background-color: #333333 !important;
+  background-color: #1b1c1d !important;
   color: #ffffff !important;
 }
 
@@ -460,7 +460,7 @@ i.icons .corner.icon {
   text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
 }
 i.icons .inverted.corner.icon {
-  text-shadow: -1px -1px 0 #333333, 1px -1px 0 #333333, -1px 1px 0 #333333, 1px 1px 0 #333333;
+  text-shadow: -1px -1px 0 #1b1c1d, 1px -1px 0 #1b1c1d, -1px 1px 0 #1b1c1d, 1px 1px 0 #1b1c1d;
 }
 
 /* Octicons */

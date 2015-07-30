@@ -20,9 +20,9 @@
   width: 100%;
   background: #ffffff;
   margin: 1em 0em;
-  border: 1px solid rgba(0, 0, 0, 0.13);
+  border: 1px solid rgba(34, 36, 38, 0.15);
   box-shadow: none;
-  border-radius: 0.2307em;
+  border-radius: 0.28571429rem;
   text-align: left;
   color: rgba(0, 0, 0, 0.87);
   border-collapse: separate;
@@ -57,25 +57,25 @@
   background: #f9fafb;
   text-align: inherit;
   color: rgba(0, 0, 0, 0.87);
-  padding: 0.92307692em 0.61538462em;
+  padding: 0.92857143em 0.71428571em;
   vertical-align: inherit;
   font-style: none;
   font-weight: bold;
   text-transform: none;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  border-bottom: 1px solid rgba(34, 36, 38, 0.1);
   border-left: none;
 }
 .ui.table thead tr > th:first-child {
   border-left: none;
 }
 .ui.table thead tr:first-child > th:first-child {
-  border-radius: 0.2307em 0em 0em 0em;
+  border-radius: 0.28571429rem 0em 0em 0em;
 }
 .ui.table thead tr:first-child > th:last-child {
-  border-radius: 0em 0.2307em 0em 0em;
+  border-radius: 0em 0.28571429rem 0em 0em;
 }
 .ui.table thead tr:first-child > th:only-child {
-  border-radius: 0.2307em 0.2307em 0em 0em;
+  border-radius: 0.28571429rem 0.28571429rem 0em 0em;
 }
 
 /* Footer */
@@ -84,11 +84,11 @@
 }
 .ui.table tfoot th {
   cursor: auto;
-  border-top: 1px solid rgba(0, 0, 0, 0.13);
+  border-top: 1px solid rgba(34, 36, 38, 0.15);
   background: #f9fafb;
   text-align: inherit;
   color: rgba(0, 0, 0, 0.87);
-  padding: 0.46153846em 0.61538462em;
+  padding: 0.71428571em 0.71428571em;
   vertical-align: middle;
   font-style: normal;
   font-weight: normal;
@@ -98,18 +98,18 @@
   border-left: none;
 }
 .ui.table tfoot tr:first-child > th:first-child {
-  border-radius: 0em 0em 0em 0.2307em;
+  border-radius: 0em 0em 0em 0.28571429rem;
 }
 .ui.table tfoot tr:first-child > th:last-child {
-  border-radius: 0em 0em 0.2307em 0em;
+  border-radius: 0em 0em 0.28571429rem 0em;
 }
 .ui.table tfoot tr:first-child > th:only-child {
-  border-radius: 0em 0em 0.2307em 0.2307em;
+  border-radius: 0em 0em 0.28571429rem 0.28571429rem;
 }
 
 /* Table Row */
 .ui.table tr td {
-  border-top: 1px solid rgba(0, 0, 0, 0.06);
+  border-top: 1px solid rgba(34, 36, 38, 0.1);
 }
 .ui.table tr:first-child td {
   border-top: none;
@@ -117,7 +117,7 @@
 
 /* Table Cells */
 .ui.table td {
-  padding: 0.46153846em 0.61538462em;
+  padding: 0.71428571em 0.71428571em;
   text-align: inherit;
 }
 
@@ -141,7 +141,7 @@
 }
 
 /* Responsive */
-@media only screen and (max-width: 1048px) {
+@media only screen and (max-width: 767px) {
   .ui.table:not(.unstackable) {
     width: 100%;
   }
@@ -216,8 +216,8 @@
   border-right: none;
 }
 .ui.structured.sortable.table thead th {
-  border-left: 1px solid rgba(0, 0, 0, 0.13);
-  border-right: 1px solid rgba(0, 0, 0, 0.13);
+  border-left: 1px solid rgba(34, 36, 38, 0.15);
+  border-right: 1px solid rgba(34, 36, 38, 0.15);
 }
 .ui.structured.basic.table th {
   border-left: none;
@@ -225,8 +225,8 @@
 }
 .ui.structured.celled.table tr th,
 .ui.structured.celled.table tr td {
-  border-left: 1px solid rgba(0, 0, 0, 0.06);
-  border-right: 1px solid rgba(0, 0, 0, 0.06);
+  border-left: 1px solid rgba(34, 36, 38, 0.1);
+  border-right: 1px solid rgba(34, 36, 38, 0.1);
 }
 
 /*--------------
@@ -265,13 +265,13 @@
 
 /* Fix 2nd Column */
 .ui.definition.table thead:not(.full-width) th:nth-child(2) {
-  border-left: 1px solid rgba(0, 0, 0, 0.13);
+  border-left: 1px solid rgba(34, 36, 38, 0.15);
 }
 .ui.definition.table tfoot:not(.full-width) th:nth-child(2) {
-  border-left: 1px solid rgba(0, 0, 0, 0.13);
+  border-left: 1px solid rgba(34, 36, 38, 0.15);
 }
 .ui.definition.table td:nth-child(2) {
-  border-left: 1px solid rgba(0, 0, 0, 0.13);
+  border-left: 1px solid rgba(34, 36, 38, 0.15);
 }
 
 
@@ -372,7 +372,7 @@
     Stackable
 ---------------*/
 
-@media only screen and (max-width: 1048px) {
+@media only screen and (max-width: 991px) {
   .ui[class*="tablet stackable"].table,
   .ui[class*="tablet stackable"].table tbody,
   .ui[class*="tablet stackable"].table tr,
@@ -507,7 +507,7 @@
   width: calc(100% +  2px );
   max-width: calc(100% +  2px );
   box-shadow: none;
-  border: 1px solid #dddddd;
+  border: 1px solid #d4d4d5;
 }
 .ui.attached + .ui.attached.table:not(.top) {
   border-top: none;
@@ -519,7 +519,7 @@
   margin-bottom: 0em;
   top: 0px;
   margin-top: 1em;
-  border-radius: 0.2307em 0.2307em 0em 0em;
+  border-radius: 0.28571429rem 0.28571429rem 0em 0em;
 }
 .ui.table[class*="top attached"]:first-child {
   margin-top: 0em;
@@ -532,7 +532,7 @@
   top: 0px;
   margin-bottom: 1em;
   box-shadow: none, none;
-  border-radius: 0em 0em 0.2307em 0.2307em;
+  border-radius: 0em 0em 0.28571429rem 0.28571429rem;
 }
 .ui[class*="bottom attached"].table:last-child {
   margin-bottom: 0em;
@@ -580,10 +580,10 @@
 
 /* Orange */
 .ui.orange.table {
-  border-top: 0.2em solid #d26911;
+  border-top: 0.2em solid #f2711c;
 }
 .ui.inverted.orange.table {
-  background-color: #d26911 !important;
+  background-color: #f2711c !important;
   color: #ffffff !important;
 }
 
@@ -607,10 +607,10 @@
 
 /* Green */
 .ui.green.table {
-  border-top: 0.2em solid #60b044;
+  border-top: 0.2em solid #21ba45;
 }
 .ui.inverted.green.table {
-  background-color: #60b044 !important;
+  background-color: #21ba45 !important;
   color: #ffffff !important;
 }
 
@@ -625,10 +625,10 @@
 
 /* Blue */
 .ui.blue.table {
-  border-top: 0.2em solid #80a6cd;
+  border-top: 0.2em solid #2185d0;
 }
 .ui.inverted.blue.table {
-  background-color: #80a6cd !important;
+  background-color: #2185d0 !important;
   color: #ffffff !important;
 }
 
@@ -679,10 +679,10 @@
 
 /* Black */
 .ui.black.table {
-  border-top: 0.2em solid #333333;
+  border-top: 0.2em solid #1b1c1d;
 }
 .ui.inverted.black.table {
-  background-color: #333333 !important;
+  background-color: #1b1c1d !important;
   color: #ffffff !important;
 }
 
@@ -814,7 +814,7 @@
 .ui.sortable.table thead th {
   cursor: pointer;
   white-space: nowrap;
-  border-left: 1px solid rgba(0, 0, 0, 0.13);
+  border-left: 1px solid rgba(34, 36, 38, 0.15);
   color: rgba(0, 0, 0, 0.87);
 }
 .ui.sortable.table thead th:first-child {
@@ -938,7 +938,7 @@
 
 .ui.basic.table {
   background: transparent;
-  border: 1px solid rgba(0, 0, 0, 0.13);
+  border: 1px solid rgba(34, 36, 38, 0.15);
   box-shadow: none;
 }
 .ui.basic.table thead,
@@ -985,7 +985,7 @@
 
 .ui.celled.table tr th,
 .ui.celled.table tr td {
-  border-left: 1px solid rgba(0, 0, 0, 0.06);
+  border-left: 1px solid rgba(34, 36, 38, 0.1);
 }
 .ui.celled.table tr th:first-child,
 .ui.celled.table tr td:first-child {

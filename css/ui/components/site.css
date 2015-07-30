@@ -14,21 +14,22 @@
              Page
 *******************************/
 
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin');
 html,
 body {
   height: 100%;
 }
 html {
-  font-size: 13px;
+  font-size: 14px;
 }
 body {
   margin: 0px;
   padding: 0px;
-  overflow-x: visible;
-  min-width: 980px;
+  overflow-x: hidden;
+  min-width: 320px;
   background: #ffffff;
-  font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  font-size: 13px;
+  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-size: 14px;
   line-height: 1.4285em;
   color: rgba(0, 0, 0, 0.87);
   font-smoothing: antialiased;
@@ -44,7 +45,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   line-height: 1.2857em;
   margin: calc(2rem -  0.14285em ) 0em 1rem;
   font-weight: bold;
@@ -52,7 +53,7 @@ h5 {
 }
 h1 {
   min-height: 1rem;
-  font-size: 2.25em;
+  font-size: 2rem;
 }
 h2 {
   font-size: 1.714rem;
@@ -102,12 +103,12 @@ p:last-child {
 --------------------*/
 
 a {
-  color: #4078c0;
+  color: #4183c4;
   text-decoration: none;
 }
 a:hover {
-  color: #4078c0;
-  text-decoration: underline;
+  color: #1e70bf;
+  text-decoration: none;
 }
 
 
@@ -146,3 +147,9 @@ input::selection {
   background-color: rgba(100, 100, 100, 0.4);
   color: rgba(0, 0, 0, 0.87);
 }
+
+
+/*******************************
+        Global Overrides
+*******************************/
+
