@@ -20,7 +20,7 @@
   width: 100%;
   background: #ffffff;
   margin: 1em 0em;
-  border: 1px solid rgba(0, 0, 0, 0.133);
+  border: 1px solid rgba(0, 0, 0, 0.13);
   box-shadow: none;
   border-radius: 0.2307em;
   text-align: left;
@@ -84,7 +84,7 @@
 }
 .ui.table tfoot th {
   cursor: auto;
-  border-top: 1px solid rgba(0, 0, 0, 0.133);
+  border-top: 1px solid rgba(0, 0, 0, 0.13);
   background: #f9fafb;
   text-align: inherit;
   color: rgba(0, 0, 0, 0.87);
@@ -216,8 +216,8 @@
   border-right: none;
 }
 .ui.structured.sortable.table thead th {
-  border-left: 1px solid rgba(0, 0, 0, 0.133);
-  border-right: 1px solid rgba(0, 0, 0, 0.133);
+  border-left: 1px solid rgba(0, 0, 0, 0.13);
+  border-right: 1px solid rgba(0, 0, 0, 0.13);
 }
 .ui.structured.basic.table th {
   border-left: none;
@@ -265,13 +265,13 @@
 
 /* Fix 2nd Column */
 .ui.definition.table thead:not(.full-width) th:nth-child(2) {
-  border-left: 1px solid rgba(0, 0, 0, 0.133);
+  border-left: 1px solid rgba(0, 0, 0, 0.13);
 }
 .ui.definition.table tfoot:not(.full-width) th:nth-child(2) {
-  border-left: 1px solid rgba(0, 0, 0, 0.133);
+  border-left: 1px solid rgba(0, 0, 0, 0.13);
 }
 .ui.definition.table td:nth-child(2) {
-  border-left: 1px solid rgba(0, 0, 0, 0.133);
+  border-left: 1px solid rgba(0, 0, 0, 0.13);
 }
 
 
@@ -814,7 +814,7 @@
 .ui.sortable.table thead th {
   cursor: pointer;
   white-space: nowrap;
-  border-left: 1px solid rgba(0, 0, 0, 0.133);
+  border-left: 1px solid rgba(0, 0, 0, 0.13);
   color: rgba(0, 0, 0, 0.87);
 }
 .ui.sortable.table thead th:first-child {
@@ -938,7 +938,7 @@
 
 .ui.basic.table {
   background: transparent;
-  border: 1px solid rgba(0, 0, 0, 0.133);
+  border: 1px solid rgba(0, 0, 0, 0.13);
   box-shadow: none;
 }
 .ui.basic.table thead,

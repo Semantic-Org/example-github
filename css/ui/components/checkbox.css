@@ -401,7 +401,7 @@
   opacity: 1;
   z-index: 2;
   border: none;
-  box-shadow: 0px 1px 2px 0 rgba(0, 0, 0, 0.133), 0px 0px 0px 1px rgba(0, 0, 0, 0.133) inset;
+  box-shadow: 0px 1px 2px 0 rgba(0, 0, 0, 0.13), 0px 0px 0px 1px rgba(0, 0, 0, 0.13) inset;
   width: 1.5rem;
   height: 1.5rem;
   top: -0.25rem;
@@ -508,7 +508,7 @@
   opacity: 1;
   z-index: 2;
   border: none;
-  box-shadow: 0px 1px 2px 0 rgba(0, 0, 0, 0.133), 0px 0px 0px 1px rgba(0, 0, 0, 0.133) inset;
+  box-shadow: 0px 1px 2px 0 rgba(0, 0, 0, 0.13), 0px 0px 0px 1px rgba(0, 0, 0, 0.13) inset;
   width: 1.5rem;
   height: 1.5rem;
   top: 0rem;

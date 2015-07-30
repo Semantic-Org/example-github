@@ -914,6 +914,24 @@ a.ui.black.label:hover:before {
 }
 
 /*-------------------
+        Basic
+--------------------*/
+
+.ui.basic.label {
+  background: none #ffffff;
+  border: 1px solid #e8e8e8;
+  color: rgba(0, 0, 0, 0.87);
+  box-shadow: none;
+}
+.ui.basic.label:hover {
+  text-decoration: none;
+  background: none #ffffff;
+  color: #4078c0;
+  box-shadow: 1px solid #e8e8e8;
+  box-shadow: none;
+}
+
+/*-------------------
        Fluid
 --------------------*/
 

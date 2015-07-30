@@ -43,7 +43,7 @@
   font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   padding: 0.43136154em 0.61538462em;
   background: #ffffff;
-  border: 1px solid rgba(0, 0, 0, 0.133);
+  border: 1px solid rgba(0, 0, 0, 0.13);
   color: rgba(0, 0, 0, 0.87);
   border-radius: 0.2307em;
   -webkit-transition: background-color 0.1s ease, box-shadow 0.1s ease, border-color 0.1s ease;
@@ -311,6 +311,7 @@
   border-bottom-left-radius: 0px;
 }
 .ui.labeled.input:not([class*="corner labeled"]):not([class*="right labeled"]) > .label {
+  border-right: none;
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
 }
@@ -322,6 +323,7 @@
   border-bottom-right-radius: 0px !important;
 }
 .ui[class*="right labeled"].input > .label {
+  border-left: none;
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
 }

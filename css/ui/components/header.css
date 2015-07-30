@@ -612,7 +612,7 @@ a.ui.inverted.grey.header:hover {
 
 .ui.dividing.header {
   padding-bottom: 0.23076923rem;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.133);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.13);
 }
 .ui.dividing.header .sub.header {
   padding-bottom: 0.23076923rem;

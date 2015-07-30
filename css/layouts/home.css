@@ -74,6 +74,13 @@
   margin-right: 3px;
 }
 
+/*----------------
+   Repo Buttons
+-----------------*/
+
+#home .repo.options {
+  float: right;
+}
 
 /*----------------
   Branch Dropdown
@@ -81,6 +88,7 @@
 
 /* Branch label */
 #home .branch.button .text {
+  font-weight: normal;
   color: #888888;
 }
 /* Branch name */

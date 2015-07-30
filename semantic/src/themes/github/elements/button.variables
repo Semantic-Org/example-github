@@ -14,17 +14,23 @@
 @iconHeight: 13px;
 @iconDistance: @relative4px;
 
-@verticalPadding: @relative7px;
+@verticalPadding: @relative6px;
 @horizontalPadding: @relative10px;
 
 @backgroundImage: linear-gradient(#FCFCFC, #EEEEEE);
 @borderBoxShadowColor: rgba(0, 0, 0, 0.13);
 
-@coloredBackgroundImage: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.1));
+@coloredBackgroundImage: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.2));
+@coloredBoxShadow: @boxShadow;
 
-@hoverBackgroundColor: #E0E0E0;
-@hoverBackgroundImage: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.08));
+@hoverBackgroundColor: #F0F0F0;
+@hoverBackgroundImage: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.1));
 @hoverBoxShadow: @boxShadow;
+
+@focusBoxShadow:
+  0px 0px 0px 1px #51A7E8,
+  0 0 5px rgba(81, 167, 232, 0.5)
+;
 
 @downBackgroundColor: '';
 @downBackgroundImage: '';
@@ -57,3 +63,6 @@
 
 @primaryColor: @blue;
 @secondaryColor: @black;
+
+@positiveColor: #84D767;
+@positiveColorHover: #5DC438;

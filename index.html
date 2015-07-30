@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
   <!-- Site Properities -->
-  <title>GitHub Clone</title>
+  <title>Semantic-Org/Semantic-UI</title>
 
   <!-- CSS Includes -->
   <link rel="stylesheet" type="text/css" href="css/ui/components/reset.css">
@@ -112,33 +112,41 @@
     <!-- Repo Header -->
     <div class="repo ribbon">
       <div class="ui container">
-        <div class="ui right floated button">
-          <i class="forked repo icon"></i> Fork
-        </div>
-        <div class="ui right floated button">
-          <i class="star icon"></i> Unstar
-        </div>
-        <div class="ui right floated floating watch dropdown button">
-          <input type="hidden" value="watching">
-          <i class="eye icon"></i> Unwatch
-          <i class="dropdown icon"></i>
-          <div class="menu">
-            <!-- <div class="header">
-              Notifications
-              <i class="close icon"></i>
-            </div> -->
-            <div class="item" data-value="not-watching">
-              <h4>Not Watching</h4>
-              <span>Be notified when participating or @mentioned.</span>
+        <div class="repo options">
+          <div class="ui floating watch dropdown button" data-content="Quickly jump between files">
+            <input type="hidden" value="watching">
+            <i class="eye icon"></i> Unwatch
+            <i class="dropdown icon"></i>
+            <div class="menu">
+              <!-- <div class="header">
+                Notifications
+                <i class="close icon"></i>
+              </div> -->
+              <div class="item" data-value="not-watching">
+                <h4>Not Watching</h4>
+                <span>Be notified when participating or @mentioned.</span>
+              </div>
+              <div class="item" data-value="watching">
+                <h4>Watching</h4>
+                <span>Be notified of all conversations.</span>
+              </div>
+              <div class="item" data-value="ignoring">
+                <h4>Ignoring</h4>
+                <span>Never be notified.</span>
+              </div>
             </div>
-            <div class="item" data-value="watching">
-              <h4>Watching</h4>
-              <span>Be notified of all conversations.</span>
+          </div>
+          <div class="ui labeled button">
+            <div class="ui button">
+              <i class="star icon"></i> Unstar
             </div>
-            <div class="item" data-value="ignoring">
-              <h4>Ignoring</h4>
-              <span>Never be notified.</span>
+            <a class="ui basic label">19,120</a>
+          </div>
+          <div class="ui labeled button">
+            <div class="ui button" data-content="Compare, review, create a pull request">
+              <i class="forked repo icon"></i> Fork
             </div>
+            <a class="ui basic label">986</a>
           </div>
         </div>
         <i class="massive disabled repo icon"></i>
