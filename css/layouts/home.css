@@ -10,9 +10,6 @@
 
 */
 
-#home {
-
-}
 
 /*--------------
    Top Ribbon
@@ -21,9 +18,6 @@
 #home .repo.ribbon {
   border-bottom: 1px solid #EEEEEE;
   padding: 18px 0px;
-}
-#home .repo.ribbon .button {
-  margin-left: 10px;
 }
 
 #home .repo.description {
