@@ -636,12 +636,12 @@ a.ui.card:hover,
 .ui.black.cards > .card,
 .ui.cards > .black.card,
 .ui.black.card {
-  box-shadow: 0px 0px 0px 1px #dddddd, 0px 2px 0px 0px #1b1c1d, 0px 1px 3px 0px #dddddd;
+  box-shadow: 0px 0px 0px 1px #dddddd, 0px 2px 0px 0px #333333, 0px 1px 3px 0px #dddddd;
 }
 .ui.black.cards > .card:hover,
 .ui.cards > .black.card:hover,
 .ui.black.card:hover {
-  box-shadow: 0px 0px 0px 1px #dddddd, 0px 2px 0px 0px #27292a, 0px 1px 3px 0px #bcbdbd;
+  box-shadow: 0px 0px 0px 1px #dddddd, 0px 2px 0px 0px #404040, 0px 1px 3px 0px #bcbdbd;
 }
 
 /*--------------

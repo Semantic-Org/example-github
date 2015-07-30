@@ -197,7 +197,7 @@ i.bordered.inverted.icon {
 /* Inverted Shapes */
 i.inverted.bordered.icon,
 i.inverted.circular.icon {
-  background-color: #1b1c1d !important;
+  background-color: #333333 !important;
   color: #ffffff !important;
 }
 i.inverted.icon {
@@ -367,14 +367,14 @@ i.inverted.circular.grey.icon {
 
 /* Black */
 i.black.icon {
-  color: #1b1c1d !important;
+  color: #333333 !important;
 }
 i.inverted.black.icon {
   color: #545454 !important;
 }
 i.inverted.bordeblack.black.icon,
 i.inverted.circular.black.icon {
-  background-color: #1b1c1d !important;
+  background-color: #333333 !important;
   color: #ffffff !important;
 }
 
@@ -460,7 +460,7 @@ i.icons .corner.icon {
   text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
 }
 i.icons .inverted.corner.icon {
-  text-shadow: -1px -1px 0 #1b1c1d, 1px -1px 0 #1b1c1d, -1px 1px 0 #1b1c1d, 1px 1px 0 #1b1c1d;
+  text-shadow: -1px -1px 0 #333333, 1px -1px 0 #333333, -1px 1px 0 #333333, 1px 1px 0 #333333;
 }
 
 /* Octicons */

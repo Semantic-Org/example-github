@@ -7082,7 +7082,7 @@ i.bordered.inverted.icon {
 
 i.inverted.bordered.icon,
 i.inverted.circular.icon {
-  background-color: #1b1c1d !important;
+  background-color: #333333 !important;
   color: #ffffff !important;
 }
 
@@ -7289,7 +7289,7 @@ i.inverted.circular.grey.icon {
 /* Black */
 
 i.black.icon {
-  color: #1b1c1d !important;
+  color: #333333 !important;
 }
 
 i.inverted.black.icon {
@@ -7298,7 +7298,7 @@ i.inverted.black.icon {
 
 i.inverted.bordeblack.black.icon,
 i.inverted.circular.black.icon {
-  background-color: #1b1c1d !important;
+  background-color: #333333 !important;
   color: #ffffff !important;
 }
 
@@ -7392,7 +7392,7 @@ i.icons .corner.icon {
 }
 
 i.icons .inverted.corner.icon {
-  text-shadow: -1px -1px 0 #1b1c1d, 1px -1px 0 #1b1c1d, -1px 1px 0 #1b1c1d, 1px 1px 0 #1b1c1d;
+  text-shadow: -1px -1px 0 #333333, 1px -1px 0 #333333, -1px 1px 0 #333333, 1px 1px 0 #333333;
 }
 
 /* Octicons */
@@ -10315,15 +10315,15 @@ a.ui.grey.label:hover:before {
 
 .ui.black.labels .label,
 .ui.black.label {
-  background-color: #1b1c1d !important;
-  border-color: #1b1c1d !important;
+  background-color: #333333 !important;
+  border-color: #333333 !important;
   color: #ffffff !important;
 }
 
 .ui.labels .black.label:before,
 .ui.black.labels .label:before,
 .ui.black.label:before {
-  background-color: #1b1c1d !important;
+  background-color: #333333 !important;
 }
 
 .ui.black.corner.label,
@@ -10333,15 +10333,15 @@ a.ui.grey.label:hover:before {
 
 a.ui.black.labels .label:hover,
 a.ui.black.label:hover {
-  background-color: #27292a !important;
-  border-color: #27292a !important;
+  background-color: #404040 !important;
+  border-color: #404040 !important;
   color: #ffffff !important;
 }
 
 .ui.labels a.black.label:hover:before,
 .ui.black.labels a.label:hover:before,
 a.ui.black.label:hover:before {
-  background-color: #27292a !important;
+  background-color: #404040 !important;
 }
 
 .ui.black.ribbon.label {
@@ -13038,11 +13038,11 @@ ol.ui.horizontal.list li:before,
 /* Black */
 
 .ui.black.segment:not(.inverted) {
-  border-top: 2px solid #1b1c1d;
+  border-top: 2px solid #333333;
 }
 
 .ui.inverted.black.segment {
-  background-color: #1b1c1d !important;
+  background-color: #333333 !important;
   color: #ffffff !important;
 }
 
@@ -13088,7 +13088,7 @@ ol.ui.horizontal.list li:before,
 
 .ui.inverted.segment,
 .ui.primary.inverted.segment {
-  background: #1b1c1d;
+  background: #333333;
   color: rgba(255, 255, 255, 0.9);
 }
 
@@ -13120,8 +13120,8 @@ ol.ui.horizontal.list li:before,
 }
 
 .ui.secondary.inverted.segment {
-  background: #4c4f52 -webkit-linear-gradient(rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%);
-  background: #4c4f52 linear-gradient(rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%);
+  background: #666666 -webkit-linear-gradient(rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%);
+  background: #666666 linear-gradient(rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%);
   color: rgba(255, 255, 255, 0.8);
 }
 
@@ -13133,8 +13133,8 @@ ol.ui.horizontal.list li:before,
 }
 
 .ui.tertiary.inverted.segment {
-  background: #717579 -webkit-linear-gradient(rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0.35) 100%);
-  background: #717579 linear-gradient(rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0.35) 100%);
+  background: #8c8c8c -webkit-linear-gradient(rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0.35) 100%);
+  background: #8c8c8c linear-gradient(rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0.35) 100%);
   color: rgba(255, 255, 255, 0.8);
 }
 
@@ -16731,7 +16731,7 @@ ol.ui.horizontal.list li:before,
 .ui.grid > .black.row,
 .ui.grid > .black.column,
 .ui.grid > .row > .black.column {
-  background-color: #1b1c1d !important;
+  background-color: #333333 !important;
   color: #ffffff;
 }
 
@@ -18256,7 +18256,7 @@ Floated Menu / Item
 .ui.secondary.pointing.menu .active.item {
   background-color: transparent;
   box-shadow: none;
-  border-color: #1b1c1d;
+  border-color: #333333;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.95);
 }
@@ -18264,7 +18264,7 @@ Floated Menu / Item
 /* Active Hover */
 
 .ui.secondary.pointing.menu .active.item:hover {
-  border-color: #1b1c1d;
+  border-color: #333333;
   color: rgba(0, 0, 0, 0.95);
 }
 
@@ -18295,7 +18295,7 @@ Floated Menu / Item
 /* Vertical Active */
 
 .ui.secondary.vertical.pointing.menu .active.item {
-  border-color: #1b1c1d;
+  border-color: #333333;
 }
 
 /* Inverted */
@@ -18486,7 +18486,7 @@ Floated Menu / Item
 .ui.icon.menu .item {
   height: auto;
   text-align: center;
-  color: #1b1c1d;
+  color: #333333;
 }
 
 /* Icon */
@@ -18677,8 +18677,8 @@ Floated Menu / Item
 
 .ui.inverted.menu {
   border: 0px solid transparent;
-  background: #1b1c1d -webkit-linear-gradient(rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0));
-  background: #1b1c1d linear-gradient(rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0));
+  background: #333333 -webkit-linear-gradient(rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0));
+  background: #333333 linear-gradient(rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0));
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15), 0px 0px 0px 1px rgba(255, 255, 255, 0.15);
 }
 
@@ -19711,7 +19711,7 @@ Floated Menu / Item
 ---------------*/
 
 .ui.black.message {
-  background-color: #1b1c1d;
+  background-color: #333333;
   color: rgba(255, 255, 255, 0.9);
 }
 
@@ -19819,7 +19819,7 @@ Floated Menu / Item
 
 .ui.inverted.message,
 .ui.black.message {
-  background-color: #1b1c1d;
+  background-color: #333333;
   color: rgba(255, 255, 255, 0.9);
 }
 
@@ -20714,11 +20714,11 @@ Floated Menu / Item
 /* Black */
 
 .ui.black.table {
-  border-top: 0.2em solid #1b1c1d;
+  border-top: 0.2em solid #333333;
 }
 
 .ui.inverted.black.table {
-  background-color: #1b1c1d !important;
+  background-color: #333333 !important;
   color: #ffffff !important;
 }
 
@@ -22137,13 +22137,13 @@ a.ui.card:hover,
 .ui.black.cards > .card,
 .ui.cards > .black.card,
 .ui.black.card {
-  box-shadow: 0px 0px 0px 1px #dddddd, 0px 2px 0px 0px #1b1c1d, 0px 1px 3px 0px #dddddd;
+  box-shadow: 0px 0px 0px 1px #dddddd, 0px 2px 0px 0px #333333, 0px 1px 3px 0px #dddddd;
 }
 
 .ui.black.cards > .card:hover,
 .ui.cards > .black.card:hover,
 .ui.black.card:hover {
-  box-shadow: 0px 0px 0px 1px #dddddd, 0px 2px 0px 0px #27292a, 0px 1px 3px 0px #bcbdbd;
+  box-shadow: 0px 0px 0px 1px #dddddd, 0px 2px 0px 0px #404040, 0px 1px 3px 0px #bcbdbd;
 }
 
 /*--------------
@@ -23718,7 +23718,7 @@ a.ui.card:hover,
   font-size: 4rem;
   font-weight: normal;
   line-height: 1em;
-  color: #1b1c1d;
+  color: #333333;
   text-transform: uppercase;
   text-align: center;
 }
@@ -27761,7 +27761,7 @@ a.ui.nag {
   line-height: 1.4285em;
   max-width: 250px;
   background-color: #ffffff;
-  padding: 0.833em 1em;
+  padding: 0.53846154em 0.84615385em;
   font-weight: normal;
   font-style: normal;
   color: rgba(0, 0, 0, 0.87);
@@ -28047,7 +28047,7 @@ a.ui.nag {
 /* Inverted colors  */
 
 .ui.inverted.popup {
-  background: #1b1c1d;
+  background: #333333;
   color: #ffffff;
   border: none;
   box-shadow: none;
@@ -28059,7 +28059,7 @@ a.ui.nag {
 }
 
 .ui.inverted.popup:before {
-  background-color: #1b1c1d;
+  background-color: #333333;
   box-shadow: none !important;
 }
 
@@ -28084,24 +28084,20 @@ a.ui.nag {
 }
 
 .ui.small.popup {
-  font-size: 0.92307692rem;
+  font-size: 0.76923077em;
 }
 
 .ui.popup {
-  font-size: 1rem;
+  font-size: 0.84615385em;
 }
 
 .ui.large.popup {
-  font-size: 1.15384615rem;
+  font-size: 1em;
 }
 
 .ui.huge.popup {
   font-size: 1.46153846rem;
 }
-
-/*******************************
-         Theme Overrides
-*******************************/
 /*!
  * # Semantic UI x.x - Progress Bar
  * http://github.com/semantic-org/semantic-ui/
@@ -28626,7 +28622,7 @@ a.ui.nag {
 /* Black */
 
 .ui.black.progress .bar {
-  background-color: #1b1c1d;
+  background-color: #333333;
 }
 
 .ui.black.inverted.progress .bar {
@@ -31107,11 +31103,11 @@ html.ios body {
 /* Black */
 
 .ui.black.table {
-  border-top: 0.2em solid #1b1c1d;
+  border-top: 0.2em solid #333333;
 }
 
 .ui.inverted.black.table {
-  background-color: #1b1c1d !important;
+  background-color: #333333 !important;
   color: #ffffff !important;
 }
 

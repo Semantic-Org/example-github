@@ -885,14 +885,14 @@ a.ui.grey.label:hover:before {
 
 .ui.black.labels .label,
 .ui.black.label {
-  background-color: #1b1c1d !important;
-  border-color: #1b1c1d !important;
+  background-color: #333333 !important;
+  border-color: #333333 !important;
   color: #ffffff !important;
 }
 .ui.labels .black.label:before,
 .ui.black.labels .label:before,
 .ui.black.label:before {
-  background-color: #1b1c1d !important;
+  background-color: #333333 !important;
 }
 .ui.black.corner.label,
 .ui.black.corner.label:hover {
@@ -900,14 +900,14 @@ a.ui.grey.label:hover:before {
 }
 a.ui.black.labels .label:hover,
 a.ui.black.label:hover {
-  background-color: #27292a !important;
-  border-color: #27292a !important;
+  background-color: #404040 !important;
+  border-color: #404040 !important;
   color: #ffffff !important;
 }
 .ui.labels a.black.label:hover:before,
 .ui.black.labels a.label:hover:before,
 a.ui.black.label:hover:before {
-  background-color: #27292a !important;
+  background-color: #404040 !important;
 }
 .ui.black.ribbon.label {
   border-color: #5d5d5d !important;

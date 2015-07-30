@@ -29,7 +29,7 @@
   line-height: 1.4285em;
   max-width: 250px;
   background-color: #ffffff;
-  padding: 0.833em 1em;
+  padding: 0.53846154em 0.84615385em;
   font-weight: normal;
   font-style: normal;
   color: rgba(0, 0, 0, 0.87);
@@ -297,7 +297,7 @@
 
 /* Inverted colors  */
 .ui.inverted.popup {
-  background: #1b1c1d;
+  background: #333333;
   color: #ffffff;
   border: none;
   box-shadow: none;
@@ -307,7 +307,7 @@
   color: #ffffff;
 }
 .ui.inverted.popup:before {
-  background-color: #1b1c1d;
+  background-color: #333333;
   box-shadow: none !important;
 }
 
@@ -330,20 +330,14 @@
   font-size: 0.84615385rem;
 }
 .ui.small.popup {
-  font-size: 0.92307692rem;
+  font-size: 0.76923077em;
 }
 .ui.popup {
-  font-size: 1rem;
+  font-size: 0.84615385em;
 }
 .ui.large.popup {
-  font-size: 1.15384615rem;
+  font-size: 1em;
 }
 .ui.huge.popup {
   font-size: 1.46153846rem;
 }
-
-
-/*******************************
-         Theme Overrides
-*******************************/
-

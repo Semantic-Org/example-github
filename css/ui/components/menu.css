@@ -963,14 +963,14 @@ Floated Menu / Item
 .ui.secondary.pointing.menu .active.item {
   background-color: transparent;
   box-shadow: none;
-  border-color: #1b1c1d;
+  border-color: #333333;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.95);
 }
 
 /* Active Hover */
 .ui.secondary.pointing.menu .active.item:hover {
-  border-color: #1b1c1d;
+  border-color: #333333;
   color: rgba(0, 0, 0, 0.95);
 }
 
@@ -997,7 +997,7 @@ Floated Menu / Item
 
 /* Vertical Active */
 .ui.secondary.vertical.pointing.menu .active.item {
-  border-color: #1b1c1d;
+  border-color: #333333;
 }
 
 /* Inverted */
@@ -1167,7 +1167,7 @@ Floated Menu / Item
 .ui.icon.menu .item {
   height: auto;
   text-align: center;
-  color: #1b1c1d;
+  color: #333333;
 }
 
 /* Icon */
@@ -1340,8 +1340,8 @@ Floated Menu / Item
 
 .ui.inverted.menu {
   border: 0px solid transparent;
-  background: #1b1c1d -webkit-linear-gradient(rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0));
-  background: #1b1c1d linear-gradient(rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0));
+  background: #333333 -webkit-linear-gradient(rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0));
+  background: #333333 linear-gradient(rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0));
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15), 0px 0px 0px 1px rgba(255, 255, 255, 0.15);
 }
 

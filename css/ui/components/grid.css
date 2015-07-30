@@ -1453,7 +1453,7 @@
 .ui.grid > .black.row,
 .ui.grid > .black.column,
 .ui.grid > .row > .black.column {
-  background-color: #1b1c1d !important;
+  background-color: #333333 !important;
   color: #ffffff;
 }
 

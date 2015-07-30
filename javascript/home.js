@@ -22,9 +22,13 @@ $(document)
 
     $popup
       .popup({
-        duration: 0,
-        variation: 'small inverted',
-        preserve: true
+        duration : 0,
+        delay    : {
+          show: 0,
+          hide: 0
+        },
+        variation : 'inverted',
+        position  : 'bottom center'
       })
     ;
 

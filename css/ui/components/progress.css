@@ -463,7 +463,7 @@
 
 /* Black */
 .ui.black.progress .bar {
-  background-color: #1b1c1d;
+  background-color: #333333;
 }
 .ui.black.inverted.progress .bar {
   background-color: #545454;
