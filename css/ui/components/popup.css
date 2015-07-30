@@ -26,19 +26,19 @@
   min-width: min-content;
   z-index: 1900;
   border: 1px solid #d4d4d5;
-  line-height: 1.4285em;
+  line-height: 1.33;
   max-width: 250px;
   background-color: #ffffff;
-  padding: 0.833em 1em;
+  padding: 0.5em 0.78571429em;
   font-weight: normal;
   font-style: normal;
-  color: rgba(0, 0, 0, 0.87);
-  border-radius: 0.28571429rem;
+  color: #212121;
+  border-radius: 4px;
   box-shadow: 0px 2px 4px 0px rgba(34, 36, 38, 0.12), 0px 2px 10px 0px rgba(34, 36, 38, 0.08);
 }
 .ui.popup > .header {
   padding: 0em;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 1.125em;
   line-height: 1.2;
   font-weight: bold;
@@ -330,20 +330,14 @@
   font-size: 0.85714286rem;
 }
 .ui.small.popup {
-  font-size: 0.92857143rem;
+  font-size: 0.71428571em;
 }
 .ui.popup {
-  font-size: 1rem;
+  font-size: 0.78571429em;
 }
 .ui.large.popup {
-  font-size: 1.14285714rem;
+  font-size: 0.92857143em;
 }
 .ui.huge.popup {
   font-size: 1.42857143rem;
 }
-
-
-/*******************************
-         Theme Overrides
-*******************************/
-

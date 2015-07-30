@@ -212,7 +212,7 @@ img.ui.bordered.image {
 .ui.mini.images img,
 .ui.mini.images svg,
 .ui.mini.image {
-  width: 35px;
+  width: 20px;
   height: auto;
   font-size: 0.71428571rem;
 }
@@ -288,9 +288,3 @@ img.ui.bordered.image {
   display: inline-block;
   margin: 0em 0.25rem 0.5rem;
 }
-
-
-/*******************************
-         Theme Overrides
-*******************************/
-

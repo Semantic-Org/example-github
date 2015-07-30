@@ -23,7 +23,7 @@
   box-shadow: none;
   background: rgba(0, 0, 0, 0.1);
   padding: 0em;
-  border-radius: 0.28571429rem;
+  border-radius: 4px;
 }
 .ui.progress:first-child {
   margin: 0em 0em 2.5em;
@@ -46,7 +46,7 @@
   width: 0%;
   min-width: 2em;
   background: #888888;
-  border-radius: 0.28571429rem;
+  border-radius: 4px;
   -webkit-transition: width 0.1s ease, background-color 0.1s ease;
           transition: width 0.1s ease, background-color 0.1s ease;
 }
@@ -77,7 +77,7 @@
   right: auto;
   left: 0%;
   bottom: auto;
-  color: rgba(0, 0, 0, 0.87);
+  color: #212121;
   font-weight: bold;
   text-shadow: none;
   margin-top: 0.2em;
@@ -119,25 +119,25 @@
 /* Indicating Label */
 .ui.indicating.progress[data-percent^="1"] .label,
 .ui.indicating.progress[data-percent^="2"] .label {
-  color: rgba(0, 0, 0, 0.87);
+  color: #212121;
 }
 .ui.indicating.progress[data-percent^="3"] .label {
-  color: rgba(0, 0, 0, 0.87);
+  color: #212121;
 }
 .ui.indicating.progress[data-percent^="4"] .label,
 .ui.indicating.progress[data-percent^="5"] .label {
-  color: rgba(0, 0, 0, 0.87);
+  color: #212121;
 }
 .ui.indicating.progress[data-percent^="6"] .label {
-  color: rgba(0, 0, 0, 0.87);
+  color: #212121;
 }
 .ui.indicating.progress[data-percent^="7"] .label,
 .ui.indicating.progress[data-percent^="8"] .label {
-  color: rgba(0, 0, 0, 0.87);
+  color: #212121;
 }
 .ui.indicating.progress[data-percent^="9"] .label,
 .ui.indicating.progress[data-percent^="100"] .label {
-  color: rgba(0, 0, 0, 0.87);
+  color: #212121;
 }
 
 /* Single Digits */
@@ -161,7 +161,7 @@
 .ui.indicating.progress[data-percent="7"] .label,
 .ui.indicating.progress[data-percent="8"] .label,
 .ui.indicating.progress[data-percent="9"] .label {
-  color: rgba(0, 0, 0, 0.87);
+  color: #212121;
 }
 
 /* Indicating Success */
@@ -180,7 +180,7 @@
 ---------------*/
 
 .ui.progress.success .bar {
-  background-color: #21ba45 !important;
+  background-color: #4caf50 !important;
 }
 .ui.progress.success .bar,
 .ui.progress.success .bar::after {
@@ -212,7 +212,7 @@
 ---------------*/
 
 .ui.progress.error .bar {
-  background-color: #db2828 !important;
+  background-color: #f44336 !important;
 }
 .ui.progress.error .bar,
 .ui.progress.error .bar::after {
@@ -240,7 +240,7 @@
   right: 0px;
   bottom: 0px;
   background: #ffffff;
-  border-radius: 0.28571429rem;
+  border-radius: 4px;
   -webkit-animation: progress-active 2s ease infinite;
           animation: progress-active 2s ease infinite;
 }
@@ -296,19 +296,19 @@
   background: #888888;
 }
 .ui.inverted.progress .bar > .progress {
-  color: #f9fafb;
+  color: #fafafa;
 }
 .ui.inverted.progress > .label {
   color: #ffffff;
 }
 .ui.inverted.progress.success > .label {
-  color: #21ba45;
+  color: #4caf50;
 }
 .ui.inverted.progress.warning > .label {
   color: #f2c037;
 }
 .ui.inverted.progress.error > .label {
-  color: #db2828;
+  color: #f44336;
 }
 
 /*--------------
@@ -329,7 +329,7 @@
   height: 0.2rem;
   padding: 0px;
   overflow: hidden;
-  border-radius: 0em 0em 0.28571429rem 0.28571429rem;
+  border-radius: 0em 0em 4px 4px;
 }
 .ui.progress.attached .bar {
   border-radius: 0em;
@@ -339,7 +339,7 @@
 .ui.progress.top.attached,
 .ui.progress.top.attached .bar {
   top: 0px;
-  border-radius: 0.28571429rem 0.28571429rem 0em 0em;
+  border-radius: 4px 4px 0em 0em;
 }
 .ui.progress.top.attached .bar {
   border-radius: 0em;
@@ -367,26 +367,26 @@
 
 /* Red */
 .ui.red.progress .bar {
-  background-color: #db2828;
+  background-color: #f44336;
 }
 .ui.red.inverted.progress .bar {
-  background-color: #ff695e;
+  background-color: #ff1744;
 }
 
 /* Orange */
 .ui.orange.progress .bar {
-  background-color: #f2711c;
+  background-color: #ff9800;
 }
 .ui.orange.inverted.progress .bar {
-  background-color: #ff851b;
+  background-color: #ff9100;
 }
 
 /* Yellow */
 .ui.yellow.progress .bar {
-  background-color: #fbbd08;
+  background-color: #ffeb3b;
 }
 .ui.yellow.inverted.progress .bar {
-  background-color: #ffe21f;
+  background-color: #ffea00;
 }
 
 /* Olive */
@@ -399,26 +399,26 @@
 
 /* Green */
 .ui.green.progress .bar {
-  background-color: #21ba45;
+  background-color: #4caf50;
 }
 .ui.green.inverted.progress .bar {
-  background-color: #2ecc40;
+  background-color: #00e676;
 }
 
 /* Teal */
 .ui.teal.progress .bar {
-  background-color: #00b5ad;
+  background-color: #1de9b6;
 }
 .ui.teal.inverted.progress .bar {
-  background-color: #6dffff;
+  background-color: #1de9b6;
 }
 
 /* Blue */
 .ui.blue.progress .bar {
-  background-color: #2185d0;
+  background-color: #2196f3;
 }
 .ui.blue.inverted.progress .bar {
-  background-color: #54c8ff;
+  background-color: #2979ff;
 }
 
 /* Violet */
@@ -431,18 +431,18 @@
 
 /* Purple */
 .ui.purple.progress .bar {
-  background-color: #a333c8;
+  background-color: #9c27b0;
 }
 .ui.purple.inverted.progress .bar {
-  background-color: #dc73ff;
+  background-color: #d500f9;
 }
 
 /* Pink */
 .ui.pink.progress .bar {
-  background-color: #e03997;
+  background-color: #e91e63;
 }
 .ui.pink.inverted.progress .bar {
-  background-color: #ff8edf;
+  background-color: #f50057;
 }
 
 /* Brown */
@@ -455,7 +455,7 @@
 
 /* Grey */
 .ui.grey.progress .bar {
-  background-color: #767676;
+  background-color: #9e9e9e;
 }
 .ui.grey.inverted.progress .bar {
   background-color: #dcddde;
@@ -466,7 +466,7 @@
   background-color: #1b1c1d;
 }
 .ui.black.inverted.progress .bar {
-  background-color: #545454;
+  background-color: #333333;
 }
 
 /*--------------

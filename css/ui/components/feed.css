@@ -136,7 +136,7 @@
   margin: 0em;
   font-size: 1em;
   font-weight: bold;
-  color: rgba(0, 0, 0, 0.87);
+  color: #212121;
 }
 
 /* Summary Image */
@@ -191,7 +191,7 @@
   margin: 0.5em 0em 0em;
   background: none;
   padding: 0em;
-  color: rgba(0, 0, 0, 0.87);
+  color: #212121;
 }
 
 /* Images */
@@ -207,7 +207,7 @@
   border-left: none;
   font-size: 1em;
   max-width: 500px;
-  line-height: 1.4285em;
+  line-height: 1.33;
 }
 
 /*--------------

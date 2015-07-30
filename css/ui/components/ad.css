@@ -240,7 +240,7 @@
 }
 .ui.test.ad {
   position: relative;
-  background: #545454;
+  background: #333333;
 }
 .ui.test.ad:after {
   position: absolute;

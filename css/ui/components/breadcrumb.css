@@ -45,10 +45,10 @@
 
 /* Link */
 .ui.breadcrumb a {
-  color: #4183c4;
+  color: #009fda;
 }
 .ui.breadcrumb a:hover {
-  color: #1e70bf;
+  color: #00b2f3;
 }
 
 /* Icon Divider */
@@ -106,14 +106,8 @@
   font-size: 1.28571429rem;
 }
 .ui.huge.breadcrumb {
-  font-size: 1.42857143rem;
+  font-size: 1.5384em;
 }
 .ui.massive.breadcrumb {
   font-size: 1.71428571rem;
 }
-
-
-/*******************************
-         Theme Overrides
-*******************************/
-
