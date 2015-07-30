@@ -1094,7 +1094,7 @@ input::selection {
   margin: 0px 0px 0px -1px;
   padding: 0.46153846em 0.76923077em;
   font-size: 1em;
-  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.13);
+  border-color: rgba(0, 0, 0, 0.13);
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
 }
