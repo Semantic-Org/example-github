@@ -29,6 +29,7 @@
   <link rel="stylesheet" type="text/css" href="css/ui/components/menu.css">
   <link rel="stylesheet" type="text/css" href="css/ui/components/message.css">
   <link rel="stylesheet" type="text/css" href="css/ui/components/popup.css">
+  <link rel="stylesheet" type="text/css" href="css/ui/components/reveal.css">
   <link rel="stylesheet" type="text/css" href="css/ui/components/segment.css">
   <link rel="stylesheet" type="text/css" href="css/ui/components/table.css">
   <link rel="stylesheet" type="text/css" href="css/ui/components/transition.css">
@@ -90,18 +91,18 @@
         <div class="item">
           <div class="ui small labeled input">
             <div class="ui label">
-              This Repository
+              This repository
             </div>
             <input type="text" placeholder="Search">
           </div>
           <a class="item">
-            Pull requests
+            <b>Pull requests</b>
           </a>
           <a class="item">
-            Issues
+            <b>Issues</b>
           </a>
           <a class="item">
-            Gist
+            <b>Gist</b>
           </a>
         </div>
       </div>
@@ -113,28 +114,31 @@
     <div class="repo ribbon">
       <div class="ui container">
         <div class="repo options">
-          <div class="ui floating watch dropdown button" data-content="Quickly jump between files">
-            <input type="hidden" value="watching">
-            <i class="eye icon"></i> Unwatch
-            <i class="dropdown icon"></i>
-            <div class="menu">
-              <!-- <div class="header">
-                Notifications
-                <i class="close icon"></i>
-              </div> -->
-              <div class="item" data-value="not-watching">
-                <h4>Not Watching</h4>
-                <span>Be notified when participating or @mentioned.</span>
-              </div>
-              <div class="item" data-value="watching">
-                <h4>Watching</h4>
-                <span>Be notified of all conversations.</span>
-              </div>
-              <div class="item" data-value="ignoring">
-                <h4>Ignoring</h4>
-                <span>Never be notified.</span>
+          <div class="ui labeled button">
+            <div class="ui floating watch dropdown button" data-content="Quickly jump between files">
+              <input type="hidden" value="watching">
+              <i class="eye icon"></i> Unwatch
+              <i class="dropdown icon"></i>
+              <div class="menu">
+                <!-- <div class="header">
+                  Notifications
+                  <i class="close icon"></i>
+                </div> -->
+                <div class="item" data-value="not-watching">
+                  <h4>Not Watching</h4>
+                  <span>Be notified when participating or @mentioned.</span>
+                </div>
+                <div class="item" data-value="watching">
+                  <h4>Watching</h4>
+                  <span>Be notified of all conversations.</span>
+                </div>
+                <div class="item" data-value="ignoring">
+                  <h4>Ignoring</h4>
+                  <span>Never be notified.</span>
+                </div>
               </div>
             </div>
+            <a class="ui basic label">1,001</a>
           </div>
           <div class="ui labeled button">
             <div class="ui button">
@@ -161,12 +165,11 @@
     <!-- Repo Content -->
     <div class="ui equal width vertically padded grid container">
       <div class="twelve wide column">
-
         <div class="repo description">
           <div>Semantic is a UI component framework based around useful principles from natural language.</div>
           <a href="http://www.semantic-ui.com">http://www.semantic-ui.com</a>
         </div>
-        <div class="ui four item borderless top attached stats menu">
+        <div class="ui four item top attached borderless stats menu">
           <a class="item">
             <i class="history icon"></i>
             <b>5,227</b> commits
@@ -191,7 +194,7 @@
         </div>
 
         <div class="repo title">
-          <div class="ui right floated icon button">
+          <div class="ui right floated icon button" data-content="Quickly jump between files">
             <i class="unordered list icon"></i>
           </div>
           <div class="ui positive icon button">
@@ -215,11 +218,15 @@
           Merge pull request <a href="#">#2728</a> from sunseth/patch-1
         </div>
         <div class="ui attached latest segment">
+          <i class="blue clippy link icon"></i>
+          <a class="sha">
+            latest commit <b>3d002c72a0</b>
+          </a>
           <img class="ui mini right spaced rounded image" src="images/avatar.jpg">
           <a href="#"><b>jlukic</b></a>
           authored 2 days ago
         </div>
-        <table class="ui bottom attached files single line table">
+        <table class="ui bottom attached files single line unstackable table">
           <tbody>
             <tr>
               <td class="single line five wide">
@@ -415,12 +422,10 @@
         </table>
 
         <div class="ui segments">
-          <div class="ui secondary segment">
-            <h4>
-              <i class="book icon"></i>
-              Readme.md
-            </h4>
-          </div>
+          <h4 class="ui top attached block header">
+            <i class="book icon"></i>
+            README.md
+          </h4>
           <div class="ui readme padded segment">
 
             <img src="https://camo.githubusercontent.com/fd37a36efc5d224a678609ae94405139399e0fd3/687474703a2f2f7777772e73656d616e7469632d75692e636f6d2f696d616765732f6c6f676f2e706e67">

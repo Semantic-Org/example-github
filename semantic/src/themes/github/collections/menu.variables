@@ -5,7 +5,7 @@
 /* Menu */
 @boxShadow: none;
 @dropdownIconDistance: @relative12px;
-@inputVerticalPadding: @relative2px;
+@inputVerticalPadding: @relative6px;
 
 @itemTextColor: #767676;
 @iconOpacity: 0.5;
@@ -28,7 +28,7 @@
 /* Tabular */
 @tabularBorderColor: #EEEEEE;
 @tabularVerticalBackground: linear-gradient(to left, #f6f6f6 0%, #fff 8px) transparent;
-@tabularVerticalPadding: @relative8px;
+@tabularVerticalPadding: @relative9px;
 @tabularHorizontalPadding: @relative10px;
 @tabularTextColor: @linkColor;
 
@@ -37,7 +37,7 @@
 
 /* Text Menu */
 @textMenuItemColor: #333333;
-@textMenuItemFontWeight: bold;
+@textMenuItemFontWeight: normal;
 
 /* Pagination */
 @paginationMinWidth: 3.5em;

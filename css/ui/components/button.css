@@ -21,8 +21,8 @@
   outline: none;
   border: none;
   vertical-align: baseline;
-  background: #e0e1e2 -webkit-linear-gradient(#fcfcfc, #eeeeee);
-  background: #e0e1e2 linear-gradient(#fcfcfc, #eeeeee);
+  background: #ffffff -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.05));
+  background: #ffffff linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.05));
   color: #333333;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   margin: 0em 0.25em 0em 0em;
@@ -40,8 +40,8 @@
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  -webkit-transition: opacity 0.1s ease, background-color 0.1s ease, color 0.1s ease, box-shadow 0.1s ease, background 0.1s ease;
-          transition: opacity 0.1s ease, background-color 0.1s ease, color 0.1s ease, box-shadow 0.1s ease, background 0.1s ease;
+  -webkit-transition: opacity 0.1s ease, background 0.1s ease, color 0.1s ease, box-shadow 0.1s ease, background 0.1s ease;
+          transition: opacity 0.1s ease, background 0.1s ease, color 0.1s ease, box-shadow 0.1s ease, background 0.1s ease;
   will-change: '';
   -webkit-tap-highlight-color: transparent;
 }
@@ -363,14 +363,26 @@
 }
 
 /* States */
+
+/* Hover */
 .ui.inverted.button:hover {
   background: #ffffff;
   box-shadow: 0px 0px 0px 2px #ffffff inset !important;
   color: rgba(0, 0, 0, 0.8);
 }
-.ui.inverted.button:focus {
+
+/* Active / Focus */
+.ui.inverted.button:focus,
+.ui.inverted.button.active {
   background: #ffffff;
   box-shadow: 0px 0px 0px 2px #ffffff inset !important;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+/* Active Focus */
+.ui.inverted.button.active:focus {
+  background: #dcddde;
+  box-shadow: 0px 0px 0px 2px #dcddde inset !important;
   color: rgba(0, 0, 0, 0.8);
 }
 
@@ -395,16 +407,40 @@
 }
 .ui.labeled.button > .button {
   margin: 0px;
+}
+.ui.labeled.button > .label {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin: 0px 0px 0px -1px;
+  padding: 0.46153846em 0.76923077em;
+  font-size: 0.84615385em;
+  border-color: rgba(0, 0, 0, 0.13);
+}
+
+/* Right */
+.ui.labeled.button:not([class*="left labeled"]) > .button {
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
 }
-.ui.labeled.button > .label {
-  margin: 0px 0px 0px -1px;
-  padding: 0.46153846em 0.76923077em;
-  font-size: 1em;
-  border-color: rgba(0, 0, 0, 0.13);
+.ui.labeled.button:not([class*="left labeled"]) > .label {
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
+}
+
+/* Left Side */
+.ui[class*="left labeled"].button > .button {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.ui[class*="left labeled"].button > .label {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
 /*-------------------
@@ -570,7 +606,7 @@
      Icon
 ---------------*/
 
-.ui.button > .icon {
+.ui.button > .icon:not(.button) {
   height: 13px;
   opacity: 0.8;
   margin: 0em 0.30769231em 0em -0.15384615em;
@@ -579,7 +615,7 @@
   vertical-align: '';
   color: '';
 }
-.ui.button > .right.icon {
+.ui.button > .right.icon:not(.button) {
   margin: 0em -0.15384615em 0em 0.30769231em;
 }
 
@@ -1256,6 +1292,7 @@
 .ui.basic.black.button:focus {
   background: transparent !important;
   box-shadow: 0px 0px 0px 2px #717171 inset !important;
+  color: #6a6a6a !important;
 }
 .ui.basic.black.buttons .active.button,
 .ui.basic.black.active.button {
@@ -1396,6 +1433,7 @@
 .ui.basic.grey.button:focus {
   background: transparent !important;
   box-shadow: 0px 0px 0px 2px #8a8a8a inset !important;
+  color: #838383 !important;
 }
 .ui.basic.grey.buttons .active.button,
 .ui.basic.grey.active.button {
@@ -1536,6 +1574,7 @@
 .ui.basic.brown.button:focus {
   background: transparent !important;
   box-shadow: 0px 0px 0px 2px #90532b inset !important;
+  color: #975b33 !important;
 }
 .ui.basic.brown.buttons .active.button,
 .ui.basic.brown.active.button {
@@ -1676,6 +1715,7 @@
 .ui.basic.blue.button:focus {
   background: transparent !important;
   box-shadow: 0px 0px 0px 2px #1d5e9e inset !important;
+  color: #2565a5 !important;
 }
 .ui.basic.blue.buttons .active.button,
 .ui.basic.blue.active.button {
@@ -1816,6 +1856,7 @@
 .ui.basic.green.button:focus {
   background: transparent !important;
   box-shadow: 0px 0px 0px 2px #4c9c30 inset !important;
+  color: #54a238 !important;
 }
 .ui.basic.green.buttons .active.button,
 .ui.basic.green.active.button {
@@ -1956,6 +1997,7 @@
 .ui.basic.orange.button:focus {
   background: transparent !important;
   box-shadow: 0px 0px 0px 2px #ba5500 inset !important;
+  color: #c35c07 !important;
 }
 .ui.basic.orange.buttons .active.button,
 .ui.basic.orange.active.button {
@@ -2096,6 +2138,7 @@
 .ui.basic.pink.button:focus {
   background: transparent !important;
   box-shadow: 0px 0px 0px 2px #e10f85 inset !important;
+  color: #e61a8d !important;
 }
 .ui.basic.pink.buttons .active.button,
 .ui.basic.pink.active.button {
@@ -2236,6 +2279,7 @@
 .ui.basic.violet.button:focus {
   background: transparent !important;
   box-shadow: 0px 0px 0px 2px #4f20b5 inset !important;
+  color: #5829bb !important;
 }
 .ui.basic.violet.buttons .active.button,
 .ui.basic.violet.active.button {
@@ -2376,6 +2420,7 @@
 .ui.basic.purple.button:focus {
   background: transparent !important;
   box-shadow: 0px 0px 0px 2px #8f1eb4 inset !important;
+  color: #9627ba !important;
 }
 .ui.basic.purple.buttons .active.button,
 .ui.basic.purple.active.button {
@@ -2516,6 +2561,7 @@
 .ui.basic.red.button:focus {
   background: transparent !important;
   box-shadow: 0px 0px 0px 2px #ca1010 inset !important;
+  color: #d01919 !important;
 }
 .ui.basic.red.buttons .active.button,
 .ui.basic.red.active.button {
@@ -2656,6 +2702,7 @@
 .ui.basic.teal.button:focus {
   background: transparent !important;
   box-shadow: 0px 0px 0px 2px #008c86 inset !important;
+  color: #009c95 !important;
 }
 .ui.basic.teal.buttons .active.button,
 .ui.basic.teal.active.button {
@@ -2796,6 +2843,7 @@
 .ui.basic.olive.button:focus {
   background: transparent !important;
   box-shadow: 0px 0px 0px 2px #a0b605 inset !important;
+  color: #a7bd0d !important;
 }
 .ui.basic.olive.buttons .active.button,
 .ui.basic.olive.active.button {
@@ -2936,6 +2984,7 @@
 .ui.basic.yellow.button:focus {
   background: transparent !important;
   box-shadow: 0px 0px 0px 2px #daa300 inset !important;
+  color: #eaae00 !important;
 }
 .ui.basic.yellow.buttons .active.button,
 .ui.basic.yellow.active.button {

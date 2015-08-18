@@ -18,14 +18,15 @@
   position: relative;
   min-height: 1em;
   margin: 1em 0em;
-  background: #f8f8f9;
-  padding: 1em 1.5em;
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.05)) #fefefe;
+  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.05)) #fefefe;
+  padding: 15px 15px;
   line-height: 1.4285em;
   color: rgba(0, 0, 0, 0.87);
   -webkit-transition: opacity 0.1s ease, color 0.1s ease, background 0.1s ease, box-shadow 0.1s ease;
           transition: opacity 0.1s ease, color 0.1s ease, background 0.1s ease, box-shadow 0.1s ease;
   border-radius: 0.2307em;
-  box-shadow: 0px 0px 0px 1px rgba(34, 36, 38, 0.22) inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.3) inset, 0px 0px 0px 1px rgba(0, 0, 0, 0.2) inset;
 }
 .ui.message:first-child {
   margin-top: 0em;
@@ -49,7 +50,7 @@
 
 /* Default font size */
 .ui.message .header:not(.ui) {
-  font-size: 1.15384615em;
+  font-size: 1.15em;
 }
 
 /* Paragraph */
@@ -108,7 +109,7 @@
   cursor: pointer;
   position: absolute;
   margin: 0em;
-  top: 0.78575em;
+  top: 14.78575px;
   right: 0.5em;
   opacity: 0.7;
   -webkit-transition: opacity 0.1s ease;
@@ -251,7 +252,7 @@
 ---------------*/
 
 .ui.floating.message {
-  box-shadow: 0px 0px 0px 1px rgba(34, 36, 38, 0.22) inset, 0px 2px 4px 0px rgba(34, 36, 38, 0.12), 0px 2px 10px 0px rgba(34, 36, 38, 0.08);
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1) inset, 0px 2px 3px 0px rgba(0, 0, 0, 0.1), 0px 0px 0px 1px rgba(0, 0, 0, 0.05) inset;
 }
 
 /*--------------
@@ -297,11 +298,11 @@
 /* Info */
 .ui.info.message {
   background-color: #e6f1f6;
-  color: #4e575b;
+  color: #264c72;
 }
 .ui.info.message,
 .ui.attached.info.message {
-  box-shadow: 0px 0px 0px 1px #a9d5de inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  box-shadow: 0px 0px 0px 1px #97c1da inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.info.message .header {
   color: #0e566c;
@@ -310,11 +311,11 @@
 /* Warning */
 .ui.warning.message {
   background-color: #fffaf3;
-  color: #573a08;
+  color: #613a00;
 }
 .ui.warning.message,
 .ui.attached.warning.message {
-  box-shadow: 0px 0px 0px 1px #c9ba9b inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  box-shadow: 0px 0px 0px 1px #dca874 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.warning.message .header {
   color: #794b02;
@@ -323,11 +324,11 @@
 /* Error */
 .ui.error.message {
   background-color: #fff6f6;
-  color: #9f3a38;
+  color: #991111;
 }
 .ui.error.message,
 .ui.attached.error.message {
-  box-shadow: 0px 0px 0px 1px #e0b4b4 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  box-shadow: 0px 0px 0px 1px #da9797 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.error.message .header {
   color: #912d2b;
@@ -449,9 +450,15 @@
 .ui.massive.message {
   font-size: 1.69230769em;
 }
-
-
-/*******************************
-         Theme Overrides
-*******************************/
-
+.ui.info.message {
+  background: -webkit-linear-gradient(#d8ebf8, #d0e3ef);
+  background: linear-gradient(#d8ebf8, #d0e3ef);
+}
+.ui.error.message {
+  background: -webkit-linear-gradient(#f8d8d8, #efd0d0);
+  background: linear-gradient(#f8d8d8, #efd0d0);
+}
+.ui.warning.message {
+  background: -webkit-linear-gradient(#ffe3c8, #f5dac0);
+  background: linear-gradient(#ffe3c8, #f5dac0);
+}

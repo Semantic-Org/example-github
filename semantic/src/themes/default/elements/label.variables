@@ -11,13 +11,14 @@
 @horizontalMargin: @relative2px;
 @backgroundColor: #E8E8E8;
 @color: @mutedTextColor;
-@borderColor: @backgroundColor;
 @backgroundImage: none;
-@verticalPadding: 0.5833em;
+@verticalPadding: 0.5833em; /* medium is not @emSize custom value required */
 @horizontalPadding: 0.833em;
 @borderRadius: @absoluteBorderRadius;
 @textTransform: none;
 @fontWeight: bold;
+@borderWidth: 1px;
+@border: 0px solid transparent;
 
 @lineHeightOffset: -(@verticalPadding / 2);
 
@@ -103,7 +104,8 @@
 
 /* Basic */
 @basicBackground: none @white;
-@basicBorder: 1px solid @borderColor;
+@basicBorderWidth: 1px;
+@basicBorder: @basicBorderWidth solid @borderColor;
 @basicColor: @textColor;
 @basicBoxShadow: none;
 
@@ -120,10 +122,10 @@
 @tagTriangleRightOffset: 100%;
 @tagTriangleTopOffset: 50%;
 @tagTriangleSize: 1.56em;
+@tagTriangleBackgroundImage: none;
 @tagTransition: background @labelTransitionDuration @labelTransitionEasing;
 
 /* Ribbon */
-@ribbonImageTopDistance: 1rem;
 @ribbonTriangleSize: 1.2em;
 @ribbonShadowColor: rgba(0, 0, 0, 0.15);
 
@@ -132,9 +134,15 @@
 @ribbonDistance: ~"calc("@ribbonMargin~" + "@ribbonTriangleSize~")";
 @rightRibbonOffset:  ~"calc(100% + "@ribbonMargin~" + "@ribbonTriangleSize~")";
 
+@ribbonImageTopDistance: 1rem;
 @ribbonImageMargin: -0.05rem; /* Rounding Offset on Triangle */
 @ribbonImageOffset: ~"calc("-@ribbonImageMargin~" - "@ribbonTriangleSize~")";
 @rightRibbonImageOffset:  ~"calc(100% + "@ribbonImageMargin~" + "@ribbonTriangleSize~")";
+
+@ribbonTableMargin: @relativeMini; /* Rounding Offset on Triangle */
+@ribbonTableOffset: ~"calc("-@ribbonTableMargin~" - "@ribbonTriangleSize~")";
+@rightRibbonTableOffset:  ~"calc(100% + "@ribbonTableMargin~" + "@ribbonTriangleSize~")";
+
 
 /* Colors */
 @redTextColor: @white;
@@ -214,13 +222,18 @@
 @emptyCircleSize: 0.5em;
 
 /* Pointing */
+@pointingBorderColor: inherit;
+@pointingBorderWidth: @borderWidth;
 @pointingVerticalDistance: 1em;
-@pointingTriangleSize: 0.6em;
+@pointingTriangleSize: 0.6666em;
 @pointingHorizontalDistance: @pointingTriangleSize;
 
-@pointingTriangleOffset: (@pointingTriangleSize / 2);
+@pointingTriangleOffset: -@pointingTriangleSize / 2;
 @pointingTriangleTransition: background @labelTransitionDuration @labelTransitionEasing;
 @pointingTriangleZIndex: 2;
+
+/* Basic Pointing */
+@basicPointingTriangleOffset: ~"calc("(-@pointingTriangleSize / 2)~" - "@pointingBorderWidth~")";
 
 /* Floating */
 @floatingTopOffset: -1em;

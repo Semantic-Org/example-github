@@ -62,7 +62,7 @@
 .ui.header .icon:only-child {
   display: inline-block;
   padding: 0em;
-  margin-right: 0.75rem;
+  margin-right: 0.30769231rem;
 }
 
 /*-------------------
@@ -79,7 +79,7 @@
 }
 .ui.header > .image:only-child,
 .ui.header > img:only-child {
-  margin-right: 0.75rem;
+  margin-right: 0.30769231rem;
 }
 
 /*--------------
@@ -94,13 +94,13 @@
 /* After Image */
 .ui.header > img + .content,
 .ui.header > .image + .content {
-  padding-left: 0.75rem;
+  padding-left: 0.30769231rem;
   vertical-align: middle;
 }
 
 /* After Icon */
 .ui.header > .icon + .content {
-  padding-left: 0.75rem;
+  padding-left: 0.30769231rem;
   display: table-cell;
   vertical-align: middle;
 }
@@ -708,9 +708,3 @@ a.ui.inverted.grey.header:hover {
 .ui.header:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
   font-size: 1.28em;
 }
-
-
-/*******************************
-         Theme Overrides
-*******************************/
-

@@ -160,9 +160,12 @@
 @iconButtonOpacity: 0.9;
 
 /* Labeled */
+@labeledLabelFontSize: @medium;
+@labeledLabelAlign: center;
 @labeledLabelPadding: @verticalPadding @horizontalPadding;
 @labeledLabelFontSize: @relativeMedium;
 @labeledLabelBorderColor: @borderColor;
+@labeledLabelBorderOffset: -@borderBoxShadowWidth;
 
 /* Labeled Icon */
 @labeledIconWidth: 1em + (@verticalPadding * 2);
