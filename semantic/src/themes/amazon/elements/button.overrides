@@ -17,7 +17,11 @@
   border-color: #32373E #24282D #212429;
 }
 
+.ui.positive.button {
+  border-color: #3E8E22;
+}
 
+/* Special Icons for Amazon */
 .ui.labeled.icon.buttons .button > .icon,
 .ui.labeled.icon.button > .icon {
   margin: @relative2px;

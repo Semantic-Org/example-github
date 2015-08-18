@@ -319,7 +319,7 @@
 .ui.table tr.error,
 .ui.table td.error {
   background: #fff6f6 !important;
-  color: #9f3a38 !important;
+  color: #991111 !important;
 }
 
 /*--------------
@@ -333,7 +333,7 @@
 .ui.table tr.warning,
 .ui.table td.warning {
   background: #fffaf3 !important;
-  color: #573a08 !important;
+  color: #613a00 !important;
 }
 
 /*--------------
@@ -483,12 +483,12 @@
 .ui.selectable.table tr.error:hover,
 .ui.selectable.table tr:hover td.error {
   background: #ffe7e7 !important;
-  color: #943634 !important;
+  color: #8b0f0f !important;
 }
 .ui.selectable.table tr.warning:hover,
 .ui.selectable.table tr:hover td.warning {
   background: #fff4e4 !important;
-  color: #493107 !important;
+  color: #523100 !important;
 }
 .ui.selectable.table tr.active:hover,
 .ui.selectable.table tr:hover td.active {

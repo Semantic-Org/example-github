@@ -391,6 +391,16 @@ i.inverted.circular.black.icon {
         Sizes
 --------------------*/
 
+i.mini.icon,
+i.mini.icons {
+  line-height: 1;
+  font-size: 0.69230769rem;
+}
+i.tiny.icon,
+i.tiny.icons {
+  line-height: 1;
+  font-size: 0.84615385rem;
+}
 i.small.icon,
 i.small.icons {
   line-height: 1;

@@ -33,6 +33,9 @@ a:hover b {
 }
 
 /* Space right of input */
+.page.header .menu .item:first-child {
+  padding-left: 0em;
+}
 .page.header .menu .item .input {
   margin-right: 1em;
 }
@@ -92,7 +95,7 @@ a:hover b {
 ---------------*/
 
 .repo.menu:first-child {
-  margin-top: 18px;
+  margin-top: 0.35em;
 }
 .repo.menu ~ p {
   font-size: 11px;

@@ -36,6 +36,7 @@
 @tabularActiveBoxShadow: 1px 1px 3px rgba(0, 0, 0, 0.05);
 
 /* Text Menu */
+@textMenuItemSpacing: @relative8px;
 @textMenuItemColor: #333333;
 @textMenuItemFontWeight: normal;
 

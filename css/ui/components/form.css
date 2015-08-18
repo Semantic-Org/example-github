@@ -525,7 +525,7 @@
 .ui.form .fields.error .field .ui.multiple.selection.dropdown > .label,
 .ui.form .field.error .ui.multiple.selection.dropdown > .label {
   background-color: #eacbcb;
-  color: #9f3a38;
+  color: #991111;
 }
 
 /* Hover */

@@ -15,17 +15,17 @@
   opacity @defaultDuration @defaultEasing,
   background @defaultDuration @defaultEasing,
   color @defaultDuration @defaultEasing,
-  box-shadow @defaultDuration @defaultEasing,
   background @defaultDuration @defaultEasing
 ;
 
+@iconOpacity: 1;
 @iconHeight: 13px;
 @iconDistance: @relative4px;
 
 @verticalPadding: @relative6px;
 @horizontalPadding: @relative10px;
 
-@backgroundColor: #FFFFFF;
+@backgroundColor: #FBFBFB;
 @backgroundImage: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.05));
 @borderBoxShadowColor: rgba(0, 0, 0, 0.13);
 
