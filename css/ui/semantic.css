@@ -20606,7 +20606,7 @@ Floated Menu / Item
 
 .ui.table {
   width: 100%;
-  background: #ffffff;
+  background: #f8f8f8;
   margin: 1em 0em;
   border: 1px solid rgba(0, 0, 0, 0.13);
   box-shadow: none;
@@ -31033,7 +31033,7 @@ html.ios body {
 
 .ui.table {
   width: 100%;
-  background: #ffffff;
+  background: #f8f8f8;
   margin: 1em 0em;
   border: 1px solid rgba(0, 0, 0, 0.13);
   box-shadow: none;
