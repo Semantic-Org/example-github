@@ -1045,7 +1045,7 @@ Floated Menu / Item
   border-radius: 0px;
   box-shadow: none;
   border: none;
-  margin: 1em -0.53846154em;
+  margin: 1em -0.61538462em;
 }
 .ui.text.menu .item {
   border-radius: 0px;
@@ -1054,7 +1054,7 @@ Floated Menu / Item
       -ms-flex-item-align: center;
           align-self: center;
   margin: 0em 0em;
-  padding: 0.38461538em 0.53846154em;
+  padding: 0.38461538em 0.61538462em;
   font-weight: normal;
   color: #333333;
   -webkit-transition: opacity 0.1s ease;

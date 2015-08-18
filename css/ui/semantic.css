@@ -522,7 +522,7 @@ body {
   margin: 0px;
   padding: 0px;
   overflow-x: visible;
-  min-width: 980px;
+  min-width: 1049px;
   background: #ffffff;
   font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 13px;
@@ -677,8 +677,8 @@ input::selection {
   outline: none;
   border: none;
   vertical-align: baseline;
-  background: #ffffff -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.05));
-  background: #ffffff linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.05));
+  background: #fbfbfb -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.05));
+  background: #fbfbfb linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.05));
   color: #333333;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   margin: 0em 0.25em 0em 0em;
@@ -696,8 +696,8 @@ input::selection {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: opacity 0.1s ease, background 0.1s ease, color 0.1s ease, box-shadow 0.1s ease, background 0.1s ease;
-  transition: opacity 0.1s ease, background 0.1s ease, color 0.1s ease, box-shadow 0.1s ease, background 0.1s ease;
+  -webkit-transition: opacity 0.1s ease, background 0.1s ease, color 0.1s ease, background 0.1s ease;
+  transition: opacity 0.1s ease, background 0.1s ease, color 0.1s ease, background 0.1s ease;
   will-change: '';
   -webkit-tap-highlight-color: transparent;
 }
@@ -1328,7 +1328,7 @@ input::selection {
 
 .ui.button > .icon:not(.button) {
   height: 13px;
-  opacity: 0.8;
+  opacity: 1;
   margin: 0em 0.30769231em 0em -0.15384615em;
   -webkit-transition: opacity 0.1s ease;
   transition: opacity 0.1s ease;
@@ -7402,6 +7402,18 @@ i.inverted.circular.black.icon {
 /*-------------------
         Sizes
 --------------------*/
+
+i.mini.icon,
+i.mini.icons {
+  line-height: 1;
+  font-size: 0.69230769rem;
+}
+
+i.tiny.icon,
+i.tiny.icons {
+  line-height: 1;
+  font-size: 0.84615385rem;
+}
 
 i.small.icon,
 i.small.icons {
@@ -14917,7 +14929,7 @@ ol.ui.horizontal.list li:before,
 .ui.form .fields.error .field .ui.multiple.selection.dropdown > .label,
 .ui.form .field.error .ui.multiple.selection.dropdown > .label {
   background-color: #eacbcb;
-  color: #9f3a38;
+  color: #991111;
 }
 
 /* Hover */
@@ -18950,7 +18962,7 @@ Floated Menu / Item
   border-radius: 0px;
   box-shadow: none;
   border: none;
-  margin: 1em -0.53846154em;
+  margin: 1em -0.61538462em;
 }
 
 .ui.text.menu .item {
@@ -18960,7 +18972,7 @@ Floated Menu / Item
   -ms-flex-item-align: center;
   align-self: center;
   margin: 0em 0em;
-  padding: 0.38461538em 0.53846154em;
+  padding: 0.38461538em 0.61538462em;
   font-weight: normal;
   color: #333333;
   -webkit-transition: opacity 0.1s ease;
@@ -20074,8 +20086,7 @@ Floated Menu / Item
   position: relative;
   min-height: 1em;
   margin: 1em 0em;
-  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.05)) #fefefe;
-  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.05)) #fefefe;
+  background: #fefefe;
   padding: 15px 15px;
   line-height: 1.4285em;
   color: rgba(0, 0, 0, 0.87);
@@ -20382,12 +20393,12 @@ Floated Menu / Item
 
 .ui.info.message {
   background-color: #e6f1f6;
-  color: #264c72;
+  color: #4e575b;
 }
 
 .ui.info.message,
 .ui.attached.info.message {
-  box-shadow: 0px 0px 0px 1px #97c1da inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  box-shadow: 0px 0px 0px 1px #b7c7cf inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 
 .ui.info.message .header {
@@ -20571,21 +20582,6 @@ Floated Menu / Item
 
 .ui.massive.message {
   font-size: 1.69230769em;
-}
-
-.ui.info.message {
-  background: -webkit-linear-gradient(#d8ebf8, #d0e3ef);
-  background: linear-gradient(#d8ebf8, #d0e3ef);
-}
-
-.ui.error.message {
-  background: -webkit-linear-gradient(#f8d8d8, #efd0d0);
-  background: linear-gradient(#f8d8d8, #efd0d0);
-}
-
-.ui.warning.message {
-  background: -webkit-linear-gradient(#ffe3c8, #f5dac0);
-  background: linear-gradient(#ffe3c8, #f5dac0);
 }
 /*!
  * # Semantic UI x.x - Table
@@ -20946,7 +20942,7 @@ Floated Menu / Item
 .ui.table tr.error,
 .ui.table td.error {
   background: #fff6f6 !important;
-  color: #9f3a38 !important;
+  color: #991111 !important;
 }
 
 /*--------------
@@ -20961,7 +20957,7 @@ Floated Menu / Item
 .ui.table tr.warning,
 .ui.table td.warning {
   background: #fffaf3 !important;
-  color: #573a08 !important;
+  color: #613a00 !important;
 }
 
 /*--------------
@@ -21123,13 +21119,13 @@ Floated Menu / Item
 .ui.selectable.table tr.error:hover,
 .ui.selectable.table tr:hover td.error {
   background: #ffe7e7 !important;
-  color: #943634 !important;
+  color: #8b0f0f !important;
 }
 
 .ui.selectable.table tr.warning:hover,
 .ui.selectable.table tr:hover td.warning {
   background: #fff4e4 !important;
-  color: #493107 !important;
+  color: #523100 !important;
 }
 
 .ui.selectable.table tr.active:hover,
@@ -26962,7 +26958,7 @@ select.ui.dropdown {
 .ui.dropdown.error,
 .ui.dropdown.error > .text,
 .ui.dropdown.error > .default.text {
-  color: #9f3a38;
+  color: #991111;
 }
 
 .ui.selection.dropdown.error {
@@ -26980,7 +26976,7 @@ select.ui.dropdown {
 }
 
 .ui.dropdown.error > .menu > .item {
-  color: #9f3a38;
+  color: #991111;
 }
 
 .ui.multiple.selection.error.dropdown > .label {
@@ -31373,7 +31369,7 @@ html.ios body {
 .ui.table tr.error,
 .ui.table td.error {
   background: #fff6f6 !important;
-  color: #9f3a38 !important;
+  color: #991111 !important;
 }
 
 /*--------------
@@ -31388,7 +31384,7 @@ html.ios body {
 .ui.table tr.warning,
 .ui.table td.warning {
   background: #fffaf3 !important;
-  color: #573a08 !important;
+  color: #613a00 !important;
 }
 
 /*--------------
@@ -31550,13 +31546,13 @@ html.ios body {
 .ui.selectable.table tr.error:hover,
 .ui.selectable.table tr:hover td.error {
   background: #ffe7e7 !important;
-  color: #943634 !important;
+  color: #8b0f0f !important;
 }
 
 .ui.selectable.table tr.warning:hover,
 .ui.selectable.table tr:hover td.warning {
   background: #fff4e4 !important;
-  color: #493107 !important;
+  color: #523100 !important;
 }
 
 .ui.selectable.table tr.active:hover,

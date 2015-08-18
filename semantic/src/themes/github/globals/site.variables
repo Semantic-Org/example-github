@@ -2,7 +2,7 @@
      User Global Variables
 *******************************/
 
-@pageMinWidth  : 980px;
+@pageMinWidth  : 1049px;
 @pageOverflowX : visible;
 
 @emSize: 13px;
@@ -36,6 +36,8 @@
 @computerBreakpoint: @largeMonitorBreakpoint;
 @tabletBreakpoint: @largeMonitorBreakpoint;
 
-
 @infoBackgroundColor: #E6F1F6;
+
 @infoTextColor: #4E575B;
+@warningTextColor: #613A00;
+@errorTextColor: #991111;
