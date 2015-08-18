@@ -2,6 +2,10 @@
     User Variable Overrides
 *******************************/
 
+@transition:
+  width @defaultDuration @defaultEasing
+;
+
 @menuPadding: 0px;
 
 @itemVerticalPadding: @relative8px;

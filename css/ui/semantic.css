@@ -7403,18 +7403,6 @@ i.inverted.circular.black.icon {
         Sizes
 --------------------*/
 
-i.mini.icon,
-i.mini.icons {
-  line-height: 1;
-  font-size: 0.69230769rem;
-}
-
-i.tiny.icon,
-i.tiny.icons {
-  line-height: 1;
-  font-size: 0.84615385rem;
-}
-
 i.small.icon,
 i.small.icons {
   line-height: 1;
@@ -26045,8 +26033,8 @@ body.dimmable > .dimmer {
   display: inline-block;
   outline: none;
   text-align: left;
-  -webkit-transition: box-shadow 0.1s ease, width 0.1s ease;
-  transition: box-shadow 0.1s ease, width 0.1s ease;
+  -webkit-transition: width 0.1s ease;
+  transition: width 0.1s ease;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -26396,8 +26384,8 @@ body.dimmable > .dimmer {
   box-shadow: none;
   border: 1px solid rgba(0, 0, 0, 0.13);
   border-radius: 0.2307em;
-  -webkit-transition: box-shadow 0.1s ease, width 0.1s ease;
-  transition: box-shadow 0.1s ease, width 0.1s ease;
+  -webkit-transition: width 0.1s ease;
+  transition: width 0.1s ease;
 }
 
 .ui.selection.dropdown.visible,

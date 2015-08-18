@@ -20,8 +20,8 @@
   display: inline-block;
   outline: none;
   text-align: left;
-  -webkit-transition: box-shadow 0.1s ease, width 0.1s ease;
-          transition: box-shadow 0.1s ease, width 0.1s ease;
+  -webkit-transition: width 0.1s ease;
+          transition: width 0.1s ease;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -359,8 +359,8 @@
   box-shadow: none;
   border: 1px solid rgba(0, 0, 0, 0.13);
   border-radius: 0.2307em;
-  -webkit-transition: box-shadow 0.1s ease, width 0.1s ease;
-          transition: box-shadow 0.1s ease, width 0.1s ease;
+  -webkit-transition: width 0.1s ease;
+          transition: width 0.1s ease;
 }
 .ui.selection.dropdown.visible,
 .ui.selection.dropdown.active {
