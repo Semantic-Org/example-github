@@ -41,8 +41,8 @@
 .ui.grid {
   margin-top: -1rem;
   margin-bottom: -1rem;
-  margin-left: -0.769rem;
-  margin-right: -0.769rem;
+  margin-left: -1rem;
+  margin-right: -1rem;
 }
 .ui.relaxed.grid {
   margin-left: -1.5rem;
@@ -69,13 +69,13 @@
   position: relative;
   display: inline-block;
   width: 6.25%;
-  padding-left: 0.769rem;
-  padding-right: 0.769rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   vertical-align: top;
 }
 .ui.grid > * {
-  padding-left: 0.769rem;
-  padding-right: 0.769rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 /*-------------------
@@ -159,7 +159,7 @@
   -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  margin: 1rem 0.769rem;
+  margin: 1rem 1rem;
 }
 .ui.grid .column + .ui.vertical.divider {
   height: calc(50% -  1rem );
@@ -1093,9 +1093,9 @@
   content: "";
   top: 0em;
   left: 0px;
-  width: calc(100% -  1.538rem );
+  width: calc(100% -  2rem );
   height: 1px;
-  margin: 0% 0.769rem;
+  margin: 0% 1rem;
   box-shadow: 0px -1px 0px 0px rgba(0, 0, 0, 0.13);
 }
 
@@ -1832,7 +1832,7 @@
     width: 100% !important;
     margin: 0em 0em !important;
     box-shadow: none !important;
-    padding: 1rem 0.769rem !important;
+    padding: 1rem 1rem !important;
   }
   .ui.stackable.grid:not(.vertically) > .row {
     margin: 0em;
@@ -1849,8 +1849,8 @@
 /* Don't pad inside segment or nested grid */
   .ui.grid .ui.stackable.grid,
   .ui.segment:not(.vertical) .ui.stackable.page.grid {
-    margin-left: -0.769rem !important;
-    margin-right: -0.769rem !important;
+    margin-left: -1rem !important;
+    margin-right: -1rem !important;
   }
   
 /* Divided Stackable */
@@ -2010,3 +2010,9 @@
     display: none !important;
   }
 }
+
+
+/*******************************
+         Theme Overrides
+*******************************/
+
