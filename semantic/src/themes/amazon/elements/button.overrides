@@ -1,0 +1,38 @@
+.ui.button {
+  border: 1px solid;
+  border-color: #ADB1B8 #A2A6AC #8D9096;
+}
+
+.ui.primary.button {
+  border-color: #A88734 #9C7E31 #846A29;
+}
+.ui.primary.button:hover {
+  border-color: #9C7E31 #90742D #786025;
+}
+
+.ui.secondary.button {
+  border-color: #3D444C #2F353B #2C3137;
+}
+.ui.secondary.button:hover {
+  border-color: #32373E #24282D #212429;
+}
+
+
+.ui.labeled.icon.buttons .button > .icon,
+.ui.labeled.icon.button > .icon {
+  margin: @relative2px;
+  height: ~"calc(100% - "@relative4px~")";
+  width: @relativeHuge;
+  border-radius: @borderRadius;
+}
+.ui.right.labeled.icon.buttons .button > .icon,
+.ui.right.labeled.icon.button > .icon {
+  left: auto;
+  right: 0.4em;
+  border-radius: 3px;
+}
+
+.ui.basic.labeled.icon.buttons .button > .icon,
+.ui.basic.labeled.icon.button > .icon {
+  padding-top: 0.4em !important;
+}
