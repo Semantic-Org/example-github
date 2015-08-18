@@ -59,11 +59,39 @@
   color: #999999;
 }
 
+/* Clippy */
+#home .clippy.icon {
+  float: right;
+  margin-left: 5px;
+}
+
+/* Latest SHA */
+#home .latest .sha {
+  cursor: pointer;
+  font-family: Consolas,"Liberation Mono",Menlo,Courier,monospace;
+  font-size: 12px;
+  color: #888888;
+  float: right;
+}
+#home .latest .sha b {
+  font-weight: normal;
+  color: #333;
+}
+#home .latest .sha:hover {
+  text-decoration: underline;
+}
 
 /*----------------
       Stats
 -----------------*/
 
+#home .stats {
+  padding: 0em;
+  border-bottom: none;
+}
+#home .stats.menu {
+  margin: 0em;
+}
 #home .stats.menu b {
   margin-right: 3px;
 }

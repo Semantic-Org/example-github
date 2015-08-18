@@ -33,9 +33,11 @@ a:hover b {
 }
 
 /* Space right of input */
+.page.header .menu .item .input {
+  margin-right: 1em;
+}
 .page.header .menu .item input {
   width: 250px;
-  margin-right: 1em;
 }
 
 /* Min Width on Dropdown */

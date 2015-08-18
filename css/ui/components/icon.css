@@ -108,6 +108,15 @@ i.disabled.icon {
 
 
 /*-------------------
+        Fitted
+--------------------*/
+
+i.fitted.icon {
+  width: auto;
+  margin: 0em;
+}
+
+/*-------------------
          Link
 --------------------*/
 
@@ -945,12 +954,12 @@ i.icons .inverted.corner.icon {
 }
 
 /*  */
-.icon.link:before {
+.icon.linkify:before {
   content: '\f05c';
 }
 
 /*  */
-.icon.link.external:before {
+.icon.linkify.external:before {
   content: '\f07f';
 }
 

@@ -17,19 +17,28 @@ $(document)
       $addDropdown  = $('.add.dropdown'),
       $button       = $('.ui.button'),
       $watchButton  = $('.watch.button'),
+      $search       = $('.page.header input'),
       $popup        = $('[data-content]')
     ;
 
-    // always hide popup when dropdown shows
     $.fn.dropdown.settings.onShow = function() {
       $('body').popup('hide all');
     };
+
+    $search
+      .on('focus', function() {
+        $(this).closest('.input').addClass('focused');
+      })
+      .on('blur', function() {
+        $(this).closest('.input').addClass('focused');
+      })
+    ;
 
     $popup
       .popup({
         duration : 0,
         delay    : {
-          show : 50,
+          show : 10,
           hide : 0
         },
         variation : 'inverted',
@@ -54,12 +63,14 @@ $(document)
 
     $watchButton
       .dropdown({
+        allowTab: false,
         transition: 'scale',
         onChange: function(value) {
           console.log('New watch value', value);
         }
       })
     ;
+
 
   })
 ;
