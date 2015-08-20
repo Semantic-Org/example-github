@@ -51,6 +51,7 @@ $(document)
           }
         }
       })
+      .dropdown('set selected', 'github')
     ;
 
 
