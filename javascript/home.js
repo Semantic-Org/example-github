@@ -25,15 +25,6 @@ $(document)
       $('body').popup('hide all');
     };
 
-    $search
-      .on('focus', function() {
-        $(this).closest('.input').addClass('focused');
-      })
-      .on('blur', function() {
-        $(this).closest('.input').addClass('focused');
-      })
-    ;
-
     $popup
       .popup({
         duration : 0,
@@ -68,6 +59,16 @@ $(document)
         onChange: function(value) {
           console.log('New watch value', value);
         }
+      })
+    ;
+
+    // Focus wrapper
+    $search
+      .on('focus', function() {
+        $(this).closest('.input').addClass('focused');
+      })
+      .on('blur', function() {
+        $(this).closest('.input').removeClass('focused');
       })
     ;
 
