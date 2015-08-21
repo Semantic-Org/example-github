@@ -47,8 +47,19 @@
     <h2 class="ui dividing header">Theme</h2>
     <div class="ui form">
       <div class="field">
+        <div class="ui first checkbox"
+          <input type="checkbox"></input>
+          <label>Reverse Columns
+        </div>
+        <select class="ui layout dropdown" name="global">
+          <option value="default">Standard</option>
+          <option value="left-menu">Left Menu</option>
+          <option value="customized" selected>Customized</option>
+        </select>
+      </div>
+      <div class="field">
         <label>Global Theme</label>
-        <select class="ui dropdown" name="global">
+        <select class="ui theme dropdown" name="global">
           <option value="default">Default</option>
           <option value="amazon">Amazon</option>
           <option value="github" selected>GitHub</option>
@@ -57,7 +68,7 @@
       </div>
       <div class="field">
         <label>Button</label>
-        <select class="ui dropdown" name="button">
+        <select class="ui theme dropdown" name="button">
           <option value="default">Default</option>
           <option value="amazon">Amazon</option>
           <option value="chubby">Chubby</option>
@@ -68,7 +79,7 @@
       </div>
       <div class="field">
         <label>Menu</label>
-        <select class="ui dropdown" name="menu">
+        <select class="ui theme dropdown" name="menu">
           <option value="default">Default</option>
           <option value="chubby">Chubby</option>
           <option value="github" selected>GitHub</option>
@@ -331,7 +342,7 @@
               </tr>
               <tr>
                 <td>
-                  <i class="grey file text icon"></i>
+                  <i class="grey text file icon"></i>
                   <a href="#">
                     .csscomb.json
                   </a>
@@ -341,7 +352,7 @@
               </tr>
               <tr>
                 <td>
-                  <i class="grey file text icon"></i>
+                  <i class="grey text file icon"></i>
                   <a href="#">
                     .csslintrc
                   </a>
@@ -351,7 +362,7 @@
               </tr>
               <tr>
                 <td>
-                  <i class="grey file text icon"></i>
+                  <i class="grey text file icon"></i>
                   <a href="#">
                     CONTRIBUTING.md
                   </a>
@@ -361,7 +372,7 @@
               </tr>
               <tr>
                 <td>
-                  <i class="grey file text icon"></i>
+                  <i class="grey text file icon"></i>
                   <a href="#">
                     LICENSE.md
                   </a>
@@ -371,7 +382,7 @@
               </tr>
               <tr>
                 <td>
-                  <i class="grey file text icon"></i>
+                  <i class="grey text file icon"></i>
                   <a href="#">
                     README.md
                   </a>
@@ -381,7 +392,7 @@
               </tr>
               <tr>
                 <td>
-                  <i class="grey file text icon"></i>
+                  <i class="grey text file icon"></i>
                   <a href="#">
                     RELEASE-NOTES.md
                   </a>
@@ -391,7 +402,7 @@
               </tr>
               <tr>
                 <td>
-                  <i class="grey file text icon"></i>
+                  <i class="grey text file icon"></i>
                   <a href="#">
                     bower.json
                   </a>
@@ -401,7 +412,7 @@
               </tr>
               <tr>
                 <td>
-                  <i class="grey file text icon"></i>
+                  <i class="grey text file icon"></i>
                   <a href="#">
                     composer.json
                   </a>
@@ -411,7 +422,7 @@
               </tr>
               <tr>
                 <td>
-                  <i class="grey file text icon"></i>
+                  <i class="grey text file icon"></i>
                   <a href="#">
                     gulpfile.js
                   </a>
@@ -421,7 +432,7 @@
               </tr>
               <tr>
                 <td>
-                  <i class="grey file text icon"></i>
+                  <i class="grey text file icon"></i>
                   <a href="#">
                     karma.conf.js
                   </a>
@@ -431,7 +442,7 @@
               </tr>
               <tr>
                 <td>
-                  <i class="grey file text icon"></i>
+                  <i class="grey text file icon"></i>
                   <a href="#">
                     logo.png
                   </a>
@@ -441,7 +452,7 @@
               </tr>
               <tr>
                 <td>
-                  <i class="grey file text icon"></i>
+                  <i class="grey text file icon"></i>
                   <a href="#">
                     package.json
                   </a>
@@ -451,7 +462,7 @@
               </tr>
               <tr>
                 <td>
-                  <i class="grey file text icon"></i>
+                  <i class="grey text file icon"></i>
                   <a href="#">
                     semantic.json.example
                   </a>
