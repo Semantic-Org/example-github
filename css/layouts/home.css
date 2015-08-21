@@ -32,14 +32,12 @@
    Language Used
 -----------------*/
 
-#home .ui.top.attached.menu {
-  border-bottom: none;
-}
 #home .ui.language.segments {
   border-radius: 0px 0px 4px 4px;
   box-shadow: none;
+  border: none;
   width: calc(100% + 2px);
-  margin: 0px 0px 10px -1px;
+  margin: 0px 0px 10px 0px;
   overflow: hidden;
 }
 #home .language.segments .segment {
@@ -55,9 +53,11 @@
 }
 
 #home .latest.segment {
-  border-top: 1px solid #DDD;
   padding: 0.35em 0.5em;
   color: #999999;
+}
+#home .latest.attached.segment {
+  border-top: 1px solid #DDD;
 }
 
 /* Clippy */

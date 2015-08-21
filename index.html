@@ -10,12 +10,19 @@
   <!-- Site Properities -->
   <title>Semantic-Org/Semantic-UI</title>
 
-  <!-- CSS Includes -->
+  <!-- Always Use Same -->
   <link rel="stylesheet" type="text/css" href="css/ui/components/icon.css">
-  <link rel="stylesheet" type="text/css" href="css/ui/components/form.css">
-  <link rel="stylesheet" type="text/css" href="css/ui/components/sidebar.css">
+  <link rel="stylesheet" type="text/css" href="css/ui/components/image.css">
   <link rel="stylesheet" type="text/css" href="css/ui/components/transition.css">
+  <link rel="stylesheet" type="text/css" href="css/ui/components/default/sidebar.css">
+  <link rel="stylesheet" type="text/css" href="css/ui/components/default/checkbox.css">
 
+  <!--
+    These css files are pre-compiled
+    to test out gulp
+    use static.html, run gulp from semantic/, and modify theme.config or variables
+  !-->
+  <link rel="stylesheet" rel="stylesheet" type="text/css" href="css/ui/components/github/form.css">
   <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/github/reset.css">
   <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/github/site.css">
   <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/github/breadcrumb.css">
@@ -25,7 +32,6 @@
   <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/github/dropdown.css">
   <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/github/grid.css">
   <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/github/header.css">
-  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/github/image.css">
   <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/github/input.css">
   <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/github/label.css">
   <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/github/list.css">
@@ -44,19 +50,44 @@
 
 <body id="home">
   <div class="ui theme sidebar">
-    <h2 class="ui dividing header">Theme</h2>
     <div class="ui form">
+      <h3 class="ui dividing header">Layout </h3>
       <div class="field">
-        <div class="ui first checkbox"
+        <div class="ui first checkbox">
           <input type="checkbox"></input>
-          <label>Reverse Columns
+          <label>
+            Reverse Columns
+            <i class="tiny link question icon" data-content="Toggles column order in html"></i>
+          </label>
         </div>
-        <select class="ui layout dropdown" name="global">
-          <option value="default">Standard</option>
-          <option value="left-menu">Left Menu</option>
-          <option value="customized" selected>Customized</option>
-        </select>
       </div>
+      <div class="field">
+        <div class="ui second checkbox">
+          <input type="checkbox"></input>
+          <label>Distinctive Buttons
+            <i class="tiny link question icon" data-content="Adds 'primary', 'labeled icon' and colored classes on a few buttons"></i>
+          </label>
+        </div>
+      </div>
+      <div class="field">
+        <div class="ui third checkbox">
+          <input type="checkbox"></input>
+          <label>
+            Add Minimalism
+            <i class="tiny link question icon" data-content="Adds basic class name to buttons and table"></i>
+          </label>
+        </div>
+      </div>
+      <div class="field">
+        <div class="ui fourth checkbox">
+          <input type="checkbox"></input>
+          <label>
+            Block Style Menu
+            <i class="tiny link question icon" data-content="Removes tabular menu class"></i>
+          </label>
+        </div>
+      </div>
+      <h3 class="ui dividing header">Theme</h3>
       <div class="field">
         <label>Global Theme</label>
         <select class="ui theme dropdown" name="global">
@@ -194,7 +225,7 @@
             </div>
             <div class="ui labeled button">
               <div class="ui button">
-                <i class="star icon"></i> Unstar
+                <i class="star icon"></i> Star
               </div>
               <a class="ui basic label">19,120</a>
             </div>
@@ -211,6 +242,44 @@
             <div class="divider"> / </div>
             <a class="active section">Semantic UI</a>
           </div>
+        </div>
+      </div>
+
+      <!-- This is only showed with ribbon menu variation -->
+      <div class="ui fluid seven item repo menu">
+        <div class="ui container">
+          <a class="active item">
+            <i class="grey code icon"></i>
+            Code
+          </a>
+          <a class="item">
+            <i class="grey issue opened icon"></i>
+
+            Issues
+          </a>
+          <a class="item">
+            <i class="grey git pull request icon"></i>
+
+            Pull Requests
+          </a>
+          <a class="item">
+            <i class="grey book icon"></i>
+            Wiki
+          </a>
+          <div style="display:none" class="ui divider"></div>
+          <a class="item">
+            <i class="grey pulse icon"></i>
+            Pulse
+          </a>
+          <a class="item">
+            <i class="grey graph icon"></i>
+            Graphs
+          </a>
+          <div style="display:none" class="ui divider"></div>
+          <a class="item">
+            <i class="grey tools icon"></i>
+            Settings
+          </a>
         </div>
       </div>
 
@@ -266,7 +335,7 @@
             </div>
           </div>
 
-          <div class="ui top attached info recent message">
+          <div class="ui top attached recent info message">
             Merge pull request <a href="#">#2728</a> from sunseth/patch-1
           </div>
           <div class="ui attached latest segment">
@@ -536,24 +605,26 @@
               Settings
             </a>
           </div>
-          <p><b>Subversion</b> checkout URL</b>
-          <div class="ui fluid action input">
-            <input type="text" value="https://github.com/Semantic-Org/Semantic-UI">
-            <a class="ui icon button">
-              <i class="clippy icon"></i>
+          <div class="checkout">
+            <p><b>Subversion</b> checkout URL</b>
+            <div class="ui fluid action input">
+              <input type="text" value="https://github.com/Semantic-Org/Semantic-UI">
+              <a class="ui icon button">
+                <i class="clippy icon"></i>
+              </a>
+            </div>
+            <p>You can clone with <a href="#">HTTPS</a>, <a href="#">SSH</a>, or <a href="#">Subversion</a>.
+              <i class="tiny link question icon" data-content="Get help on which URL is right for you."></i>
+            </p>
+            <a class="ui fluid button">
+              <i class="desktop device icon"></i>
+              Clone in Desktop
+            </a>
+            <a class="ui fluid button">
+              <i class="cloud download icon"></i>
+              Download Zip
             </a>
           </div>
-          <p>You can clone with <a href="#">HTTPS</a>, <a href="#">SSH</a>, or <a href="#">Subversion</a>.
-            <i class="tiny link question icon" data-content="Get help on which URL is right for you."></i>
-          </p>
-          <a class="ui fluid button">
-            <i class="desktop device icon"></i>
-            Clone in Desktop
-          </a>
-          <a class="ui fluid button">
-            <i class="cloud download icon"></i>
-            Download Zip
-          </a>
         </div>
       </div>
     </div>

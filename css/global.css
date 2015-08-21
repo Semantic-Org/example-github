@@ -97,15 +97,15 @@ a:hover b {
 .repo.menu:first-child {
   margin-top: 0.35em;
 }
-.repo.menu ~ p {
+.column .checkout p {
   font-size: 11px;
   margin: 5px 0px;
   color: #767676;
 }
-.repo.menu ~ p + .button {
+.column .checkout > .button {
   margin-top: 10px;
 }
-.repo.menu ~ .button {
+.column .checkout > .button:last-child {
   margin: 7px 0px;
 }
 

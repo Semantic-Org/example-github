@@ -16,10 +16,13 @@ $(document)
       $sidebar        = $('.ui.sidebar'),
       $launcher       = $('.launch'),
       $css            = $('link.themable'),
-      $menuToggle     = $sidebar.find('.checkbox[name="menu"]'),
-      $buttonToggle   = $sidebar.find('.checkbox[name="button"]'),
+      $menuToggle     = $sidebar.find('.first.checkbox'),
+      $buttonToggle   = $sidebar.find('.second.checkbox'),
+      $minimalToggle  = $sidebar.find('.third.checkbox'),
+      $blockToggle    = $sidebar.find('.fourth.checkbox'),
       $themeDropdown  = $sidebar.find('.theme.dropdown'),
 
+      previousClass,
       regExp = /(\/components\/).*(\/[a-z]*.css)/
     ;
 
@@ -33,30 +36,90 @@ $(document)
     ;
 
     $menuToggle
+      .checkbox('uncheck')
       .checkbox({
-        onEnable: function() {
+        onChecked: function() {
           $('.wide.column').parent().append($('.wide.column'));
           $('.vertical.tabular.menu').removeClass('right');
         },
-        onDisable: function() {
+        onUnchecked: function() {
           $('.wide.column').parent().prepend($('.wide.column'));
           $('.vertical.tabular.menu').addClass('right');
         }
       })
     ;
     $buttonToggle
+      .checkbox('uncheck')
       .checkbox({
         onChange: function(layout) {
           $('.forked.repo.icon')
             .closest('.button')
-            .toggleClass('primary')
-            .prev()
-              .toggleClass('labeled icon')
+            .toggleClass('secondary')
           ;
+          $('.star.icon')
+            .closest('.button')
+            .toggleClass('labeled icon')
+          ;
+          $('.cloud.download').closest('.button').toggleClass('green');
         }
       })
-      .dropdown('set selected', 'default')
     ;
+    $minimalToggle
+      .checkbox('uncheck')
+      .checkbox({
+        onChecked: function() {
+          $('.column .vertical.menu')
+            .removeClass('tabular')
+            .addClass('secondary')
+          ;
+          $('.ui.table')
+            .prev()
+            .attr('class', 'ui bottom attached latest segment')
+          ;
+        },
+        onUnchecked: function() {
+          $('.column .vertical.menu')
+            .addClass('tabular')
+            .removeClass('secondary')
+          ;
+          $('.ui.table')
+            .prev()
+            .attr('class', 'ui attached latest segment')
+          ;
+        },
+        onChange: function(layout) {
+          $('.ui.table')
+            .toggleClass('very basic')
+          ;
+          $('.git.compare')
+            .closest('.button')
+              .toggleClass('green positive')
+          ;
+          $('.column .ui.button').toggleClass('basic');
+        }
+      })
+    ;
+    $blockToggle
+      .checkbox('uncheck')
+      .checkbox({
+        onChecked: function() {
+          previousClass = $('.column .vertical.menu').attr('class');
+          $('.column .vertical.menu')
+            .attr('class', 'ui fluid vertical repo menu')
+            .find('.divider').attr('style', 'display:none')
+          ;
+        },
+        onUnchecked: function() {
+          if(previousClass) {
+            $('.column .vertical.menu')
+              .attr('class', previousClass)
+              .find('.divider').removeAttr('style')
+            ;
+          }
+        }
+      })
+    ;
+
 
 
 
@@ -77,7 +140,7 @@ $(document)
           });
           // make other dropdown match
           if(type == 'global') {
-            $dropdown.dropdown('set value', theme);
+            $themeDropdown.dropdown('set value', theme);
           }
         }
       })
