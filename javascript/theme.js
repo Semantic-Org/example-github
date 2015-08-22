@@ -20,6 +20,7 @@ $(document)
       $buttonToggle   = $sidebar.find('.second.checkbox'),
       $minimalToggle  = $sidebar.find('.third.checkbox'),
       $blockToggle    = $sidebar.find('.fourth.checkbox'),
+      $ribbonToggle   = $sidebar.find('.fifth.checkbox'),
       $themeDropdown  = $sidebar.find('.theme.dropdown'),
 
       previousClass,
@@ -120,6 +121,20 @@ $(document)
       })
     ;
 
+
+    $ribbonToggle
+      .checkbox('uncheck')
+      .checkbox({
+        onChecked: function() {
+          $('.column .vertical.menu').attr('style', 'display: none;');
+          $('.alternate.menu').attr('style', 'display: block;');
+        },
+        onUnchecked: function() {
+          $('.column .vertical.menu').removeAttr('style');
+          $('.alternate.menu').removeAttr('style');
+        }
+      })
+    ;
 
 
 

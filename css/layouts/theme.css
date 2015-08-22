@@ -16,3 +16,8 @@
 .theme.sidebar .button + .button {
   margin-top: 0.5em;
 }
+
+
+.alternate.menu {
+  display: none;
+}
