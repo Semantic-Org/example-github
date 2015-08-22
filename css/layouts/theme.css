@@ -12,3 +12,7 @@
   background-color: #FFFFFF;
   padding: 1em;
 }
+
+.theme.sidebar .button + .button {
+  margin-top: 0.5em;
+}
