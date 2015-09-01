@@ -12,6 +12,7 @@
 .icon.arrow.small.right:before { content: '\f071'} /*  */
 .icon.arrow.small.up:before { content: '\f09f'} /*  */
 .icon.arrow.up:before { content: '\f03d'} /*  */
+.icon.bell:before { content: '\f0de'} /*  */
 .icon.beer:before { content: '\f069'} /*  */
 .icon.book:before { content: '\f007'} /*  */
 .icon.bookmark:before { content: '\f07b'} /*  */

@@ -272,14 +272,14 @@ i.inverted.circular.olive.icon {
 
 /* Green */
 i.green.icon {
-  color: #60b044 !important;
+  color: #78cb5b !important;
 }
 i.inverted.green.icon {
   color: #2ecc40 !important;
 }
 i.inverted.bordered.green.icon,
 i.inverted.circular.green.icon {
-  background-color: #60b044 !important;
+  background-color: #78cb5b !important;
   color: #ffffff !important;
 }
 
@@ -543,6 +543,11 @@ i.icons .inverted.corner.icon {
 }
 
 /*  */
+.icon.bell:before {
+  content: '\f0de';
+}
+
+/*  */
 .icon.beer:before {
   content: '\f069';
 }

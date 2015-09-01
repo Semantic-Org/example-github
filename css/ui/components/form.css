@@ -577,6 +577,7 @@
 .ui.form .disabled.fields .field,
 .ui.form .disabled.field,
 .ui.form .field :disabled {
+  pointer-events: none;
   opacity: 0.3;
 }
 .ui.form .field.disabled label {

@@ -50,7 +50,7 @@
     <div class="ui right floated icon text menu">
       <a class="item" data-content="You have unread notification in this repository.">
         <span class="ui empty mini floating circular blue notification label"></span>
-        <i class="big inbox icon"></i>
+        <i class="bell icon"></i>
       </a>
       <div class="ui add top right pointing dropdown item" data-content="Create new...">
         <i class="large plus icon"></i>
@@ -119,7 +119,7 @@
     <div class="ui container">
       <div class="repo options">
         <div class="ui labeled button">
-          <div class="ui floating watch dropdown button" data-content="Quickly jump between files">
+          <div class="ui compact floating watch dropdown button" data-content="Quickly jump between files">
             <input type="hidden" value="watching">
             <i class="eye icon"></i> Unwatch
             <i class="dropdown icon"></i>
@@ -145,13 +145,13 @@
           <a class="ui basic label">1,001</a>
         </div>
         <div class="ui labeled button">
-          <div class="ui button">
-            <i class="star icon"></i> Unstar
+          <div class="ui compact button">
+            <i class="star icon"></i> Star
           </div>
           <a class="ui basic label">19,120</a>
         </div>
         <div class="ui labeled button">
-          <div class="ui button" data-content="Compare, review, create a pull request">
+          <div class="ui compact button" data-content="Compare, review, create a pull request">
             <i class="forked repo icon"></i> Fork
           </div>
           <a class="ui basic label">986</a>
@@ -163,6 +163,39 @@
         <div class="divider"> / </div>
         <a class="active section">Semantic UI</a>
       </div>
+    </div>
+  </div>
+
+  <div class="ui fluid seven item alternate menu">
+    <div class="ui container">
+      <a class="active item">
+        <i class="grey code icon"></i>
+        Code
+      </a>
+      <a class="item">
+        <i class="grey issue opened icon"></i>
+        Issues
+      </a>
+      <a class="item">
+        <i class="grey git pull request icon"></i>
+        Pull Requests
+      </a>
+      <a class="item">
+        <i class="grey book icon"></i>
+        Wiki
+      </a>
+      <a class="item">
+        <i class="grey pulse icon"></i>
+        Pulse
+      </a>
+      <a class="item">
+        <i class="grey graph icon"></i>
+        Graphs
+      </a>
+      <a class="item">
+        <i class="grey tools icon"></i>
+        Settings
+      </a>
     </div>
   </div>
 
@@ -201,10 +234,10 @@
         <div class="ui right floated icon button" data-content="Quickly jump between files">
           <i class="unordered list icon"></i>
         </div>
-        <div class="ui positive icon button">
+        <div class="ui positive compact icon button">
           <i class="git compare icon"></i>
         </div>
-        <div class="ui dropdown branch button">
+        <div class="ui dropdown branch compact button">
           <div class="text">
             Branch:
             <b>master</b>
@@ -218,7 +251,7 @@
         </div>
       </div>
 
-      <div class="ui top attached info recent message">
+      <div class="ui top attached recent info message">
         Merge pull request <a href="#">#2728</a> from sunseth/patch-1
       </div>
       <div class="ui attached latest segment">
@@ -294,7 +327,7 @@
           </tr>
           <tr>
             <td>
-              <i class="grey file text icon"></i>
+              <i class="grey text file icon"></i>
               <a href="#">
                 .csscomb.json
               </a>
@@ -304,7 +337,7 @@
           </tr>
           <tr>
             <td>
-              <i class="grey file text icon"></i>
+              <i class="grey text file icon"></i>
               <a href="#">
                 .csslintrc
               </a>
@@ -314,7 +347,7 @@
           </tr>
           <tr>
             <td>
-              <i class="grey file text icon"></i>
+              <i class="grey text file icon"></i>
               <a href="#">
                 CONTRIBUTING.md
               </a>
@@ -324,7 +357,7 @@
           </tr>
           <tr>
             <td>
-              <i class="grey file text icon"></i>
+              <i class="grey text file icon"></i>
               <a href="#">
                 LICENSE.md
               </a>
@@ -334,7 +367,7 @@
           </tr>
           <tr>
             <td>
-              <i class="grey file text icon"></i>
+              <i class="grey text file icon"></i>
               <a href="#">
                 README.md
               </a>
@@ -344,7 +377,7 @@
           </tr>
           <tr>
             <td>
-              <i class="grey file text icon"></i>
+              <i class="grey text file icon"></i>
               <a href="#">
                 RELEASE-NOTES.md
               </a>
@@ -354,7 +387,7 @@
           </tr>
           <tr>
             <td>
-              <i class="grey file text icon"></i>
+              <i class="grey text file icon"></i>
               <a href="#">
                 bower.json
               </a>
@@ -364,7 +397,7 @@
           </tr>
           <tr>
             <td>
-              <i class="grey file text icon"></i>
+              <i class="grey text file icon"></i>
               <a href="#">
                 composer.json
               </a>
@@ -374,7 +407,7 @@
           </tr>
           <tr>
             <td>
-              <i class="grey file text icon"></i>
+              <i class="grey text file icon"></i>
               <a href="#">
                 gulpfile.js
               </a>
@@ -384,7 +417,7 @@
           </tr>
           <tr>
             <td>
-              <i class="grey file text icon"></i>
+              <i class="grey text file icon"></i>
               <a href="#">
                 karma.conf.js
               </a>
@@ -394,7 +427,7 @@
           </tr>
           <tr>
             <td>
-              <i class="grey file text icon"></i>
+              <i class="grey text file icon"></i>
               <a href="#">
                 logo.png
               </a>
@@ -404,7 +437,7 @@
           </tr>
           <tr>
             <td>
-              <i class="grey file text icon"></i>
+              <i class="grey text file icon"></i>
               <a href="#">
                 package.json
               </a>
@@ -414,7 +447,7 @@
           </tr>
           <tr>
             <td>
-              <i class="grey file text icon"></i>
+              <i class="grey text file icon"></i>
               <a href="#">
                 semantic.json.example
               </a>
@@ -499,11 +532,11 @@
         <p>You can clone with <a href="#">HTTPS</a>, <a href="#">SSH</a>, or <a href="#">Subversion</a>.
           <i class="tiny link question icon" data-content="Get help on which URL is right for you."></i>
         </p>
-        <a class="ui fluid button">
+        <a class="ui fluid compact button">
           <i class="desktop device icon"></i>
           Clone in Desktop
         </a>
-        <a class="ui fluid button">
+        <a class="ui fluid compact button">
           <i class="cloud download icon"></i>
           Download Zip
         </a>

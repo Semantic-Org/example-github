@@ -599,13 +599,13 @@ Floated Menu / Item
   box-shadow: none;
 }
 .ui.vertical.menu > .active.item:first-child {
-  border-radius: 0em 0.2307em 0em 0em;
+  border-radius: 0.2307em 0.2307em 0em 0em;
 }
 .ui.vertical.menu > .active.item:last-child {
-  border-radius: 0em 0em 0.2307em 0em;
+  border-radius: 0em 0em 0.2307em 0.2307em;
 }
 .ui.vertical.menu > .active.item:only-child {
-  border-radius: 0em 0.2307em 0.2307em 0em;
+  border-radius: 0.2307em;
 }
 .ui.vertical.menu .active.item .menu .active.item {
   border-left: none;
@@ -1307,8 +1307,8 @@ Floated Menu / Item
 }
 .ui.menu .green.active.item,
 .ui.green.menu .active.item {
-  border-color: #60b044 !important;
-  color: #60b044 !important;
+  border-color: #78cb5b !important;
+  color: #78cb5b !important;
 }
 .ui.menu .teal.active.item,
 .ui.teal.menu .active.item {
@@ -1518,7 +1518,7 @@ Floated Menu / Item
 /* Green */
 .ui.inverted.menu .green.active.item,
 .ui.inverted.green.menu {
-  background-color: #60b044;
+  background-color: #78cb5b;
 }
 .ui.inverted.green.menu .item:before {
   background-color: rgba(0, 0, 0, 0.06);
@@ -1687,8 +1687,10 @@ Floated Menu / Item
 .ui.item.menu,
 .ui.item.menu .item {
   width: 100%;
-  padding-left: 0px !important;
-  padding-right: 0px !important;
+  padding-left: 0em !important;
+  padding-right: 0em !important;
+  margin-left: 0em !important;
+  margin-right: 0em !important;
   text-align: center;
   -webkit-box-pack: center;
   -webkit-justify-content: center;

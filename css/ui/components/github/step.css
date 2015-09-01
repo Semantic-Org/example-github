@@ -412,7 +412,7 @@
 /* Completed */
 .ui.steps .step.completed > .icon:before,
 .ui.ordered.steps .step.completed:before {
-  color: #60b044;
+  color: #78cb5b;
 }
 
 /* Disabled */
