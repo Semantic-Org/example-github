@@ -22,25 +22,25 @@
     to test out gulp
     use static.html, run gulp from semantic/, and modify theme.config or variables
   !-->
-  <link rel="stylesheet" rel="stylesheet" type="text/css" href="css/ui/components/form.css">
-  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/reset.css">
-  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/site.css">
-  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/breadcrumb.css">
-  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/button.css">
-  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/container.css">
-  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/divider.css">
-  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/dropdown.css">
-  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/grid.css">
-  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/header.css">
-  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/input.css">
-  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/label.css">
-  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/list.css">
-  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/menu.css">
-  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/message.css">
-  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/popup.css">
-  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/reveal.css">
-  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/segment.css">
-  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/table.css">
+  <link rel="stylesheet" rel="stylesheet" type="text/css" href="css/ui/components/github/form.css">
+  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/github/reset.css">
+  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/github/site.css">
+  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/github/breadcrumb.css">
+  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/github/button.css">
+  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/github/container.css">
+  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/github/divider.css">
+  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/github/dropdown.css">
+  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/github/grid.css">
+  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/github/header.css">
+  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/github/input.css">
+  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/github/label.css">
+  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/github/list.css">
+  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/github/menu.css">
+  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/github/message.css">
+  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/github/popup.css">
+  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/github/reveal.css">
+  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/github/segment.css">
+  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/github/table.css">
 
   <link rel="stylesheet" type="text/css" href="css/global.css">
   <link rel="stylesheet" type="text/css" href="css/layouts/theme.css">
@@ -258,8 +258,8 @@
               <a class="ui basic label">986</a>
             </div>
           </div>
-          <i class="disabled repo icon"></i>
           <div class="ui big breadcrumb">
+            <i class="disabled repo icon"></i>
             <a class="section">Semantic-Org</a>
             <div class="divider"> / </div>
             <a class="active section">Semantic UI</a>
@@ -269,33 +269,33 @@
         <div class="ui tabular menu">
           <div class="ui container">
             <a class="active item">
-              <i class="grey code icon"></i>
+              <i class="code icon"></i>
               Code
             </a>
             <a class="item">
-              <i class="grey issue opened icon"></i>
+              <i class="issue opened icon"></i>
               Issues
               <span class="ui small label">593</span>
             </a>
             <a class="item">
-              <i class="grey git pull request icon"></i>
+              <i class="git pull request icon"></i>
               Pull Requests
               <span class="ui small label">39</span>
             </a>
             <a class="item">
-              <i class="grey book icon"></i>
+              <i class="book icon"></i>
               Wiki
             </a>
             <a class="item">
-              <i class="grey pulse icon"></i>
+              <i class="pulse icon"></i>
               Pulse
             </a>
             <a class="item">
-              <i class="grey graph icon"></i>
+              <i class="graph icon"></i>
               Graphs
             </a>
             <a class="item">
-              <i class="grey tools icon"></i>
+              <i class="gear icon"></i>
               Settings
             </a>
           </div>
@@ -335,11 +335,27 @@
       </div>
 
       <div class="repo title">
-        <div class="ui right floated icon button" data-content="Quickly jump between files">
-          <i class="unordered list icon"></i>
-        </div>
-        <div class="ui positive compact icon button">
-          <i class="git compare icon"></i>
+        <div class="repo options">
+          <div class="ui compact buttons">
+            <div class="ui button">New File</div>
+            <div class="ui button">Find File</div>
+          </div>
+          <div class="ui right action input">
+            <div class="ui compact dropdown button">
+              SSH
+              <i class="dropdown icon"></i>
+            </div>
+            <input type="text" value="https://github.com/Semantic-Org/Semantic-UI">
+            <a class="ui icon button" data-content="Copy to clipboard">
+              <i class="clippy icon"></i>
+            </a>
+          </div>
+          <div class="ui compact icon button" data-content="Save to desktop.">
+            <i class="cloud download icon"></i>
+          </div>
+          <div class="ui compact button">
+            Download ZIP
+          </div>
         </div>
         <div class="ui dropdown branch compact button">
           <div class="text">
@@ -348,26 +364,23 @@
           </div>
           <i class="dropdown icon"></i>
         </div>
-        <div class="ui huge breadcrumb">
-          <a class="active section">Semantic-UI</a>
-          <div class="divider"> / </div>
-          <a class="section">+</a>
+        <div class="ui positive compact icon button">
+          New pull request
         </div>
       </div>
 
       <div class="ui top attached recent info message">
-        Merge pull request <a href="#">#2728</a> from sunseth/patch-1
-      </div>
-      <div class="ui attached latest segment">
-        <i class="blue clippy link icon"></i>
-        <a class="sha">
-          latest commit <b>3d002c72a0</b>
-        </a>
+        <div class="commit">
+          <i class="blue clippy link icon"></i>
+          <a class="sha">
+            latest commit <b>3d002c72a0</b>
+          </a>
+        </div>
         <img class="ui mini right spaced rounded image" src="images/avatar.jpg">
         <a href="#"><b>jlukic</b></a>
-        authored 2 days ago
+        Merge pull request <a href="#">#2728</a> from sunseth/patch-1
       </div>
-      <table class="ui bottom attached files single line unstackable table">
+      <table class="ui bottom attached files single line unstackable selectable table">
         <tbody>
           <tr>
             <td class="single line five wide">
@@ -594,20 +607,21 @@
       <div class="ui container">
         <div class="ui section divider"></div>
         <div class="ui small right floated horizontal list">
-          <div class="disabled item" href="#">&copy; GitHub, Inc.</div>
-          <a class="item" href="#">Terms</a>
-          <a class="item" href="#">Privacy</a>
-          <a class="item" href="#">Security</a>
-          <a class="item" href="#">Contact</a>
-        </div>
-        <i class="large github mark icon"></i>
-        <div class="ui small horizontal list">
           <a class="item" href="#">Status</a>
           <a class="item" href="#">API</a>
           <a class="item" href="#">Training</a>
           <a class="item" href="#">Shop</a>
           <a class="item" href="#">Blog</a>
           <a class="item" href="#">About</a>
+          <a class="item" href="#">Pricing</a>
+        </div>
+        <i class="large github mark icon"></i>
+        <div class="ui small horizontal list">
+          <div class="disabled item" href="#">&copy; 2016 GitHub, Inc.</div>
+          <a class="item" href="#">Terms</a>
+          <a class="item" href="#">Privacy</a>
+          <a class="item" href="#">Security</a>
+          <a class="item" href="#">Contact</a>
           <a class="item" href="#">Help</a>
         </div>
       </div>

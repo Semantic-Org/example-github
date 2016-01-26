@@ -25,7 +25,7 @@
   background: #FBFBFB linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.05));
   color: #333333;
   font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  margin: 0em 0.25em 0em 0em;
+  margin: 0em 0.23076923rem 0em 0em;
   padding: 0.53846154em 0.92307692em 0.53846154em;
   text-transform: none;
   text-shadow: none;
@@ -611,16 +611,16 @@
 ---------------*/
 
 .ui.button > .icon:not(.button) {
-  height: 13px;
+  height: 18px;
   opacity: 1;
-  margin: 0em 0.30769231em 0em -0.15384615em;
+  margin: 0em 0.07692308em 0em -0.03846154em;
   -webkit-transition: opacity 0.1s ease;
   transition: opacity 0.1s ease;
   vertical-align: '';
   color: '';
 }
 .ui.button > .right.icon:not(.button) {
-  margin: 0em -0.15384615em 0em 0.30769231em;
+  margin: 0em -0.03846154em 0em 0.07692308em;
 }
 
 
@@ -652,15 +652,15 @@
 
 .ui.compact.buttons .button,
 .ui.compact.button {
-  padding: 0.15384615em 0.76923077em 0.15384615em;
+  padding: 0.30769231em 0.76923077em 0.30769231em;
 }
 .ui.compact.icon.buttons .button,
 .ui.compact.icon.button {
-  padding: 0.15384615em 0.15384615em 0.15384615em;
+  padding: 0.30769231em 0.30769231em 0.30769231em;
 }
 .ui.compact.labeled.icon.buttons .button,
 .ui.compact.labeled.icon.button {
-  padding: 0.15384615em 2.84615385em 0.15384615em;
+  padding: 0.30769231em 2.84615385em 0.30769231em;
 }
 
 /*-------------------
@@ -3254,7 +3254,7 @@
           flex-direction: row;
   font-size: 0em;
   vertical-align: baseline;
-  margin: 0em 0.25em 0em 0em;
+  margin: 0em 0.23076923rem 0em 0em;
 }
 .ui.buttons:not(.basic):not(.inverted) {
   box-shadow: none;
@@ -3339,7 +3339,7 @@
 
 .ui.compact.icon.buttons .button,
 .ui.compact.icon.button {
-  padding: 0.15384615em 0.76923077em 0.15384615em;
+  padding: 0.30769231em 0.76923077em 0.30769231em;
 }
 
 

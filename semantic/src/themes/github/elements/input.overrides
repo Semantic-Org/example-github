@@ -30,3 +30,15 @@
   background-color: #E1EAF5;
   color: #4078C0;
 }
+
+/* Prevent button from matching padding */
+.ui.action.input > .button,
+.ui.action.input > .buttons > .button {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.ui.action.input > .button .icon,
+.ui.action.input > .buttons > .button .icon {
+  margin-top: -3px;
+}
+

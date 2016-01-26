@@ -33,9 +33,6 @@ a:hover b {
 }
 
 /* Space right of input */
-.page.header .menu .item:first-child {
-  padding-left: 0em;
-}
 .page.header .menu .item .input {
   margin-right: 1em;
 }
@@ -123,11 +120,12 @@ a:hover b {
      Footer
 ---------------*/
 
-.footer.container {
+.footer .container {
   position: relative;
+  margin-top: 60px;
   padding-bottom: 2.5em;
 }
-.footer.container .github.mark {
+.footer .container .github.mark {
   position: absolute;
   top: 50%;
   left: 50%;

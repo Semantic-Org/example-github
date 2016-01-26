@@ -2,7 +2,9 @@
     User Variable Overrides
 *******************************/
 
-@background: #F8F8F8;
-
 @cellVerticalPadding: @relative6px;
 @cellHorizontalPadding: @relative8px;
+
+@selectableBackground: #F5F5F5;
+@selectableTextColor: @textColor;
+

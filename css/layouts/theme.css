@@ -20,3 +20,9 @@
 .alternate.menu {
   display: none;
 }
+
+/* small fix to avoid having to recenter buttons in each theme */
+.ui.labeled.button > .button {
+  display: flex;
+  align-items: center;
+}

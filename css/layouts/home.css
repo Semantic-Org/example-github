@@ -53,20 +53,15 @@
 -----------------*/
 
 #home .recent.message {
-  padding: 7px 9px;
+  padding: 10px;
 }
 
-#home .latest.segment {
-  padding: 0.35em 0.5em;
-  color: #999999;
-}
-#home .latest.attached.segment {
-  border-top: 1px solid #DDD;
-}
 
 /* Clippy */
-#home .latest .clippy.icon {
+#home .recent .commit {
   float: right;
+}
+#home .recent .clippy.icon {
   margin-left: 5px;
 }
 
@@ -108,6 +103,19 @@
 #home .repo.options {
   float: right;
 }
+
+/*----------------
+   Repo Title
+-----------------*/
+
+#home .repo.title .input .button:first-child {
+  border-radius: 3px 0px 0px 3px;
+}
+#home .repo.title .input .button + input {
+  border-radius: 0px;
+  border-left: none;
+}
+
 
 /*----------------
   Branch Dropdown

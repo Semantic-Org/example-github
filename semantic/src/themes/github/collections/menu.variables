@@ -28,8 +28,8 @@
 /* Tabular */
 @tabularBorderColor: #EEEEEE;
 @tabularVerticalBackground: linear-gradient(to left, #f6f6f6 0%, #fff 8px) transparent;
-@tabularVerticalPadding: @relative9px;
-@tabularHorizontalPadding: @relative10px;
+@tabularVerticalPadding: @relative7px;
+@tabularHorizontalPadding: 1.15384em;
 
 @tabularActiveBoxShadow: 1px 1px 3px rgba(0, 0, 0, 0.05);
 
@@ -54,6 +54,7 @@
 @labelBackground: #EEEEEE;
 @labelOffset: 0px;
 @labelTextColor: #666666;
+@labelTextMargin: @4px;
 @labelVerticalPadding: @relative2px;
 @labelHorizontalPadding: @relative5px;
 

@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI x.x - Message
+ * # Semantic UI 2.1.8 - Message
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -18,12 +18,12 @@
   position: relative;
   min-height: 1em;
   margin: 1em 0em;
-  background: #fefefe;
+  background: #FEFEFE;
   padding: 15px 15px;
   line-height: 1.4285em;
   color: rgba(0, 0, 0, 0.87);
   -webkit-transition: opacity 0.1s ease, color 0.1s ease, background 0.1s ease, box-shadow 0.1s ease;
-          transition: opacity 0.1s ease, color 0.1s ease, background 0.1s ease, box-shadow 0.1s ease;
+  transition: opacity 0.1s ease, color 0.1s ease, background 0.1s ease, box-shadow 0.1s ease;
   border-radius: 0.2307em;
   box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.3) inset, 0px 0px 0px 1px rgba(0, 0, 0, 0.2) inset;
 }
@@ -68,33 +68,33 @@
 }
 
 /* List */
-.ui.message ul.list {
+.ui.message .list:not(.ui) {
   text-align: left;
   padding: 0em;
   opacity: 0.85;
   list-style-position: inside;
   margin: 0.5em 0em 0em;
 }
-.ui.message ul.list:first-child {
+.ui.message .list:not(.ui):first-child {
   margin-top: 0em;
 }
-.ui.message ul.list:last-child {
+.ui.message .list:not(.ui):last-child {
   margin-bottom: 0em;
 }
-.ui.message ul.list li {
+.ui.message .list:not(.ui) li {
   position: relative;
   list-style-type: none;
   margin: 0em 0em 0.3em 1em;
   padding: 0em;
 }
-.ui.message ul.list li:before {
+.ui.message .list:not(.ui) li:before {
   position: absolute;
   content: '•';
   left: -1em;
   height: 100%;
   vertical-align: baseline;
 }
-.ui.message ul.list li:last-child {
+.ui.message .list:not(.ui) li:last-child {
   margin-bottom: 0em;
 }
 
@@ -112,7 +112,7 @@
   right: 0.5em;
   opacity: 0.7;
   -webkit-transition: opacity 0.1s ease;
-          transition: opacity 0.1s ease;
+  transition: opacity 0.1s ease;
 }
 .ui.message > .close.icon:hover {
   opacity: 1;
@@ -270,80 +270,80 @@
 
 /* Positive */
 .ui.positive.message {
-  background-color: #fcfff5;
-  color: #2c662d;
+  background-color: #FCFFF5;
+  color: #2C662D;
 }
 .ui.positive.message,
 .ui.attached.positive.message {
-  box-shadow: 0px 0px 0px 1px #a3c293 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  box-shadow: 0px 0px 0px 1px #A3C293 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.positive.message .header {
-  color: #1a531b;
+  color: #1A531B;
 }
 
 /* Negative */
 .ui.negative.message {
-  background-color: #fff6f6;
-  color: #9f3a38;
+  background-color: #FFF6F6;
+  color: #9F3A38;
 }
 .ui.negative.message,
 .ui.attached.negative.message {
-  box-shadow: 0px 0px 0px 1px #e0b4b4 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  box-shadow: 0px 0px 0px 1px #E0B4B4 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.negative.message .header {
-  color: #912d2b;
+  color: #912D2B;
 }
 
 /* Info */
 .ui.info.message {
-  background-color: #e6f1f6;
-  color: #4e575b;
+  background-color: #E6F1F6;
+  color: #4E575B;
 }
 .ui.info.message,
 .ui.attached.info.message {
-  box-shadow: 0px 0px 0px 1px #b7c7cf inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  box-shadow: 0px 0px 0px 1px #B7C7CF inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.info.message .header {
-  color: #0e566c;
+  color: #0E566C;
 }
 
 /* Warning */
 .ui.warning.message {
-  background-color: #fffaf3;
-  color: #613a00;
+  background-color: #FFFAF3;
+  color: #613A00;
 }
 .ui.warning.message,
 .ui.attached.warning.message {
-  box-shadow: 0px 0px 0px 1px #dca874 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  box-shadow: 0px 0px 0px 1px #DCA874 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.warning.message .header {
-  color: #794b02;
+  color: #794B02;
 }
 
 /* Error */
 .ui.error.message {
-  background-color: #fff6f6;
+  background-color: #FFF6F6;
   color: #991111;
 }
 .ui.error.message,
 .ui.attached.error.message {
-  box-shadow: 0px 0px 0px 1px #da9797 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  box-shadow: 0px 0px 0px 1px #DA9797 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.error.message .header {
-  color: #912d2b;
+  color: #912D2B;
 }
 
 /* Success */
 .ui.success.message {
-  background-color: #fcfff5;
-  color: #2c662d;
+  background-color: #FCFFF5;
+  color: #2C662D;
 }
 .ui.success.message,
 .ui.attached.success.message {
-  box-shadow: 0px 0px 0px 1px #a3c293 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  box-shadow: 0px 0px 0px 1px #A3C293 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.success.message .header {
-  color: #1a531b;
+  color: #1A531B;
 }
 
 /* Colors */
@@ -353,78 +353,78 @@
   color: rgba(255, 255, 255, 0.9);
 }
 .ui.red.message {
-  background-color: #ffe8e6;
-  color: #db2828;
+  background-color: #FFE8E6;
+  color: #DB2828;
 }
 .ui.red.message .header {
   color: #c82121;
 }
 .ui.orange.message {
-  background-color: #ffedde;
-  color: #d26911;
+  background-color: #FFEDDE;
+  color: #D26911;
 }
 .ui.orange.message .header {
   color: #ba5d0f;
 }
 .ui.yellow.message {
-  background-color: #fff8db;
-  color: #b58105;
+  background-color: #FFF8DB;
+  color: #B58105;
 }
 .ui.yellow.message .header {
   color: #9c6f04;
 }
 .ui.olive.message {
-  background-color: #fbfdef;
-  color: #8abc1e;
+  background-color: #FBFDEF;
+  color: #8ABC1E;
 }
 .ui.olive.message .header {
   color: #7aa61a;
 }
 .ui.green.message {
-  background-color: #e5f9e7;
-  color: #1ebc30;
+  background-color: #E5F9E7;
+  color: #1EBC30;
 }
 .ui.green.message .header {
   color: #1aa62a;
 }
 .ui.teal.message {
-  background-color: #e1f7f7;
-  color: #10a3a3;
+  background-color: #E1F7F7;
+  color: #10A3A3;
 }
 .ui.teal.message .header {
   color: #0e8c8c;
 }
 .ui.blue.message {
-  background-color: #dff0ff;
-  color: #80a6cd;
+  background-color: #DFF0FF;
+  color: #80A6CD;
 }
 .ui.blue.message .header {
   color: #6e99c6;
 }
 .ui.violet.message {
-  background-color: #eae7ff;
-  color: #6435c9;
+  background-color: #EAE7FF;
+  color: #6435C9;
 }
 .ui.violet.message .header {
   color: #5a30b5;
 }
 .ui.purple.message {
-  background-color: #f6e7ff;
-  color: #a333c8;
+  background-color: #F6E7FF;
+  color: #A333C8;
 }
 .ui.purple.message .header {
   color: #922eb4;
 }
 .ui.pink.message {
-  background-color: #ffe3fb;
-  color: #e03997;
+  background-color: #FFE3FB;
+  color: #E03997;
 }
 .ui.pink.message .header {
   color: #dd238b;
 }
 .ui.brown.message {
-  background-color: #f1e2d3;
-  color: #a5673f;
+  background-color: #F1E2D3;
+  color: #A5673F;
 }
 .ui.brown.message .header {
   color: #935b38;
@@ -449,3 +449,9 @@
 .ui.massive.message {
   font-size: 1.69230769em;
 }
+
+
+/*******************************
+        Site Overrides
+*******************************/
+

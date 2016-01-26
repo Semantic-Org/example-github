@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI x.x - Step
+ * # Semantic UI 2.1.8 - Step
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -29,7 +29,7 @@
       -ms-flex-align: stretch;
           align-items: stretch;
   margin: 1em 0em;
-  background: #ffffff;
+  background: #FFFFFF;
   box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.15);
   line-height: 1.15384615em;
   border-radius: 0.2307em;
@@ -88,7 +88,7 @@
   border: none;
   border-right: 1px solid rgba(0, 0, 0, 0.13);
   -webkit-transition: background-color 0.1s ease, opacity 0.1s ease, color 0.1s ease, box-shadow 0.1s ease;
-          transition: background-color 0.1s ease, opacity 0.1s ease, color 0.1s ease, box-shadow 0.1s ease;
+  transition: background-color 0.1s ease, opacity 0.1s ease, color 0.1s ease, box-shadow 0.1s ease;
 }
 
 /* Arrow */
@@ -100,16 +100,15 @@
   top: 100%;
   right: 50%;
   border: medium none;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   width: 1.15384615em;
   height: 1.15384615em;
   border-style: solid;
   border-color: rgba(0, 0, 0, 0.13);
   border-width: 0px 0px 1px 1px;
   -webkit-transition: background-color 0.1s ease, opacity 0.1s ease, color 0.1s ease, box-shadow 0.1s ease;
-          transition: background-color 0.1s ease, opacity 0.1s ease, color 0.1s ease, box-shadow 0.1s ease;
+  transition: background-color 0.1s ease, opacity 0.1s ease, color 0.1s ease, box-shadow 0.1s ease;
   -webkit-transform: translateY(-50%) translateX(50%) rotate(-45deg);
-      -ms-transform: translateY(-50%) translateX(50%) rotate(-45deg);
           transform: translateY(-50%) translateX(50%) rotate(-45deg);
 }
 
@@ -356,7 +355,7 @@
 .ui.steps .link.step:hover,
 .ui.steps a.step:hover::after,
 .ui.steps a.step:hover {
-  background: #f9fafb;
+  background: #F9FAFB;
   color: rgba(0, 0, 0, 0.8);
 }
 
@@ -365,20 +364,20 @@
 .ui.steps .link.step:active,
 .ui.steps a.step:active::after,
 .ui.steps a.step:active {
-  background: #f3f4f5;
+  background: #F3F4F5;
   color: rgba(0, 0, 0, 0.9);
 }
 
 /* Active */
 .ui.steps .step.active {
   cursor: auto;
-  background: #ffffff;
+  background: #FFFFFF;
 }
 .ui.steps .step.active:after {
-  background: #ffffff;
+  background: #FFFFFF;
 }
 .ui.steps .step.active .title {
-  color: #4078c0;
+  color: #4078C0;
 }
 .ui.ordered.steps .step.active:before,
 .ui.steps .active.step .icon {
@@ -405,14 +404,14 @@
 .ui.steps a.active.step:hover::after,
 .ui.steps a.active.step:hover {
   cursor: pointer;
-  background: #dcddde;
+  background: #DCDDDE;
   color: rgba(0, 0, 0, 0.87);
 }
 
 /* Completed */
 .ui.steps .step.completed > .icon:before,
 .ui.ordered.steps .step.completed:before {
-  color: #78cb5b;
+  color: #78CB5B;
 }
 
 /* Disabled */
@@ -444,7 +443,7 @@
 
 
 /* Tablet Or Below */
-@media only screen and (max-width: 1049px) {
+@media only screen and (max-width: 1048px) {
   .ui[class*="tablet stackable"].steps {
     display: -webkit-inline-box;
     display: -webkit-inline-flex;
@@ -632,3 +631,9 @@
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   border-right: 1px solid rgba(0, 0, 0, 0.2);
 }
+
+
+/*******************************
+         Site Overrides
+*******************************/
+

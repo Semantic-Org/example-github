@@ -20,6 +20,8 @@
 @huge: 18px;
 @massive: 24px;
 
+@horizontalMargin: @3px;
+
 /* Text Style */
 @textTransform: none;
 @fontWeight: bold;
@@ -34,14 +36,14 @@
 ;
 
 @iconOpacity: 1;
-@iconHeight: 13px;
-@iconDistance: @relative4px;
+@iconHeight: 18px;
+@iconDistance: @relative1px;
 @lineHeight: 1.53184em;
 
 @verticalPadding: @relative7px;
 @horizontalPadding: @relative12px;
 
-@compactVerticalPadding: @relative2px;
+@compactVerticalPadding: @relative4px;
 @compactHorizontalPadding: @relative10px;
 
 @backgroundColor: #FBFBFB;

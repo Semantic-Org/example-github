@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI x.x - Site
+ * # Semantic UI 2.1.8 - Site
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -26,7 +26,7 @@ body {
   padding: 0px;
   overflow-x: visible;
   min-width: 1049px;
-  background: #ffffff;
+  background: #FFFFFF;
   font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 13px;
   line-height: 1.4285em;
@@ -52,7 +52,7 @@ h5 {
 }
 h1 {
   min-height: 1rem;
-  font-size: 2.25em;
+  font-size: 2rem;
 }
 h2 {
   font-size: 1.714rem;
@@ -102,11 +102,11 @@ p:last-child {
 --------------------*/
 
 a {
-  color: #4078c0;
+  color: #4078C0;
   text-decoration: none;
 }
 a:hover {
-  color: #4078c0;
+  color: #4078C0;
   text-decoration: underline;
 }
 
@@ -118,15 +118,15 @@ a:hover {
 
 /* Site */
 ::-webkit-selection {
-  background-color: #cce2ff;
+  background-color: #CCE2FF;
   color: rgba(0, 0, 0, 0.87);
 }
 ::-moz-selection {
-  background-color: #cce2ff;
+  background-color: #CCE2FF;
   color: rgba(0, 0, 0, 0.87);
 }
 ::selection {
-  background-color: #cce2ff;
+  background-color: #CCE2FF;
   color: rgba(0, 0, 0, 0.87);
 }
 
@@ -146,3 +146,9 @@ input::selection {
   background-color: rgba(100, 100, 100, 0.4);
   color: rgba(0, 0, 0, 0.87);
 }
+
+
+/*******************************
+         Site Overrides
+*******************************/
+

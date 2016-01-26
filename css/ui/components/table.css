@@ -18,7 +18,7 @@
 /* Prototype */
 .ui.table {
   width: 100%;
-  background: #F8F8F8;
+  background: #FFFFFF;
   margin: 1em 0em;
   border: 1px solid rgba(0, 0, 0, 0.13);
   box-shadow: none;
@@ -141,7 +141,7 @@
 }
 
 /* Responsive */
-@media only screen and (max-width: 979px) {
+@media only screen and (max-width: 1048px) {
   .ui.table:not(.unstackable) {
     width: 100%;
   }
@@ -372,7 +372,7 @@
     Stackable
 ---------------*/
 
-@media only screen and (max-width: 979px) {
+@media only screen and (max-width: 1048px) {
   .ui[class*="tablet stackable"].table,
   .ui[class*="tablet stackable"].table tbody,
   .ui[class*="tablet stackable"].table tr,
@@ -472,8 +472,8 @@
 
 .ui.selectable.table tbody tr:hover,
 .ui.table tbody tr td.selectable:hover {
-  background: rgba(0, 0, 0, 0.05) !important;
-  color: rgba(0, 0, 0, 0.95) !important;
+  background: #F5F5F5 !important;
+  color: rgba(0, 0, 0, 0.87) !important;
 }
 .ui.selectable.inverted.table tbody tr:hover,
 .ui.inverted.table tbody tr td.selectable:hover {
