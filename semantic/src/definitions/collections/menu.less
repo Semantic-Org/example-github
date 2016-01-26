@@ -377,7 +377,7 @@
 
 @media only screen and (max-width: @largestMobileScreen) {
   .ui.menu > .ui.container {
-    width: 100%;
+    width: 100% !important;
     margin-left: 0em !important;
     margin-right: 0em !important;
   }
@@ -636,14 +636,16 @@ Floated Menu / Item
 }
 
 /* Coupling with segment for attachment */
-.ui.tabular.menu + .bottom.attached.segment {
+.ui.tabular.menu + .attached:not(.top).segment,
+.ui.tabular.menu + .attached:not(.top).segment + .attached:not(.top).segment {
   border-top: none;
   margin: 0px;
   width: 100%;
 }
 .top.attached.segment + .ui.bottom.tabular.menu {
+  position: relative;
   width: @tabularFluidWidth;
-  margin: 0px 0px 0px -@tabularFluidOffset;
+  left: -@tabularFluidOffset;
 }
 
 /* Bottom Vertical Tabular */

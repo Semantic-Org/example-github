@@ -107,7 +107,7 @@ $.fn.tab = function(parameters) {
 
         bind: {
           events: function() {
-            // if using $.tab dont add events
+            // if using $.tab don't add events
             if( !$.isWindow( element ) ) {
               module.debug('Attaching tab activation events to element', $module);
               $module
@@ -895,4 +895,4 @@ $.fn.tab.settings = {
 
 };
 
-})( jQuery, window , document );
+})( jQuery, window, document );

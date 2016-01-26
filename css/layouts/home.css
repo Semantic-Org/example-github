@@ -16,8 +16,12 @@
 ---------------*/
 
 #home .repo.ribbon {
-  border-bottom: 1px solid #EEEEEE;
-  padding: 18px 0px;
+  background-color: #FAFAFA;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+#home .repo.ribbon .tabular.menu {
+  margin-top: 20px;
 }
 
 #home .repo.description {

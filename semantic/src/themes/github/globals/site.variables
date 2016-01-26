@@ -10,6 +10,8 @@
 @fontName : 'Arial';
 @importGoogleFonts : false;
 
+@bigSize : (18 / 13);
+
 @h1: 2.25em;
 
 @defaultBorderRadius: 0.2307em;

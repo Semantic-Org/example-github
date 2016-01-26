@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI x.x - Visibility
+ * # Semantic UI 2.1.8 - Visibility
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -1213,4 +1213,4 @@ $.fn.visibility.settings = {
 
 };
 
-})( jQuery, window , document );
+})( jQuery, window, document );

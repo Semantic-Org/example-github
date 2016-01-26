@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI x.x - Segment
+ * # Semantic UI 2.1.8 - Segment
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -16,12 +16,12 @@
 
 .ui.segment {
   position: relative;
-  background: #ffffff;
+  background: #FFFFFF;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.075);
   margin: 1rem 0em;
   padding: 20px 20px;
   border-radius: 4px;
-  border: 1px solid #d8dee2;
+  border: 1px solid #D8DEE2;
 }
 .ui.segment:first-child {
   margin-top: 0em;
@@ -52,7 +52,7 @@
 
 /* Header */
 .ui.inverted.segment > .ui.header {
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 /* Label */
@@ -75,7 +75,8 @@
 
 /* Grid */
 .ui.page.grid.segment,
-.ui.grid .ui.segment.column {
+.ui.grid > .row > .ui.segment.column,
+.ui.grid > .ui.segment.column {
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -86,8 +87,8 @@
 
 /* Table */
 .ui.basic.table.segment {
-  background: #ffffff;
-  border: 1px solid #d8dee2;
+  background: #FFFFFF;
+  border: 1px solid #D8DEE2;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.075);
 }
 .ui[class*="very basic"].table.segment {
@@ -120,7 +121,7 @@
 .ui.piled.segments:before,
 .ui.piled.segment:after,
 .ui.piled.segment:before {
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   visibility: visible;
   content: '';
   display: block;
@@ -128,13 +129,12 @@
   left: 0px;
   position: absolute;
   width: 100%;
-  border: 1px solid #d8dee2;
+  border: 1px solid #D8DEE2;
   box-shadow: '';
 }
 .ui.piled.segments:before,
 .ui.piled.segment:before {
   -webkit-transform: rotate(-1.2deg);
-      -ms-transform: rotate(-1.2deg);
           transform: rotate(-1.2deg);
   top: 0;
   z-index: -2;
@@ -142,7 +142,6 @@
 .ui.piled.segments:after,
 .ui.piled.segment:after {
   -webkit-transform: rotate(1.2deg);
-      -ms-transform: rotate(1.2deg);
           transform: rotate(1.2deg);
   top: 0;
   z-index: -1;
@@ -203,7 +202,7 @@
 .ui.stacked.inverted.segment:before,
 .ui.stacked.inverted.segment:after {
   background-color: rgba(0, 0, 0, 0.03);
-  border-top: 1px solid #51a7e8;
+  border-top: 1px solid #51A7E8;
 }
 
 /*-------------------
@@ -277,7 +276,7 @@
           flex-direction: column;
   position: relative;
   margin: 1rem 0em;
-  border: 1px solid #d8dee2;
+  border: 1px solid #D8DEE2;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.075);
   border-radius: 4px;
 }
@@ -297,7 +296,7 @@
   width: auto;
   box-shadow: none;
   border: none;
-  border-top: 1px solid #d8dee2;
+  border-top: 1px solid #D8DEE2;
 }
 .ui.segments:not(.horizontal) > .segment:first-child {
   border-top: none;
@@ -320,7 +319,7 @@
 
 /* Nested Group */
 .ui.segments > .ui.segments {
-  border-top: 1px solid #d8dee2;
+  border-top: 1px solid #D8DEE2;
   margin: 1rem 1rem;
 }
 .ui.segments > .segments:first-child {
@@ -344,11 +343,11 @@
   background-color: transparent;
   border-radius: 0px;
   padding: 0em;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.075);
   margin: 1rem 0em;
   border-radius: 4px;
-  border: 1px solid #d8dee2;
+  border: 1px solid #D8DEE2;
 }
 
 /* Nested Horizontal Group */
@@ -358,7 +357,7 @@
   border-radius: 0px;
   border: none;
   box-shadow: none;
-  border-top: 1px solid #d8dee2;
+  border-top: 1px solid #D8DEE2;
 }
 
 /* Horizontal Segment */
@@ -376,6 +375,11 @@
   border: none;
   box-shadow: none;
   border-left: 1px solid rgba(0, 0, 0, 0.13);
+}
+
+/* Border Fixes */
+.ui.segments > .horizontal.segments:first-child {
+  border-top: none;
 }
 .ui.horizontal.segments > .segment:first-child {
   border-left: none;
@@ -407,7 +411,7 @@
   text-shadow: none !important;
   color: transparent !important;
   -webkit-transition: all 0s linear;
-          transition: all 0s linear;
+  transition: all 0s linear;
 }
 .ui.loading.segment:before {
   position: absolute;
@@ -497,101 +501,101 @@
 
 /* Red */
 .ui.red.segment:not(.inverted) {
-  border-top: 0.5em solid #db2828;
+  border-top: 0.5em solid #DB2828;
 }
 .ui.inverted.red.segment {
-  background-color: #db2828 !important;
-  color: #ffffff !important;
+  background-color: #DB2828 !important;
+  color: #FFFFFF !important;
 }
 
 /* Orange */
 .ui.orange.segment:not(.inverted) {
-  border-top: 0.5em solid #d26911;
+  border-top: 0.5em solid #D26911;
 }
 .ui.inverted.orange.segment {
-  background-color: #d26911 !important;
-  color: #ffffff !important;
+  background-color: #D26911 !important;
+  color: #FFFFFF !important;
 }
 
 /* Yellow */
 .ui.yellow.segment:not(.inverted) {
-  border-top: 0.5em solid #fbbd08;
+  border-top: 0.5em solid #FBBD08;
 }
 .ui.inverted.yellow.segment {
-  background-color: #fbbd08 !important;
-  color: #ffffff !important;
+  background-color: #FBBD08 !important;
+  color: #FFFFFF !important;
 }
 
 /* Olive */
 .ui.olive.segment:not(.inverted) {
-  border-top: 0.5em solid #b5cc18;
+  border-top: 0.5em solid #B5CC18;
 }
 .ui.inverted.olive.segment {
-  background-color: #b5cc18 !important;
-  color: #ffffff !important;
+  background-color: #B5CC18 !important;
+  color: #FFFFFF !important;
 }
 
 /* Green */
 .ui.green.segment:not(.inverted) {
-  border-top: 0.5em solid #78cb5b;
+  border-top: 0.5em solid #78CB5B;
 }
 .ui.inverted.green.segment {
-  background-color: #78cb5b !important;
-  color: #ffffff !important;
+  background-color: #78CB5B !important;
+  color: #FFFFFF !important;
 }
 
 /* Teal */
 .ui.teal.segment:not(.inverted) {
-  border-top: 0.5em solid #00b5ad;
+  border-top: 0.5em solid #00B5AD;
 }
 .ui.inverted.teal.segment {
-  background-color: #00b5ad !important;
-  color: #ffffff !important;
+  background-color: #00B5AD !important;
+  color: #FFFFFF !important;
 }
 
 /* Blue */
 .ui.blue.segment:not(.inverted) {
-  border-top: 0.5em solid #80a6cd;
+  border-top: 0.5em solid #80A6CD;
 }
 .ui.inverted.blue.segment {
-  background-color: #80a6cd !important;
-  color: #ffffff !important;
+  background-color: #80A6CD !important;
+  color: #FFFFFF !important;
 }
 
 /* Violet */
 .ui.violet.segment:not(.inverted) {
-  border-top: 0.5em solid #6435c9;
+  border-top: 0.5em solid #6435C9;
 }
 .ui.inverted.violet.segment {
-  background-color: #6435c9 !important;
-  color: #ffffff !important;
+  background-color: #6435C9 !important;
+  color: #FFFFFF !important;
 }
 
 /* Purple */
 .ui.purple.segment:not(.inverted) {
-  border-top: 0.5em solid #a333c8;
+  border-top: 0.5em solid #A333C8;
 }
 .ui.inverted.purple.segment {
-  background-color: #a333c8 !important;
-  color: #ffffff !important;
+  background-color: #A333C8 !important;
+  color: #FFFFFF !important;
 }
 
 /* Pink */
 .ui.pink.segment:not(.inverted) {
-  border-top: 0.5em solid #e03997;
+  border-top: 0.5em solid #E03997;
 }
 .ui.inverted.pink.segment {
-  background-color: #e03997 !important;
-  color: #ffffff !important;
+  background-color: #E03997 !important;
+  color: #FFFFFF !important;
 }
 
 /* Brown */
 .ui.brown.segment:not(.inverted) {
-  border-top: 0.5em solid #a5673f;
+  border-top: 0.5em solid #A5673F;
 }
 .ui.inverted.brown.segment {
-  background-color: #a5673f !important;
-  color: #ffffff !important;
+  background-color: #A5673F !important;
+  color: #FFFFFF !important;
 }
 
 /* Grey */
@@ -600,7 +604,7 @@
 }
 .ui.inverted.grey.segment {
   background-color: #767676 !important;
-  color: #ffffff !important;
+  color: #FFFFFF !important;
 }
 
 /* Black */
@@ -609,7 +613,7 @@
 }
 .ui.inverted.black.segment {
   background-color: #333333 !important;
-  color: #ffffff !important;
+  color: #FFFFFF !important;
 }
 
 /*-------------------
@@ -674,7 +678,7 @@
 
 /* Secondary */
 .ui.secondary.segment {
-  background: #f9f9f9;
+  background: #F9F9F9;
   color: rgba(0, 0, 0, 0.87);
 }
 .ui.secondary.inverted.segment {
@@ -684,7 +688,7 @@
 
 /* Tertiary */
 .ui.tertiary.segment {
-  background: #f0f0f0;
+  background: #F0F0F0;
   color: rgba(0, 0, 0, 0.87);
 }
 .ui.tertiary.inverted.segment {
@@ -706,7 +710,7 @@
   width: calc(100% +  2px );
   max-width: calc(100% +  2px );
   box-shadow: none;
-  border: 1px solid #dddddd;
+  border: 1px solid #DDDDDD;
 }
 .ui.attached + .ui.attached.segment:not(.top) {
   border-top: none;
@@ -740,5 +744,11 @@
 
 /*******************************
            Overrides
+*******************************/
+
+
+
+/*******************************
+         Site Overrides
 *******************************/
 

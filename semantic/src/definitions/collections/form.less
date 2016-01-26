@@ -212,17 +212,26 @@
 ---------------------*/
 
 /* Block */
+.ui.form .field .ui.input,
 .ui.form .fields .field .ui.input,
 .ui.form .wide.field .ui.input {
   width: 100%;
 }
 
+/* Inline  */
+.ui.form .inline.fields .field:not(.wide) .ui.input,
+.ui.form .inline.field:not(.wide) .ui.input {
+  width: auto;
+  vertical-align: middle;
+}
+
+/* Auto Input */
 .ui.form .fields .field .ui.input input,
 .ui.form .field .ui.input input {
   width: auto;
 }
 
-/* Full Width */
+/* Full Width Input */
 .ui.form .ten.fields .ui.input input,
 .ui.form .nine.fields .ui.input input,
 .ui.form .eight.fields .ui.input input,
@@ -235,21 +244,6 @@
 .ui.form .wide.field .ui.input input {
   flex: 1 0 auto;
   width: 0px;
-}
-
-/* Inline */
-.ui.form .inline.fields .field:not(.wide) .ui.input,
-.ui.form .inline.field:not(.wide) .ui.input {
-  width: 100%;
-}
-
-/*--------------------
-       Dividers
----------------------*/
-
-.ui.form .divider {
-  clear: both;
-  margin: @dividerMargin;
 }
 
 
@@ -280,11 +274,11 @@
 }
 .ui.form .inline.fields .field .prompt,
 .ui.form .inline.field .prompt {
+  vertical-align: top;
   margin: @inlinePromptMargin;
 }
 .ui.form .inline.fields .field .prompt:before,
 .ui.form .inline.field .prompt:before {
-  margin-top: @inlinePromptArrowOffset;
   border-width: 0px 0px @inlinePromptBorderWidth @inlinePromptBorderWidth;
   bottom: auto;
   right: auto;
@@ -423,7 +417,7 @@
 }
 
 /*--------------------
-        Warning
+        Error
 ---------------------*/
 
 /* On Form */
@@ -605,10 +599,6 @@
   position: relative;
   cursor: default;
   point-events: none;
-  text-shadow: none !important;
-  color: transparent !important;
-  transition: all 0s linear;
-  z-index: 100;
 }
 .ui.loading.form:before {
   position: absolute;
@@ -848,7 +838,6 @@
 
 
 /* Sizing Combinations */
-
 .ui.form .fields .wide.field {
   width: @oneWide;
   padding-left: (@gutterWidth / 2);
@@ -940,6 +929,16 @@
     padding-left: 0%;
     padding-right: 0%;
   }
+}
+
+/*--------------------
+     Equal Width
+---------------------*/
+
+.ui[class*="equal width"].form .fields > .field,
+.ui.form [class*="equal width"].fields > .field {
+  width: 100%;
+  flex: 1 1 auto;
 }
 
 /*--------------------

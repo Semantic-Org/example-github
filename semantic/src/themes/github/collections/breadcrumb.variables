@@ -7,5 +7,4 @@
 @dividerSize: @big;
 @dividerColor: inherit;
 
-@huge: 1.5384em;
 

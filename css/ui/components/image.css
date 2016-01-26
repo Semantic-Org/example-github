@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI x.x - Image
+ * # Semantic UI 2.1.8 - Image
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -254,7 +254,7 @@ img.ui.bordered.image {
 .ui.big.image {
   width: 600px;
   height: auto;
-  font-size: 1.30769231rem;
+  font-size: 1.38461538rem;
 }
 .ui.huge.images .image,
 .ui.huge.images img,
@@ -288,3 +288,9 @@ img.ui.bordered.image {
   display: inline-block;
   margin: 0em 0.25rem 0.5rem;
 }
+
+
+/*******************************
+         Site Overrides
+*******************************/
+

@@ -1,0 +1,13 @@
+/*******************************
+         Site Overrides
+*******************************/
+
+/* Shadow Direction */
+.ui.left.sidebar,
+.ui.right.sidebar {
+  box-shadow: @horizontalBoxShadow;
+}
+.ui.top.sidebar,
+.ui.bottom.sidebar {
+  box-shadow: @verticalBoxShadow;
+}

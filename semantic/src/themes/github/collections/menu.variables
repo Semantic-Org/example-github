@@ -30,9 +30,7 @@
 @tabularVerticalBackground: linear-gradient(to left, #f6f6f6 0%, #fff 8px) transparent;
 @tabularVerticalPadding: @relative9px;
 @tabularHorizontalPadding: @relative10px;
-@tabularTextColor: @linkColor;
 
-@tabularHoveredTextColor: @linkHoverColor;
 @tabularActiveBoxShadow: 1px 1px 3px rgba(0, 0, 0, 0.05);
 
 /* Text Menu */

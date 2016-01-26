@@ -1,0 +1,135 @@
+
+/*******************************
+          Global CSS
+*******************************/
+
+/*--------------
+  Global Styles
+---------------*/
+
+b {
+  color: #333
+}
+
+a:hover b {
+  color: inherit;
+}
+
+
+/*--------------
+   Page Header
+---------------*/
+
+.page.header {
+  background-color: #F5F5F5;
+  border-bottom: 1px solid #E5E5E5;
+  padding: 5px 0px;
+}
+
+/* No padding on menu */
+.page.header .menu {
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+/* Space right of input */
+.page.header .menu .item:first-child {
+  padding-left: 0em;
+}
+.page.header .menu .item .input {
+  margin-right: 1em;
+}
+.page.header .menu .item input {
+  width: 250px;
+}
+
+/* Min Width on Dropdown */
+.page.header .ui.dropdown .menu {
+  min-width: 175px;
+}
+
+/* Resize images */
+.page.header .menu .item > .logo.image {
+  width: auto;
+  height: 28px;
+}
+.page.header .menu .item > .user.image {
+  width: auto;
+  height: 20px;
+}
+
+.page.header .plus.icon + .dropdown.icon {
+  margin-left: 2px;
+}
+
+/* Notification Bubble */
+.page.header .notification.label {
+  top: -1px;
+  right: 1px;
+  left: auto;
+}
+
+/*--------------
+ User Dropdown
+---------------*/
+
+/* Align dropdown with dropdown icon */
+.page.header .add.dropdown .menu {
+  margin: 0 -7px 0 0 !important;
+}
+
+.page.header .user.dropdown .menu {
+  margin: 0 -7px 0 0 !important;
+}
+.page.header .user.dropdown .user.header {
+  font-size: inherit;
+  padding-bottom: 0em;
+}
+.page.header .user.dropdown .user.header b {
+  color: inherit;
+}
+
+
+/*--------------
+    Repo Menu
+---------------*/
+
+.repo.menu:first-child {
+  margin-top: 0.35em;
+}
+.column .checkout p {
+  font-size: 11px;
+  margin: 5px 0px;
+  color: #767676;
+}
+.column .checkout > .button {
+  margin-top: 10px;
+}
+.column .checkout > .button:last-child {
+  margin: 7px 0px;
+}
+
+
+/*--------------
+  Watch Button
+---------------*/
+
+.watch.dropdown.button > .menu h4 {
+  margin-bottom: 5px;
+}
+
+
+/*--------------
+     Footer
+---------------*/
+
+.footer.container {
+  position: relative;
+  padding-bottom: 2.5em;
+}
+.footer.container .github.mark {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}

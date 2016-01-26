@@ -1,0 +1,144 @@
+
+/*******************************
+          Page CSS
+*******************************/
+
+
+/* This CSS is used to make per-page adjustments
+  Each page is given a body #id tag to descend
+  from for page-specific rules
+
+*/
+
+
+/*--------------
+   Top Ribbon
+---------------*/
+
+#home .repo.ribbon {
+  border-bottom: 1px solid #EEEEEE;
+  padding: 18px 0px;
+}
+
+#home .repo.description {
+  margin: 0.35em 0em 1em;
+  font-size: 16px;
+  line-height: 22px;
+  color: #666666;
+}
+
+
+/*----------------
+   Language Used
+-----------------*/
+
+#home .ui.language.segments {
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: none;
+  border: none;
+  width: calc(100% + 2px);
+  margin: 0px 0px 10px 0px;
+  overflow: hidden;
+}
+#home .language.segments .segment {
+  padding: 0.25em;
+}
+
+/*----------------
+  Latest Commits
+-----------------*/
+
+#home .recent.message {
+  padding: 7px 9px;
+}
+
+#home .latest.segment {
+  padding: 0.35em 0.5em;
+  color: #999999;
+}
+#home .latest.attached.segment {
+  border-top: 1px solid #DDD;
+}
+
+/* Clippy */
+#home .latest .clippy.icon {
+  float: right;
+  margin-left: 5px;
+}
+
+/* Latest SHA */
+#home .latest .sha {
+  cursor: pointer;
+  font-family: Consolas,"Liberation Mono",Menlo,Courier,monospace;
+  font-size: 12px;
+  color: #888888;
+  float: right;
+}
+#home .latest .sha b {
+  font-weight: normal;
+  color: #333;
+}
+#home .latest .sha:hover {
+  text-decoration: underline;
+}
+
+/*----------------
+      Stats
+-----------------*/
+
+#home .stats {
+  padding: 0em;
+  border-bottom: none;
+}
+#home .stats.menu {
+  margin: 0em;
+}
+#home .stats.menu b {
+  margin-right: 3px;
+}
+
+/*----------------
+   Repo Buttons
+-----------------*/
+
+#home .repo.options {
+  float: right;
+}
+
+/*----------------
+  Branch Dropdown
+-----------------*/
+
+/* Branch label */
+#home .branch.button .text {
+  font-weight: normal;
+  color: #888888;
+}
+/* Branch name */
+#home .branch.button b {
+  display: inline-block;
+  margin-left: 2px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+#home .branch.button + .breadcrumb {
+  margin-left: 5px;
+}
+
+/*----------------
+      Files
+-----------------*/
+
+
+#home .files.table {
+  color: #888888;
+}
+
+
+/*----------------
+      Readme
+-----------------*/
+
+#home .readme {
+  font-size: 16px;
+}
